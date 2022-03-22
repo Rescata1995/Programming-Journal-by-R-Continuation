@@ -1,10 +1,10 @@
-En esta sección definimos: 
-
-1. Los cinco tipos de datos más importantes para R:
+**En esta sección definimos: 
+**
+**1.** Los cinco tipos de datos más importantes para R:
 'integer', 'double', 'complex', 'character' & 'logical'; adicionalmente,
 se explicó la utilidad de la función 'typeof()'.
 
-2. Anteriormente aprendimos cómo declarar las variables 
+**2.** Anteriormente aprendimos cómo declarar las variables 
 con los cinco principales tipos de datos en R, ahora 
 vamos a aprender a usar dichas variables declaradas
 haciendo operaciones aritmeticas como 'suma', 'división', etc.
