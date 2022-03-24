@@ -30,5 +30,5 @@ se encarga de concatenarlas entre sí.
 adicionalmente se muestra cómo asignar una declaración 
 lógica a una variable. 
 
-De interés: | (alt + 124), < (alt + 60 ), > (alt + 62).
+**De interés:** | (alt + 124), < (alt + 60 ), > (alt + 62).
 
