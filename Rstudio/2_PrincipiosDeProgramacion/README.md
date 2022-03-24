@@ -26,3 +26,9 @@ variables tipo 'character' y, principalmente,
 hacerlo por medio de la función 'paste()' que 
 se encarga de concatenarlas entre sí. 
 
+**3.** Introducción a operadores lógicos & relacionales,
+adicionalmente se muestra cómo asignar una declaración 
+lógica a una variable. 
+
+De interés: | (alt + 124), < (alt + 60 ), > (alt + 62).
+
