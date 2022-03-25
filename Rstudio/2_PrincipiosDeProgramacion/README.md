@@ -32,3 +32,9 @@ lógica a una variable.
 
 **De interés:** | (alt + 124), < (alt + 60 ), > (alt + 62).
 
+**4.** Temas: Introducción al ciclo While como estructura de control, 
+ciclos infinitos, uso de variables tipo 'Contador' para 
+controlar las iteraciones de un bucle y el uso necesario 
+de la función 'print' (dentro del dominio del bucle While) 
+para poder hacer impresiones por pantalla.
+
