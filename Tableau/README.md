@@ -1,4 +1,4 @@
-_Este README.md está sincronizado completamente con el documento Word situado en este mismo directorio. La documentación del documento toca a detalle toda la teoría y práctica aprendida del curso e incluye también un panel de navegación para una mejor experiencia de aprendisaje y recordación de temas vistos._
+_Este README.md está completamente sincronizado con el documento Word situado en este mismo directorio. La documentación del documento toca a detalle toda la teoría y práctica aprendida del curso e incluye también un panel de navegación para una mejor experiencia de aprendisaje y recordación de temas vistos._
 
 **1.	Sobre una de las mejores herramientas de visualización de datos en la actualidad**
 
