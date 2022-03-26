@@ -38,3 +38,6 @@ controlar las iteraciones de un bucle y el uso necesario
 de la función 'print' (dentro del dominio del bucle While) 
 para poder hacer impresiones por pantalla.
 
+**5.** Entendiendo el ambiente Rstudio y la diferencia entre 
+el uso de 'Console' con la ventaja de hacer uso de 'Scripts'.
+
