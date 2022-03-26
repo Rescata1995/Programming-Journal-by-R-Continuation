@@ -41,3 +41,8 @@ para poder hacer impresiones por pantalla.
 **5.** Entendiendo el ambiente Rstudio y la diferencia entre 
 el uso de 'Console' con la ventaja de hacer uso de 'Scripts'.
 
+**6.** Introducción al ciclo For como estructura de control.
+También se es necesario hacer uso de la función 'print' 
+(dentro del dominio del bucle For) 
+para poder hacer impresiones por pantalla.
+
