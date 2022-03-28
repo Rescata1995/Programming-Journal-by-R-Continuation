@@ -46,3 +46,5 @@ También se es necesario hacer uso de la función 'print'
 (dentro del dominio del bucle For) 
 para poder hacer impresiones por pantalla.
 
+**7.** Introducción a las estructuras de control If, Else e If else; 
+adicionalmente se introducen de forma breve las funciones 'rnorm()' & 'rm()'.
