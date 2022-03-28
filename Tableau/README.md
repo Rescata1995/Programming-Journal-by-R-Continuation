@@ -15,5 +15,5 @@ Puntualmente Tableau sirve mucho para compartir, de la mejor manera visual posib
 
 **2.	Conectando Tableau a Fuentes de datos y vistazo general de Joins.**
 
-Se da una introducción al uso práctico de la sentencia JOIN y se muestra cómo crear conexiones entre diferentes fuentes de datos en Tableau, al igual, se enseña cómo editar dichas fuentes de datos importadas. Adicionalmente, se muestra cómo correr una previsualización de cualquier tabla o fichero para cualquier base de datos y aprender a reconocer el tipo de datos de cada columna para una tabla en cuestión. 
+Se da una introducción al uso práctico de la sentencia JOIN y se muestra cómo crear conexiones entre diferentes fuentes de datos en Tableau, al igual, se enseña cómo editar dichas fuentes de datos importadas. Adicionalmente, se muestra cómo correr una previsualización de cualquier tabla o fichero para cualquier base de datos, aprender a reconocer el tipo de datos de cada columna para una tabla en cuestión y configurar a nuestro propio gusto el tipo de gráfico para analizar nuestras Worksheets
 
