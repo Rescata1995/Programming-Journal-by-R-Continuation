@@ -9,11 +9,21 @@ Siempre es bueno contrastar la información de Tableau, ya estando importado el 
 
 **1.	Sobre una de las mejores herramientas de visualización de datos en la actualidad.**
 
-Corta introducción a Tableau por medio de Tableau Public y ejercicio 'abrebocas' (SneakPeak) para tener una mínima idea del gran alcance de Tableau como herramienta de visualización de datos por medio de la técnica del 'drag & drop'. 
+Corta introducción a Tableau por medio de Tableau Public. Puntualmente Tableau sirve mucho para compartir, de la mejor manera visual posible, 'insights' o las conclusiones extraídas de la interpretación y comparación de nuestros datos según un 'dataset' en análisis. 
 
-Puntualmente Tableau sirve mucho para compartir, de la mejor manera visual posible, 'insights' o las conclusiones extraídas de la interpretación y comparación de nuestros datos según un 'dataset' en análisis. Nuestro dataset, el que analizaremos, contiene una lista de transacciones para una determinada tienda. Ahora, el ejercicio consiste en saber cuáles son los Estados más rentables para la tienda en cuestión y mostrar dichos Estados de manera gráfica en un mapa interactivo (todo esto de la manera más eficiente posible). 
+**2.	Introducción a Dashboard.**
 
-**2.	Conectando Tableau a Fuentes de datos y vistazo general de Joins.**
+Se muestra el uso o manejo básico que se le da al Dashboard desde Tableau y también se introducen los tipos de campos como sus fundamentos básicos de Jerarquia. Adicionalmente, se resuelve un ejercicio 'abrebocas' (SneakPeak) para tener una mínima idea del gran alcance de Tableau como herramienta de visualización de datos por medio de la técnica del 'drag & drop'. Nuestro dataset, el que analizaremos, contiene una lista de transacciones para una determinada tienda; ahora, el ejercicio consiste en saber cuáles son los Estados más rentables para la tienda en cuestión y mostrar dichos Estados de manera gráfica en un mapa interactivo (todo esto de la manera más eficiente posible). 
 
-Se da una introducción al uso práctico de la sentencia JOIN y se muestra cómo crear conexiones entre diferentes fuentes de datos en Tableau, al igual, se enseña cómo editar dichas fuentes de datos importadas. Adicionalmente, se muestra cómo correr una previsualización de cualquier tabla o fichero para cualquier base de datos, aprender a reconocer el tipo de datos de cada columna para una tabla en cuestión y configurar a nuestro propio gusto el tipo de gráfico para analizar nuestras Worksheets
+**3.	Conectando Tableau a Fuentes de datos y vistazo general de Joins.**
+
+Se da una introducción al uso práctico de la sentencia JOIN y se muestra cómo crear conexiones entre diferentes fuentes de datos en Tableau, al igual, se enseña cómo editar dichas fuentes de datos importadas. Adicionalmente, se muestra cómo correr una previsualización de cualquier tabla o fichero para cualquier base de datos, aprender a reconocer el tipo de datos de cada columna para una tabla en cuestión y configurar a nuestro propio gusto el tipo de gráfico para analizar nuestras Worksheets.
+
+**4.	Creando campos calculados.**
+
+Se introduce el concepto de _Campos calculados_ y se pone en práctica su teoría en nuestro segundo caso práctico:
+'Visualización de quiénes fueron los representantes con mayores ingresos, por cada región, para obtener un bonus anual'.
+Además, se enseña a limpiar el dashboard. 
+
+
 
