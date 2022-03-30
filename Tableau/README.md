@@ -25,5 +25,9 @@ Se introduce el concepto de _Campos calculados_ y se pone en práctica su teorí
 'Visualización de quiénes fueron los representantes con mayores ingresos, por cada región, para obtener un bonus anual'.
 Además, se enseña a limpiar el dashboard y a hacer uso del ordenamiento en visualizaciones, ya sea de forma ascendente o descendente.
 
+**5.	Añadiendo colores.**
 
+Se profundiza el uso de la opción 'Color' de _Marcas_, se introduce a las ediciones diversas, se presenta la popular 'Paleta de colores' 
+y se responde a la pregunta de Cuál sería un buen enfoque, es importante tener en cuenta que su visualización debe representar la mayor
+riqueza visual de acuerdo a la pregunta o consulta que se pretende responder.
 
