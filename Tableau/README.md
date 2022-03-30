@@ -23,7 +23,7 @@ Se da una introducción al uso práctico de la sentencia JOIN y se muestra cómo
 
 Se introduce el concepto de _Campos calculados_ y se pone en práctica su teoría en nuestro segundo caso práctico:
 'Visualización de quiénes fueron los representantes con mayores ingresos, por cada región, para obtener un bonus anual'.
-Además, se enseña a limpiar el dashboard. 
+Además, se enseña a limpiar el dashboard y a hacer uso del ordenamiento en visualizaciones, ya sea de forma ascendente o descendente.
 
 
 
