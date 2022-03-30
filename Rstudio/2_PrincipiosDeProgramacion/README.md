@@ -48,3 +48,8 @@ para poder hacer impresiones por pantalla.
 
 **7.** Introducción a las estructuras de control If, Else e If else; 
 adicionalmente se introducen de forma breve las funciones 'rnorm()' & 'rm()'.
+
+**8.** Realización de un ejercicio práctico en R que pretende evaluar toda la 
+temática abordada en esta sección 2: 'Principios básicos de programación'. 
+El ejercicio se llama: 'La ley de los grandes números'. Para más detalles, 
+visite el código. 
