@@ -31,3 +31,7 @@ Se profundiza el uso de la opción 'Color' de _Marcas_, se introduce a las edici
 y se responde a la pregunta de Cuál sería un buen enfoque, es importante tener en cuenta que su visualización debe representar la mayor
 riqueza visual de acuerdo a la pregunta o consulta que se pretende responder.
 
+**6.	Añadiendo etiquetas y formato.**
+
+Introducción a etiquetas e importancia, edición de etiquetas y aplicación de formatos en Worksheets, etiquetas & ejes.
+
