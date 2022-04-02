@@ -1,6 +1,6 @@
-_Este README.md está completamente sincronizado con el documento "Introducción a Tableau" situado en este mismo directorio. La documentación del documento toca a detalle toda la teoría y práctica abordada por el curso e incluye también un panel de navegación para una mejor experiencia de aprendisaje y recordación de temas vistos a futuro._
+_Este README.md está completamente sincronizado con el documento "Introducción a Tableau" situado en este mismo directorio. La documentación del documento toca a detalle toda la teoría y práctica, abordada por el curso, e incluye también un panel de navegación para una mejor experiencia de aprendisaje y recordación de temas vistos a futuro._
 
-**Sección A: Conceptos básicos de Tableau.**
+**Sección 1: Conceptos básicos de Tableau, tu primer gráfico de barras.**
 
 En esta sección estaremos trabajando con el dataset 'OfficeSupplies.csv'; con el cual, de la mano de Tableau, nos interesa saber quién se lleva un bono anual por tener el más alto rendimiento en ventas para una tienda que opera en 3 regiones. Definimos:
 
