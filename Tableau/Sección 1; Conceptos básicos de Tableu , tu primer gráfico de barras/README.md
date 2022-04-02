@@ -35,7 +35,7 @@ riqueza visual de acuerdo a la pregunta o consulta que se pretende responder.
 
 Introducción a etiquetas e importancia, edición de etiquetas y aplicación de formatos en Worksheets, etiquetas & ejes.
 
-**6.	Exportando tu Worksheet.**
+**7.	Exportando tu Worksheet.**
 
 Todo sobre cómo exportar tu informe elaborado en Tableau a cualquier editor de documentos para su posterior presentación 
-hacia las partes interesadas, análisis y discusión, también se discute la manipulación de títulos y de leyendas. 
+a las partes interesadas, análisis y discusión, también se introduce la manipulación de títulos y de leyendas. 
