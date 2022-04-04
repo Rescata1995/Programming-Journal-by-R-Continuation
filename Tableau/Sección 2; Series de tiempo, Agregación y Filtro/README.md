@@ -2,6 +2,6 @@ _Este README.md está completamente sincronizado con el documento "Series de tie
 
 **Sección 2: Series de tiempo, Agregación y Filtros.**
 
-En esta sección estaremos trabajando con un dataset que trata acerca de las estadísticas del desempleo en EE.UU. a largo plazo, veremos cómo visualizar y varían las visualizaciones a lo largo del tiempo, buscaremos tendencias, agruparemos datos por categorías y mucho más. En esencia, lo que haremos es trabajar con datos de series temporales y los visualizaremos directamente en Tableau. Al finalizar esta sección sabrás cómo trabajar con datos de series temporales en Tableau. 
+En esta sección estaremos trabajando con el dataset 'Long-Term-Unemployment-Statistics' que trata acerca de las estadísticas del desempleo en EE.UU. a largo plazo, veremos cómo visualizar y cómo varían las visualizaciones a lo largo del tiempo, buscaremos tendencias, agruparemos datos por categorías y mucho más. En esencia, lo que haremos es trabajar con datos de series temporales y serán visualizados directamente en Tableau. Al finalizar esta sección sabrás cómo trabajar con datos de series temporales en Tableau. 
 
-En esta sección también aprenderá sobre la Agregación y la Granularidad de los datos; es decir, entender a detalle la manipulación de Tableau y la interpretación de sus visualizaciones. 
+Adicionalmente aprenderá sobre la Agregación y la Granularidad de los datos; es decir, entender a detalle la manipulación de Tableau y la interpretación de sus visualizaciones. 
