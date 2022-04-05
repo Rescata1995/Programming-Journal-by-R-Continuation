@@ -5,3 +5,7 @@ _Este README.md está completamente sincronizado con el documento "Series de tie
 En esta sección estaremos trabajando con el dataset 'Long-Term-Unemployment-Statistics' que trata acerca de las estadísticas del desempleo en EE.UU. a largo plazo, veremos cómo visualizar y cómo varían las visualizaciones a lo largo del tiempo, buscaremos tendencias, agruparemos datos por categorías y mucho más. En esencia, lo que haremos es trabajar con datos de series temporales y serán visualizados directamente en Tableau. Al finalizar esta sección sabrás cómo trabajar con datos de series temporales en Tableau. 
 
 Adicionalmente aprenderá sobre la Agregación y la Granularidad de los datos; es decir, entender a detalle la manipulación de Tableau y la interpretación de sus visualizaciones. 
+
+**1.	Trabajando con Extractos de datos en Tableau.**
+
+Introducción a los Extractos en Tableau, cómo crearlos y desactivarlos. Adicionalmente, se hace una breve comparación entre las tablas _pivotadas_ y _no pivotadas_ y se determina en qué escenario resulta útil el uso de una presentación u otra. 
