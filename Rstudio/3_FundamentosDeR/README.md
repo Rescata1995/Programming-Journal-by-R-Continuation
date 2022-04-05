@@ -12,3 +12,6 @@ Finalmente se recuerda que todos los valores contenidos dentro de una función s
 lo cual se logra por medio del uso de corchetes. Al igual, hay formas de usar los corchetes que nos permiten tener
 un acceso múltiple a los elementos, es decir, poder acceder a varios elementos de manera simultánea y bajo una 
 misma línea de código. Finalmente se recuerda que la indexación, dentro de un vector, comienza desde el número 1. 
+
+**4.** Se da una introducción teórica a las operaciones con vectores y cómo se operan los vectores que no poseen
+una misma longitud por medio del proceso de 'Reciclado de Vectores', sean múltiplos o no.
