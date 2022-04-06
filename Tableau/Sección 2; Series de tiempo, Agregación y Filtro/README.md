@@ -9,3 +9,7 @@ Adicionalmente aprenderá sobre la Agregación y la Granularidad de los datos; e
 **1.	Trabajando con Extractos de datos en Tableau.**
 
 Introducción a los Extractos en Tableau, cómo crearlos y desactivarlos. Adicionalmente, se hace una breve comparación entre las tablas _pivotadas_ y _no pivotadas_ y se determina en qué escenario resulta útil el uso de una presentación u otra. 
+
+**2.	Trabajando con Series de Tiempo.**
+
+Se crea nuestra primera visualización como Serie de tiempo a partir del dataset 'Long-Term-Unemployment-Statistics'; adicionalmente, se evalua la importancia de hacer un uso correcto de nuestros campos de tipo _temporal_ para diseñar una Serie de Tiempo que pueda reflejar correctamente la Agregación & Granularidad de los datos expuestos. Finalmente, se enseña el uso de los Marcadores como herramienta visual que nos ayuda a ver mejor la granularidad de los datos en el gráfico.
