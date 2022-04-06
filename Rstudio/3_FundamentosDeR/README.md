@@ -18,5 +18,5 @@ una misma longitud por medio del proceso de 'Reciclado de Vectores', sean múlti
 
 **5.** Se pretende evidenciar, por medio de un ejercicio, porqué resulta ser mucho más eficiente hacer operaciones 
 dentro de R con un estilo propio a R y no con un estilo de programación de tipo más convencional; puntualmente se 
-compara la rapidez de hacer operaciones aritméticas con vectores entre un método de resolución propio de R y un método de resolución convencional. R, a la hora de operar vectores, además de que maneja un código mucho más limpio, su ejecución es mucho más rápida.  
+compara la rapidez de hacer operaciones aritméticas con vectores entre un método de resolución propio de R y un método de resolución convencional. R, a la hora de operar vectores, además de que maneja un código mucho más limpio, su ejecución es mucho más rápida. Nota: El valor nulo en R se declara como 'NA'.
 
