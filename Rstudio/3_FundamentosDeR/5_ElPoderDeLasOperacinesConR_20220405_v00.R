@@ -1,6 +1,6 @@
 "
 La importancia de hacer operaciones con vectores en 
-R, en lugar de hacerlas operaciones sin vectores.
+R, en lugar de hacer las operaciones sin ellos.
 
 "
 
@@ -12,10 +12,10 @@ R, en lugar de hacerlas operaciones sin vectores.
 x <- rnorm(5)
 
 "
-Estamos definiendo un vector de 5 valores numéricos
-aleatorios. Ahora, nuestro interés es imprimirlos 
+Estamos definiendo un vector de 5 valores numÃ©ricos
+aleatorios. Ahora, nuestro interÃ©s es imprimirlos 
 uno a uno, de forma independiente... lo lograremos 
-por medio de un bucle 'for', tal que así: 
+por medio de un bucle 'for', tal que asÃ­: 
 "
 
 for (i in 1:5){
@@ -24,14 +24,14 @@ for (i in 1:5){
 
 "
 Recuerda: 'i' no solo asume cada valor, por cada
-iteracción, desde el número 1 hasta el número 5; 
-sino que, esto también significa que, se ejecutará 
-5 veces todo el código que implemente dentro del 
+iteracciÃ³n, desde el nÃºmero 1 hasta el nÃºmero 5; 
+sino que, esto tambiÃ©n significa que, se ejecutarÃ¡ 
+5 veces todo el cÃ³digo que implemente dentro del 
 dominio de su bucle 'for'.
 "
 
 "
-También podría escribir su código de la sgte forma: 
+TambiÃ©n podrÃ­a escribir su cÃ³digo de la sgte forma: 
 
 "
 for (i in x){
@@ -39,21 +39,21 @@ for (i in x){
 }
 
 "
-Ahora 'i' está asumiendo, por cada iteracción, los
-valores del vector 'x' (uno a uno por iteracción).
-Entonces, en total sólo serán 5 iteracciones debido
-a que sólo son 5 los valores contenidos para el 
+Ahora 'i' estÃ¡ asumiendo, por cada iteracciÃ³n, los
+valores del vector 'x' (uno a uno por iteracciÃ³n).
+Entonces, en total sÃ³lo serÃ¡n 5 iteracciones debido
+a que sÃ³lo son 5 los valores contenidos para el 
 vector de 'x'... los cuales los estamos imprimiendo,
-uno a uno, con la función 'print'.
+uno a uno, con la funciÃ³n 'print'.
 
 "
 
 "
-La primera resolución de ciclo es más de tipo 
-o método 'convencional'. En cambio, la segunda 
-resolución de ciclo es más de tipo o método 
+La primera resoluciÃ³n de ciclo es mÃ¡s de tipo 
+o mÃ©todo 'convencional'. En cambio, la segunda 
+resoluciÃ³n de ciclo es mÃ¡s de tipo o mÃ©todo 
 propiamente de R. En ambos se obtiene un mismo 
-resultado, pero éstos se obtienen de una manera 
+resultado, pero Ã©stos se obtienen de una manera 
 distinta.
 
 -------------------------------------------------
@@ -70,7 +70,7 @@ a <- rnorm(N)
 b <- rnorm(N)
 
 "
-Multiplicación de arreglos al estilo convencional:
+MultiplicaciÃ³n de arreglos al estilo convencional:
 
 "
 d <- rep(NA, N)
@@ -79,9 +79,9 @@ d <- rep(NA, N)
 Estamos creando con la variable 'd' un vector de 
 100 posiciones con valor inicial 'nulo' en los que, 
 posteriormente, almacenaremos los 100 valores de 
-multiplicar cada posición del vector 'a' 
-con cada posición del vector 'b'; estos resultados 
-se guardarán para cada posición del vector 'd'.
+multiplicar cada posiciÃ³n del vector 'a' 
+con cada posiciÃ³n del vector 'b'; estos resultados 
+se guardarÃ¡n para cada posiciÃ³n del vector 'd'.
 "
 
 for(i in 1:N){
@@ -91,7 +91,7 @@ for(i in 1:N){
 
 
 "
-Multiplicación de vectores al estilo R:
+MultiplicaciÃ³n de vectores al estilo R:
 
 "
 
@@ -102,7 +102,7 @@ c
 "
 Como R es un lenguaje especializado en vectores,
 llamados 'arreglos' en otros lenguajes, nos facilita
-todo: el código en sí como la eficiencia en su 
-ejecución!
+todo: el cÃ³digo en sÃ­ como la eficiencia en su 
+ejecuciÃ³n!
 
 "
