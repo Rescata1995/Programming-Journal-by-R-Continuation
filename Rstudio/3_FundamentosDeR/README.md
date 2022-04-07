@@ -23,5 +23,5 @@ compara la rapidez de hacer operaciones aritméticas con vectores entre un méto
 **6.** Se recuerdan todas las funciones dadas hasta ahora y la utilidad de '?' en una función. Si delante de una función 
 se antepone el signo '?', y corremos código, R nos dará una ayuda o nos explicará de forma detallada cuál es la función de 
 la _función_ de su interés; dejando claro una descripción, un uso y posibles argumentos. Especialmente evaluamos varios 
-parámetros de la función 'rnorm' (n, mean & sd), de la función 'seq' (length.out, along.with) y de la función 'rep' (each, times).
+parámetros de la función 'rnorm' (n, mean & sd), de la función 'seq' (length.out, along.with) y de la función 'rep' (each, times). Puede alternar el orden de los parámetros, de una función, si los especifica con su respectivo valor. 
 
