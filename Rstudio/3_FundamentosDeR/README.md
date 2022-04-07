@@ -20,3 +20,8 @@ una misma longitud por medio del proceso de 'Reciclado de Vectores', sean múlti
 dentro de R con un estilo propio a R y no con un estilo de programación de tipo más convencional; puntualmente se 
 compara la rapidez de hacer operaciones aritméticas con vectores entre un método de resolución propio de R y un método de resolución convencional. R, a la hora de operar vectores, además de que maneja un código mucho más limpio, su ejecución es mucho más rápida. Nota: El valor nulo en R se declara como 'NA'.
 
+**6.** Se recuerdan todas las funciones dadas hasta ahora y la utilidad de '?' en una función. Si delante de una función 
+se antepone el signo '?', y corremos código, R nos dará una ayuda o nos explicará de forma detallada cuál es la función de 
+la _función_ de su interés; dejando claro una descripción, un uso y posibles argumentos. Especialmente evaluamos varios 
+parámetros de la función 'rnorm' (n, mean & sd), de la función 'seq' (length.out, along.with) y de la función 'rep' (each, times).
+
