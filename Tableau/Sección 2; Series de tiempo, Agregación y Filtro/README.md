@@ -13,3 +13,8 @@ Introducción a los Extractos en Tableau, cómo crearlos y desactivarlos. Adicio
 **2.	Trabajando con Series de Tiempo.**
 
 Se crea nuestra primera visualización como Serie de tiempo a partir del dataset 'Long-Term-Unemployment-Statistics'; adicionalmente, se evalua la importancia de hacer un uso correcto de nuestros campos de tipo _temporal_ para diseñar una Serie de Tiempo que pueda reflejar correctamente la Agregación & Granularidad de los datos expuestos. Finalmente, se enseña el uso de los Marcadores como herramienta visual que nos ayuda a ver mejor la granularidad de los datos en el gráfico.
+
+
+**3. Agregación, Granularidad & Nivel de detalle: A fondo.**
+
+Se evalua a fondo, y en la práctica, los conceptos de 'Agregación', 'Granularidad' & 'Nivel de detalle' por medio de la misma serie de tiempo creada al importar los datos de la fuente de datos: 'Long-Term-Unemployment-Statistics'. Se recuerda que los campos tipo _medidas_, en general, van a ser _Agregados_ o son los capaces de generar _Agregación_; mientras, los campos tipo _dimensiones_ o _temporales_ son las capaces de especificar el nivel de _Granularidad_. Finalmente, así como usted puede determinar el nivel de granularidad deseado para su gráfico, también puede determinar si cambiar el tipo de Agregación o, en su defecto, excluirla.
