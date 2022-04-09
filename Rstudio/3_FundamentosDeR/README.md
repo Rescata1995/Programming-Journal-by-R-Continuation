@@ -29,3 +29,5 @@ parámetros de la función 'rnorm' (n, mean & sd), de la función 'seq' (length.
 usted podrá visualizar todos sus paquetes instalados, activados y desactivados; también puede instalarlos desde CRAN 
 (The Comprehensive R Archive Network) si no los tiene en su librería. Nosotros estaremos trabajando especialmente con el 
 paquete 'ggplot2'.
+
+**8.** Realización de un ejercicio práctico en R que pretende evaluar toda la temática abordada en esta sección 3: 'Fundamentos de R'. El ejercicio se llama: 'Análisis de Estados Financieros'. Adicionalmente, se ponen en práctica nuevas funciones: 'round()', 'mean()', 'max()', 'min()' y el uso de saltos de línea en R. Para más detalles, visite el código.
