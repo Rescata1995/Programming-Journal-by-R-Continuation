@@ -25,3 +25,7 @@ se antepone el signo '?', y corremos código, R nos dará una ayuda o nos explic
 la _función_ de su interés; dejando claro una descripción, un uso y posibles argumentos. Especialmente evaluamos varios 
 parámetros de la función 'rnorm' (n, mean & sd), de la función 'seq' (length.out, along.with) y de la función 'rep' (each, times). Puede alternar el orden de los parámetros, de una función, si los especifica con su respectivo valor. 
 
+**7.** Se da una introducción a los Paquetes en R, qué son y cuál es su relación con las Librerías en R. Desde RStudio 
+usted podrá visualizar todos sus paquetes instalados, activados y desactivados; también puede instalarlos desde CRAN 
+(The Comprehensive R Archive Network) si no los tiene en su librería. Nosotros estaremos trabajando especialmente con el 
+paquete 'ggplot2'.
