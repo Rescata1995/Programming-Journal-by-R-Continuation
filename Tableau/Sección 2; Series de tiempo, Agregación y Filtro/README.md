@@ -18,3 +18,7 @@ Se crea nuestra primera visualización como Serie de tiempo a partir del dataset
 **3. Agregación, Granularidad & Nivel de detalle: A fondo.**
 
 Se evalua a fondo, y en la práctica, los conceptos de 'Agregación', 'Granularidad' & 'Nivel de detalle' por medio de la misma serie de tiempo creada al importar los datos de la fuente de datos: 'Long-Term-Unemployment-Statistics'. Se recuerda que los campos tipo _medidas_, en general, van a ser _Agregados_ o son los capaces de generar _Agregación_; mientras, los campos tipo _dimensiones_ o _temporales_ son las capaces de especificar el nivel de _Granularidad_. Finalmente, así como usted puede determinar el nivel de granularidad deseado para su gráfico, también puede determinar si cambiar el tipo de Agregación o, en su defecto, excluirla.
+
+**4. Resaltado & Creación de un Gráfico de Área.**
+
+Se evalúa la importancia de hacer _Resaltados_ de datos sobre un subconjunto de una Categoria o _dimensión_ evaluada. Adicionalmente, se introduce el concepto de 'Gráfico de Áreas' y se pone en práctica su uso creando uno; se aclaran también las diferencias relevantes entre un gráfico lineal y un gráfico de áreas, ambos ideales para representar visualmente series temporales.
