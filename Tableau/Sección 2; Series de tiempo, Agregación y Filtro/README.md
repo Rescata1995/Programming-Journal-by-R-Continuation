@@ -22,3 +22,7 @@ Se evalua a fondo, y en la práctica, los conceptos de 'Agregación', 'Granulari
 **4. Resaltado & Creación de un Gráfico de Área.**
 
 Se evalúa la importancia de hacer _Resaltados_ de datos sobre un subconjunto de una Categoria o _dimensión_ evaluada. Adicionalmente, se introduce el concepto de 'Gráfico de Áreas' y se pone en práctica su uso creando uno; se aclaran también las diferencias relevantes entre un gráfico lineal y un gráfico de áreas, ambos ideales para representar visualmente series temporales.
+
+**5. Filtro & filtros rápidos.**
+
+Se evalúa la importancia de hacer _Filtros_ sobre una Categoria o _dimensión_ evaluada, especialmente en los casos en los que nuestro _dashboard_ comienza a verse sobrecargado de información. Se deja claro, también, que el _filtrado_ puede aplicarse simultaneamente sobre varias _dimensiones_ a la vez. Finalmente se enseñan los diferentes tipos de filtros rápidos que tenemos a nuestra disposición.
