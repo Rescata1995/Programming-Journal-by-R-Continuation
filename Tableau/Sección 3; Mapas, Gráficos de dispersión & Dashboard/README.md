@@ -1,4 +1,4 @@
-_Este README.md está completamente sincronizado con el documento "Mapas, Gráficos de dispersión & Dashboard" situado en este mismo directorio. La documentación del archivo toca a detalle toda la teoría y práctica, abordada por el curso, e incluye también un panel de navegación para una mejor experiencia de aprendisaje y recordación de temas vistos a futuro._
+_Este README.md está completamente sincronizado con el documento "Mapas, Gráficos de dispersión & Dashboard" situado en este mismo directorio. La documentación del archivo Word toca a detalle toda la teoría y práctica, abordada por el curso, e incluye también un panel de navegación para una mejor experiencia de aprendisaje y recordación de temas vistos a futuro._
 
 **Sección 3: Mapas, Gráficos de dispersión & Dashboard.**
 
