@@ -1,4 +1,4 @@
-_Este README.md está completamente sincronizado con el documento "Introducción a Tableau" situado en este mismo directorio. La documentación del documento toca a detalle toda la teoría y práctica, abordada por el curso, e incluye también un panel de navegación para una mejor experiencia de aprendisaje y recordación de temas vistos a futuro._
+_Este README.md está completamente sincronizado con el documento "Introducción a Tableau" situado en este mismo directorio. La documentación del archivo Word toca a detalle toda la teoría y práctica, abordada por el curso, e incluye también un panel de navegación para una mejor experiencia de aprendisaje y recordación de temas vistos a futuro._
 
 **Sección 1: Conceptos básicos de Tableau, tu primer gráfico de barras.**
 
