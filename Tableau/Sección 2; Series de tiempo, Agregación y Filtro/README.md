@@ -1,4 +1,4 @@
-_Este README.md está completamente sincronizado con el documento "Series de tiempo, Agregación & Filtro" situado en este mismo directorio. La documentación del documento toca a detalle toda la teoría y práctica, abordada por el curso, e incluye también un panel de navegación para una mejor experiencia de aprendisaje y recordación de temas vistos a futuro._
+_Este README.md está completamente sincronizado con el documento "Series de tiempo, Agregación & Filtro" situado en este mismo directorio. La documentación del archivo Word toca a detalle toda la teoría y práctica, abordada por el curso, e incluye también un panel de navegación para una mejor experiencia de aprendisaje y recordación de temas vistos a futuro._
 
 **Sección 2: Series de tiempo, Agregación y Filtros.**
 
