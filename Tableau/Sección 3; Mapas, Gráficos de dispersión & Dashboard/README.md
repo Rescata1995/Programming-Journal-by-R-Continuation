@@ -8,3 +8,6 @@ En esta sección estaremos trabajando con el dataset 'P1-AmazingMartEU2', con el
 
 Introducción a las _Relaciones_ y _Uniones_, especialmente se muestra la manera de configurar una unión o una relación dentro de Tableau. Además de eso, se recuerda la importancia de los diagramas lógicos y físicos. Por lo pronto, a lo largo de esta sección, nos centraremos en las _Uniones_. 
 
+**2. Uniendo Datos en Tableau.**
+
+Se deja clara la relación que hay entre un _Join_ de SQL y una _Unión_ en Tableau. Adicionalmente, se introducen los temas de Cardinalidad & Llaves entre tablas para entender la estructura lógica con la que dos o más de dos tablas se unen.  
