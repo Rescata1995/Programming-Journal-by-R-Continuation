@@ -11,3 +11,8 @@ Introducción a las _Relaciones_ y _Uniones_, especialmente se muestra la manera
 **2. Uniendo Datos en Tableau.**
 
 Se deja clara la relación que hay entre un _Join_ de SQL y una _Unión_ en Tableau. Adicionalmente, se introducen los temas de Cardinalidad & Llaves entre tablas para entender la estructura lógica con la que dos o más de dos tablas se unen.  
+
+**3. Creando un Mapa, Trabajando con Jerarquías.**
+
+Se introducen los campos con tipo de dato _geográfico_ y la manera en cómo se crea una Jerarquía para ellos. A partir de los campos _geográficos_, se introducen los _Mapas_ y la importancia de hacer uso de _Filtros_ & _Marcas_ dentro de ellos; pues, a priori, los _Mapas_ corren el riesgo de quedar sobrecargados con sus propios datos. Se enseña también darle una mayor personalización a la marca _Tamaños_, a configurar el tamaño de sus proporciones y el color de sus bordes. Se enseña y se calcula un _Margen de Beneficio_ y, finalmente, se muestran las herramientas de _Zoom & Highlighting_ propias a mapas.  
+
