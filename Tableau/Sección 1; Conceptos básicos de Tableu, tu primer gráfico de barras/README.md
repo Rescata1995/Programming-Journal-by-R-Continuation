@@ -27,8 +27,7 @@ Además, se enseña a limpiar el dashboard y a hacer uso del ordenamiento en vis
 
 **5.	Añadiendo colores.**
 
-Se profundiza el uso de la opción 'Color' de _Marcas_, se introduce a las ediciones diversas, se presenta la popular 'Paleta de colores' 
-y se responde a la pregunta de Cuál sería un buen enfoque, es importante tener en cuenta que su visualización debe representar la mayor
+Se profundiza el uso de la opción 'Color' de _Marcas_, se hace una introducción a las ediciones diversas, se presenta la 'Paleta de colores' y la importancia de jugar con la _psicología_ de colores. Adicionalmente, se responde a la pregunta de cuál sería un buen enfoque, es importante tener en cuenta que su visualización debe representar la mayor
 riqueza visual de acuerdo a la pregunta o consulta que se pretende responder.
 
 **6.	Añadiendo etiquetas y formato.**
