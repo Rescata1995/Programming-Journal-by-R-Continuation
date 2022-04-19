@@ -14,5 +14,11 @@ Se deja clara la relación que hay entre un _Join_ de SQL y una _Unión_ en Tabl
 
 **3. Creando un Mapa, Trabajando con Jerarquías.**
 
-Se introducen los campos con tipo de dato _geográfico_ y la manera en cómo se crea una Jerarquía para ellos. A partir de los campos _geográficos_, se introducen los _Mapas_ y la importancia de hacer uso de _Filtros_ & _Marcas_ dentro de ellos; pues, a priori, los _Mapas_ corren el riesgo de quedar sobrecargados con sus propios datos. Se enseña también darle una mayor personalización a la marca _Tamaños_, a configurar el tamaño de sus proporciones y el color de sus bordes. Se enseña y se calcula un _Margen de Beneficio_ y, finalmente, se muestran las herramientas de _Zoom & Highlighting_ propias a mapas.  
+Se introducen los campos con tipo de dato _geográfico_ y la manera en cómo se crea una Jerarquía para ellos. A partir de los campos _geográficos_, se introducen los _Mapas_ y la importancia de hacer uso de _Filtros_ & _Marcas_ dentro de ellos; pues, a priori, los _Mapas_ corren el riesgo de quedar sobrecargados con sus propios datos. Se enseña también darle una mayor personalización a la marca _Tamaños_, a configurar el tamaño de sus proporciones y el color de sus bordes. Se enseña y se calcula un _Margen de Beneficio_ que se distingue visualmente por medio de un 'Matizado de Colores' y, finalmente, se muestran las herramientas de _Zoom & Highlighting_ propias a mapas.
+
+**4. Gráfico de Dispersión & Filtros en Worksheets.**
+
+Se recuerda el tratamiento ideal que se le debe dar a los diferentes periodos de tiempo en una visualización (se recomienda que sean _filtrados_). Se introduce el tipo de gráfico _Nube de Puntos_ y se recuerda la importancia de excluir la agregación en campos de tipo _Medida_. Adicionalmente, se introducen los filtros 'sincronizados' (por llamarlos de alguna manera): se trata de la aplicación de las mismas condiciones de un filtro a múltiples Worksheets simultáneamente. También, dentro de la _Nube de puntos_ se emplean nuevas técnicas de las _marcas:_ _Forma_ & _Color_, y se ve en la práctica el concepto de 'Gráfico de Dispersión'. 
+
+
 
