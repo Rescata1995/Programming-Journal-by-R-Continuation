@@ -14,3 +14,6 @@ y 'colnames' que se encargan de asignarle _nombres_ a las filas y las columnas, 
 **3.** Se profundiza sobre las funciones 'rownames' & 'colnames', estas funciones se valen de vectores unidimensionales para asignar nombres a cada una de las filas y columnas de una matriz. Es preciso decir que, por medio de estos nombres asignados para cada fila y para cada columna, usted también puede acceder a los elementos de cada celda (ya no solo será posible con los números equivalentes a la indexación o a la ubicación de cada elemento o celda).
 
 **4.** Se introduce la función 'names', con la cual se puede crear, verificar y eliminar _nombres_ a los elementos de un vector. Adicionalmente, se practican con ejercicios las funciones de 'rbind()' & 'cbind()', que sirven para crear matrices; como también se práctica la asignación de nombres a las filas y columnas de las matrices con las funciones 'rownames' & 'colnames'. Estos nombres asignados a matrices, por medio de las funciones 'rownames' & 'colnames', también se pueden verificar y eliminar.
+
+**6.** Se introducen, ya en la práctica, las operaciones con matrices mediante dos ejercicios. **Importante**: Para operar 
+varias matrices, digamos dos matrices entre sí, las matrices deben conservar el mismo tamaño en sus dimensiones; de lo contrario, R nos arrojaría un error. 
