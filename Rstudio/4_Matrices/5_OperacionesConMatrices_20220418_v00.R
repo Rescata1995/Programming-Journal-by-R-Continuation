@@ -11,7 +11,7 @@ Introducción a Operaciones con Matrices
 
 Importante:
 
-Para operar varias matrices, digamos, dos matrices entre 
+Para operar varias matrices, digamos dos matrices entre 
 sí, las matrices deben conservar el mismo tamaño en sus 
 dimensiones; de lo contrario, R nos arrojaría un error. 
 Las matrices deben tener el mismo número de filas y el 
