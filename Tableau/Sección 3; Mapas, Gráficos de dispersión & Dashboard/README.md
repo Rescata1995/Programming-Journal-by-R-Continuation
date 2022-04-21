@@ -20,5 +20,8 @@ Se introducen los campos con tipo de dato _geográfico_ y la manera en cómo se 
 
 Se recuerda el tratamiento ideal que se le debe dar a los diferentes periodos de tiempo en una visualización (se recomienda que sean _filtrados_). Se introduce el tipo de gráfico _Nube de Puntos_ y se recuerda la importancia de excluir la agregación en campos de tipo _Medida_. Adicionalmente, se introducen los filtros 'sincronizados' (por llamarlos de alguna manera): se trata de la aplicación de las mismas condiciones de un filtro a múltiples Worksheets simultáneamente. También, dentro de la _Nube de puntos_ se emplean nuevas técnicas de las _marcas:_ _Forma_ & _Color_, y se ve en la práctica el concepto de 'Gráfico de Dispersión'. 
 
+**5. Creación de nuestro primer Dashboard.**
+
+Se dejan claras las diferencias técnicas entre lo que es una _Worksheet_ & un _Dashboard_, se muestra propiamente en la práctica la creación y uso de un _Dashboard_ y, finalmente, se introduce la manipulación de los _contenedores_ de leyendas y/o filtros dentro de un _dashboard_.
 
 
