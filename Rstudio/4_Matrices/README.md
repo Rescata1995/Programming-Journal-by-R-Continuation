@@ -13,5 +13,7 @@ y 'colnames' que se encargan de asignarle _nombres_ a las filas y las columnas, 
 
 **4.** Se introduce la función 'names', con la cual se puede crear, verificar y eliminar _nombres_ a los elementos de un vector. Adicionalmente, se practican con ejercicios las funciones de 'rbind()' & 'cbind()', que sirven para crear matrices; como también se práctica la asignación de nombres a las filas y columnas de las matrices con las funciones 'rownames' & 'colnames'. Estos nombres asignados a matrices, por medio de las funciones 'rownames' & 'colnames', también se pueden verificar y eliminar.
 
-**6.** Se introducen, ya en la práctica, las operaciones con matrices mediante dos ejercicios. **Importante**: Para operar 
+**5.** Se introducen, ya en la práctica, las operaciones con matrices mediante dos ejercicios. **Importante**: Para operar 
 varias matrices, digamos dos matrices entre sí, las matrices deben conservar el mismo tamaño en sus dimensiones; de lo contrario, R nos arrojaría un error. 
+
+**6.** Se introducen nuevas funciones: sobre la creación de gráficas con la función 'Matplot()', sobre la capacidad de realizar una transposición en una tabla con la función 't()', sobre la importancia de crear etiquetas por medio de leyendas para dar contextos sobre visualizaciones con la función 'legend()' y varios ejercicios interesantes. 
