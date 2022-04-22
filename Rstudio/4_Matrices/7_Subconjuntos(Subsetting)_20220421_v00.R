@@ -1,3 +1,4 @@
+
 "
 Introducción a Subconjuntos (Subsetting)
 
@@ -74,12 +75,21 @@ no estamos frente a un subconjunto de dos
 dimensiones, extraido de una matriz, estamos
 hablando de un vector. Es decir, habría 
 existencia de una fila sin columnas o de una 
-columna sin filas.
+columna sin filas. 
+
+Más adelante entenderá que es un parámetro del 
+subconjunto de su matriz el que, por defecto, 
+cambia la naturaleza de su objeto: convierte la 
+matriz en un vector al suprimir una dimensión 
+(La prueba fehaciente, por lo menos visual, que 
+nos devela que se ha suprimido una dimensión es 
+que se deja de ver el 'rowname' o 'colname' de 
+su matriz).
 
 De hecho, vamos a extraer ahora un subconjunto
-de la matriz 'juegos' que sea un vector.
-Posteriormente, pruebe si está frente un
-vector con la función 'is.vector()'. Veamos.
+de la matriz 'juegos' que pasará hacer un 
+vector. Posteriormente, pruebe si está frente 
+un vector con la función 'is.vector()'. Veamos.
 
 Ejercicio 3. Observe todas las temporadas de 
 juego para un sólo jugador: KobeBryant.
@@ -97,28 +107,42 @@ is.matrix(juegos[1,])
 is.vector(juegos[1,])
 
 "
-Ahora, para que R reconozca que estamos frente
-a una matriz y no frente a un vector, debe 
-asistirse de un parámetro que se llama: 'drop'
+Ahora, para que R reestablezca que estamos 
+frente a una matriz y no frente a un vector, 
+del subconjunto que extrajo, se debe manipular 
+directamente el parámetro del que hicimos 
+mención antes. Este parámetro se llama: 'drop'.
 
-'Drop', por defecto, es true. 'Drop' elimina 
+'Drop', por defecto, es 'T'. 'Drop' elimina 
 las dimensiones de un arreglo que solamente 
-tiene un nivel. 
+tiene un nivel. Es decir, convierte la matriz
+en un vector al pasar dicho objeto de dos 
+dimensiones en un objeto unidimensional.
 
 Es justamente por lo anterior que si no se 
 cambia el valor por defecto de 'Drop', 
 que es 'T', siempre se eliminarán las 
 dimensiones de un arreglo que solamente 
-tiene un nivel, resultando esto 'vectores'.
+tiene un nivel, resultando esto en un 'Vector'.
 
 Siempre que su subconjunto, extraido de una 
 matriz, sea de nivel 1... por defecto 
 será considerado como un vector, pues, 
 el parámetro: 'drop', por defecto, viene
-definidoc con un valor de 'T'. 
+definido con un valor de 'T'. 
 
 Corramos ahora la última línea de código, 
-pero definiendo un 'drop' con un valor 'F'.
+pero definiendo un 'drop' con un valor de 
+'F' para conservar nuestras dimensiones y, 
+por lo tanto, conservar la naturaleza del 
+objeto como un objeto de tipo 'Matriz' 
+(De paso podrá ver, de nuevo, su 'rowname'
+o 'colname' suprimida previamente).
+
+"
+juegos[1,,drop=F]
+
+"
 
 Evalue si el subconjunto en cuestión es una 
 matriz ahora o no.
@@ -131,8 +155,8 @@ is.vector(juegos[1,,drop=F])
 (juegos[1,,drop=F])
 
 "
-Si se percata, 'drop=F' también le asignaría 
-una etiqueta a su subconjunto unidimensional
-(vectores) en caso no haya.
+Ahora nuestro subconjunto, que es de nivel 1,
+sí conserva la naturaleza de un objeto 'Matriz'.
 
 "
+
