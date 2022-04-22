@@ -19,5 +19,3 @@ varias matrices, digamos dos matrices entre sí, las matrices deben conservar el
 **6.** Se introducen nuevas funciones: sobre la creación de gráficas con la función 'Matplot()', sobre la capacidad de realizar una transposición en una tabla con la función 't()', sobre la importancia de crear etiquetas por medio de leyendas para dar contextos sobre visualizaciones con la función 'legend()' y varios ejercicios interesantes. 
 
 **7.** Se introduce el concepto de _subconjunto_ extraido de una matriz, por ejemplo, cómo acceder a uno y cómo conservar la naturaleza de un subconjunto como 'Matriz', especialmente en los casos donde el subconjunto extraido es de un nivel; de aquí parte el uso práctico y la importancia del parámetro 'drop', el cual puede asumir dos valores: 'T' o 'F'.
-
-; es decir, que el subconjunto de la matriz siga siendo 
