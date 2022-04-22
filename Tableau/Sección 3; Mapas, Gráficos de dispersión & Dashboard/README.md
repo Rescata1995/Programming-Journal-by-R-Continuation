@@ -24,4 +24,6 @@ Se recuerda el tratamiento ideal que se le debe dar a los diferentes periodos de
 
 Se dejan claras las diferencias técnicas entre lo que es una _Worksheet_ & un _Dashboard_, se muestra propiamente en la práctica la creación y uso de un _Dashboard_ y, finalmente, se introduce la manipulación de los _contenedores_ de leyendas y/o filtros dentro de un _dashboard_.
 
+**6. Dashboards Interactivos.**
 
+Se introduce el concepto de _Dashboard Interactivo_, el cual nos permite otorgar un mayor dinamismo y fluidez a nuestras visualizaciones, esto como resultado de una mejor comunicación entre las visualizaciones agrupadas dentro del dashboard en cuestión. Hay dos tipos de _Acciones_ para hacer uso de un Dashboard Interactivo: **Filtro & Resaltado.** En principio trabajamos todo lo relacionado con _filtros_: _Shortcut_ para añadirlos, fuentes de _Acción_ (Lo relacionado a _Hojas de Origen_, contrario a _Hojas de Destino_) & formas de ejecutar _Acción_: ya sea por _Selección_, por _Situar_ o mediante _Menú_.
