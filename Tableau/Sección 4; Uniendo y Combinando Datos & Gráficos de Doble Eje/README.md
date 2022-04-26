@@ -10,4 +10,4 @@ En Tableau existen dos formas de conectar fuentes de datos: **Join & Blend de Da
 
 **1. Profundización a _Joins_: Múltiples Campos**
 
-Continuamos abordando el concepto de _Joins_; especialmente se aborda el escenario en el que se requiere el uso de _múltiples campos_ para lograr una unión entre tablas; es decir, cómo y porqué en ciertos escenarios se requiere el uso de múltiples campos para lograr una **unión limpia y consistente** entre dos o más de dos tablas: se intentará resolver esta duda mediante un caso simulado.
+Continuamos abordando el concepto de _Joins_; especialmente se aborda el escenario en el que se requiere el uso de _múltiples campos_ para lograr una unión entre tablas; es decir, cómo y porqué en ciertos escenarios se requiere el uso de múltiples campos para lograr una **unión limpia y consistente** entre dos o más de dos tablas: se intentará resolver esta duda mediante un caso simulado más de tipo _académico_. 
