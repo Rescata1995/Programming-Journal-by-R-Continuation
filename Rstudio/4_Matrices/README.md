@@ -22,4 +22,4 @@ varias matrices, digamos dos matrices entre sí, las matrices deben conservar el
 
 **8.** Se practica en un par de ejercicios la visualización de _subconjuntos_ de matrices con la función 'Matplot()', teniendo en cuenta también que para visualizar un subconjunto de nivel 1 (extraído de una Matriz) se debe hacer uso del parámetro 'drop' con un valor de 'F'. 
 
-**9.** Se introducen las **_funciones_**: qué es, cómo se declara y a qué se debe su importancia, especialmente trataremos de poner en práctica este concepto mediante el uso de la función 'Matplot()' en varios ejercicios; adicionalmente, se introduce el concepto de _parámetros_ en una función y cuál es la razón de ser de un valor 'default' definido en un parámetro.
+**9.** Se introducen las **_funciones_**: qué es, cómo se declara y a qué se debe su importancia, especialmente trataremos de poner en práctica este concepto mediante el uso de la función 'Matplot()' en varios ejercicios; adicionalmente, se introduce el concepto de _parámetros_ en una función y cuál es la razón de ser de un valor 'default' definido dentro de un parámetro.
