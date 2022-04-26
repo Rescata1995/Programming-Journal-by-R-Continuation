@@ -107,16 +107,19 @@ parámetro ya debe asumir su valor directamente.
 
 Ahora, este valor, que es un valor pasado por 
 nosotros mismos (o por otro), es variable; con 
-lo cual, se agiliza más la ejecución de la 
-función en caso que necesite, constantemente, 
+lo cual, se busca agilizar más la ejecución de 
+la función en caso que necesite, constantemente,
 cambiar los valores de sus parámetros y probar 
 diferentes escenarios.
 
 En nuestro caso puntual, el parámetro 'filas' 
-no está siendo definido al llamar la función 
-para que se ejecute; entonces, 'filas' asume 
-valor por default y el parámetro 'matrix_sel' 
-está siendo definido con la matriz 'juegos'.
+no fue definido cuando se llamó la función 
+para que ésta sea ejecutada; entonces 'filas', 
+para este caso puntual, asume un valor por 
+default que fue pasado inicialmente; sin embargo, 
+el parámetro 'matrix_sel' sí fue definido 
+con la matriz 'juegos' al momento en que se 
+llamó la función para que sea ejecutada.
 
 
 
@@ -125,12 +128,12 @@ Valor 'default' en un parámetro
 Ahora, si en caso dado no le pasamos ningún valor
 a un parámetro podemos dejar uno asignado por 
 'default'; de hecho, eso hicimos con el parámetro
-'filas'. 
+'filas' (tal como lo explicamos previamente). 
 
 'filas' tiene un valor por defecto de '1:10', 
 quiere decir que si no le asignamos ningún valor 
 al parámetro 'filas', al ser llamada la función 
 'mi_1raFuncion' para que se ejecute, 'filas' 
-asumirá el valor definido por 'default', 1:10.
+asumirá el valor definido por 'default': 1:10.
 
 "
