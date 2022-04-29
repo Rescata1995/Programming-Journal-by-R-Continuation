@@ -11,3 +11,7 @@ En Tableau existen dos formas de conectar fuentes de datos: **Join & Blend de Da
 **1. Profundización a _Joins_: Múltiples Campos**
 
 Continuamos abordando el concepto de _Joins_; especialmente se aborda el escenario en el que se requiere el uso de _múltiples campos_ para lograr una unión entre tablas; es decir, cómo y porqué en ciertos escenarios se requiere el uso de múltiples campos para lograr una **unión limpia y consistente** entre dos o más de dos tablas: se intentará resolver esta duda mediante un caso simulado más de tipo _académico_. 
+
+**2. _Joins_ de datos vs _Blend_ de datos**
+
+Aquí se evidencia, por medio de la interacción directa en Tableau con tres tablas relacionadas provenientes del mismo _dataset_ 'AmazingMartEU2', la practicidad de los conceptos _Joins con Registros Duplicados_ & _Join de tablas con Múltiples Campos_ y se deja claro cuándo es necesario, e ideal para Tableau, elegir _unir_ datos por medio de un **_Join_** o por medio de un **_Blend_**. Próximamente, se pondrá manos a la obra para poner en práctica real lo qué es la _unión_ de datos por medio de un _**Blend**_ en Tableau. 
