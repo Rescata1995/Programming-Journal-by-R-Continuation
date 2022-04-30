@@ -16,6 +16,6 @@ Continuamos abordando el concepto de _Joins_; especialmente se aborda el escenar
 
 Aquí se evidencia, por medio de la interacción directa en Tableau con tres tablas relacionadas provenientes del mismo _dataset_ 'AmazingMartEU2', la practicidad de los conceptos _Joins con Registros Duplicados_ & _Join de tablas con Múltiples Campos_ y se deja claro cuándo es necesario, e ideal para Tableau, elegir _unir_ datos por medio de un **_Join_** o por medio de un **_Blend_**; Hay dos escenarios donde, muy probablemente, tendrá que recurrir a un **_Blend_**: Cuando una tabla se vale de _múltiplos campos_ para hacer una unión con otra u otras y, más importante, cuando los conjuntos de datos que pretenda unir ni siquiera provengan de una misma fuente de datos. Próximamente, se pondrá manos a la obra para poner en práctica real lo qué es la _unión_ de datos por medio de un _**Blend**_ en Tableau. 
 
-**3. _Blend_ de datos en _Tableau**
+**3. _Blend_ de datos en _Tableau_**
 
 Se muestra ya en la práctica, desde Tableau, cómo hacer un _Blend_ de datos. El _Blend_ se hace a partir de un nuevo _dataset_ llamado 'Airline-Comparison' que pretende evaluar el rendimiento, en términos de ingresos, de dos Aerolíneas en diferentes regiones del mundo. Adicionalmente, se especifica cómo cambia el manejo de las _Marcas_ cuando se unen varias fuentes de datos por medio de un _Blend_ y la importancia de las _Etiquetas_ en sus visualizaciones. 
