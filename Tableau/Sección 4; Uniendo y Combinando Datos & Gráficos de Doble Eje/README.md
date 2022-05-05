@@ -26,5 +26,5 @@ Sobre cómo se comparan, correctamente, dos variables sobre un mismo eje y la im
 
 **5.	Crear _campos calculados_ en un Blend**
 
-Se muestra cómo crear campos calculados en un _Blend_ y la necesidad de que nuestras fórmulas, para campos calculados, se encuentren agregadas; adicionalmente, es ideal que haya una correspondencia en el nivel de granularidad de su campo calculado con el nivel de granularidad de las demás variables evaluadas y se recuerda, de paso, la importancia del uso de etiquetas. 
+Se muestra cómo crear campos calculados en un _Blend_ y la necesidad de que nuestras fórmulas, para campos calculados, se encuentren agregadas; adicionalmente, es ideal que haya una correspondencia en el nivel de granularidad de su campo calculado con el nivel de granularidad de las demás variables evaluadas y se recuerda, de paso, la importancia del uso de etiquetas y de distinciones visuales por medio de la _psicología del color_.
 
