@@ -23,3 +23,8 @@ Se muestra ya en la práctica, desde Tableau, cómo hacer un _Blend_ de datos. E
 **4.	Gráficos de _Doble Eje_**
 
 Sobre cómo se comparan, correctamente, dos variables sobre un mismo eje y la importancia de saber definir cuál sería su primera y su segunda variable. También se plantean algunos tips para procurar una visualización más limpia entre los gráficos de doble eje y la necesidad de sincronizar sus ejes posteriormente.
+
+**5.	Crear _campos calculados_ en un Blend**
+
+Se muestra cómo crear campos calculados en un _BLend_ y la necesidad de que nuestras fórmulas, para campos calculados, se encuentren agregadas; adicionalmente, es ideal que haya una correspondencia en el nivel de granularidad de su campo calculado con el nivel de granularidad de las demás variables evaluadas y se recuerda, de paso, la importancia del uso de etiquetas. 
+
