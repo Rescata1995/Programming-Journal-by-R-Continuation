@@ -55,7 +55,7 @@ dataset, por ejemplo del dataset 'data', sería así:
 tail(data, n=15)
 
 
-- 2.3 Función 'str'
+- 2.3 Función 'str' & 'levels'
 
 Nos permite conocer toda la estructura de nuestro dataset; 
 es decir, conocer la naturaleza de cada una de nuestras
@@ -64,6 +64,22 @@ con 'str' se puede conocer el tipo de dato que guarda cada
 una de las columnas y la cantidad de valores o datos, 
 no duplicados, de cada una de ellas (llamados 'levels').
 
+Como si fuera poco, podemos incluso saber los nombres 
+explicitos de esos valores o datos, no duplicados, 
+que pertenecen a cada una de las columnas en cuestión;
+esto, al hacer uso de la función 'levels' propiamente.
+
+Supongamos que queremos conocer los 'levels' de la columna
+'Grupo.Ingresos', del dataframe 'Data', sería así:
+
+"
+
+levels(Data$Grupo.Ingresos)
+
+# Se presentan los datos en un vector, confieso.
+
+
+"
 Las columnas o campos también se conocen como 'variables'.
 
 Lo más importante de esta función es que sirve de guía de 
