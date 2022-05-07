@@ -28,3 +28,6 @@ Sobre cómo se comparan, correctamente, dos variables sobre un mismo eje y la im
 
 Se muestra cómo crear campos calculados en un _Blend_ y la necesidad de que nuestras fórmulas, para campos calculados, se encuentren agregadas; adicionalmente, es ideal que haya una correspondencia en el nivel de granularidad de su campo calculado con el nivel de granularidad de las demás variables evaluadas y se recuerda, de paso, la importancia del uso de etiquetas y de hacer distinciones visuales jugando con la _psicología de los colores_.
 
+**6. El Modelo de Datos**
+
+El **Modelo de datos** básicamente se trata de una representación visual, sencilla, de una base de datos o esquema _(schema)_ donde se evidencian los campos de tipo _Primary Key_ que conectan entre sí cada uno de los _datasets_ de la base de datos en cuestión. Puntualmente dejamos claro que lo ideal para cruzar datos en un Modelo de datos es por medio de _**Relaciones**_; adicionalmente, se explica cuál sería el _dataset central_ dentro de una base de datos y se explica un poco el manejo de las propiedades de archivos _CSV_. 
