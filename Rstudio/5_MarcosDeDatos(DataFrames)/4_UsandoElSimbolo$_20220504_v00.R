@@ -60,9 +60,9 @@ sino, un valor más, común y corriente, de la columna 1; es decir, del campo
    por medio de $
 
 Sí, en efecto con el símbolo $ podemos acceder a todos los elementos de 
-un campo asistiéndonos de un vector; es decir, se crea un vector en el que
-se ubican todos los datos o valores para un determinado campo o columna 
-pasada. 
+un campo por medio de un objeto de tipo 'vector'; es decir, se crea un vector 
+en el que se ubican todos los datos o valores para un determinado campo o 
+columna pasada. 
 
 Por ejemplo, supongamos que queremos acceder a todos los elementos del campo
 'Tasa.Natalidad', del dataframe 'Data', por medio de un vector, sería así:
