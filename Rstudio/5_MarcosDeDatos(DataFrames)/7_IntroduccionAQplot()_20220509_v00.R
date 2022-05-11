@@ -7,7 +7,7 @@ dataset1 <- read.csv(file.choose())
 dataset1
 
 "
-1. qplot: instalación y activación de paquete 'ggplot2'.
+1. qplot: instalación y activación del paquete 'ggplot2'.
 
 Primero que nada aclarar que la funcion qplot() tiene su 
 propio paquete; es decir, para hacer uso de la función 
