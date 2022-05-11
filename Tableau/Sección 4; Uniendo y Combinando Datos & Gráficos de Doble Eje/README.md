@@ -30,4 +30,9 @@ Se muestra cómo crear campos calculados en un _Blend_ y la necesidad de que nue
 
 **6. El Modelo de Datos**
 
-El **Modelo de datos** básicamente se trata de una representación visual, sencilla, de una base de datos o esquema _(schema)_ donde se evidencian los campos de tipo _Primary Key_ que conectan entre sí cada uno de los _datasets_ de la base de datos en cuestión. Puntualmente dejamos claro que lo ideal para cruzar datos en un Modelo de datos es por medio de _**Relaciones**_; adicionalmente, se explica cuál sería el _dataset central_ dentro de un modelo de datos y se habla un poco sobre los posibles _bugs_ a la hora de relacionar las tablas. Finalmente _relacionamos_ todas nuestras tablas en Tableau y, en definitiva, se constituye lo que sería un **Modelo de datos**. 
+El **Modelo de datos** básicamente se trata de una representación visual, sencilla, de una base de datos o esquema _(schema)_ donde se evidencian los campos de tipo _Primary Key_ que conectan entre sí cada uno de los _datasets_ de la base de datos en cuestión. Puntualmente dejamos claro que lo ideal para cruzar datos en un Modelo de datos es por medio de _**Relaciones**_; adicionalmente, se explica cuál sería el _dataset central_ dentro de un modelo de datos y se habla un poco sobre las _inconsistencias_ a la hora de relacionar las tablas; especialmente, de las inconsistencias que podemos resolver mediante la manipulación de las propiedades de archivos de texto (CSV). Finalmente _relacionamos_ todas nuestras tablas en Tableau y, en definitiva, se constituye lo que sería un **Modelo de datos**. 
+
+**7. Desafío: Trabajando con Relaciones**
+
+Se deja claro cuáles son las observaciones a tener en cuenta cuando se intente visualizar _datasets_ determinados de un Modelo de datos; es decir, qué _datasets_ son los requeridos para que nuestra consulta sea exitosa. Adicionalmente, se enseña cuál sería el tratamiento ideal de los _datasets_ duplicados. 
+
