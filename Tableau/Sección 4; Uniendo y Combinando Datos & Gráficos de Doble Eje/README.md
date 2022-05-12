@@ -34,5 +34,5 @@ El **Modelo de datos** básicamente se trata de una representación visual, senc
 
 **7. Desafío: Trabajando con Relaciones**
 
-Se deja claro cuáles son las observaciones a tener en cuenta cuando se intente visualizar _datasets_ determinados de un Modelo de datos; es decir, qué _datasets_ son los requeridos para que nuestra consulta sea exitosa. Adicionalmente, se enseña cuál sería el tratamiento ideal de los _datasets_ duplicados. 
+Se deja claro cuáles son las observaciones a tener en cuenta cuando se intente visualizar _datasets_ seleccionados que provienen de un Modelo de datos; es decir, qué _datasets_ son los requeridos para que nuestra consulta sea exitosa. Adicionalmente, se enseña cuál sería el tratamiento ideal de los _datasets_ duplicados. Es preciso decir que el tipo de gráfico seleccionado para evaluar el concepto de 'Modelo de datos' y las _relaciones_ entre diferentes tablas fue un **Mapa**; entonces, dicho lo anterior, se recordó nuevamente el uso de _marcas_ en un entorno de _Mapas_ & también se mostró todos los tipos de capas (_backgrounds_) que un Mapa podría recibir desde la pestaña _Mapa_ de la barra de navegación principal de Tableau.  
 
