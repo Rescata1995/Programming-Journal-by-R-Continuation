@@ -1,9 +1,4 @@
-#Querido estudiante,
-#
-#Bienvenido a la práctica para esta sección. 
-#En este documento encontrarás el set de datos 
-#que te servirá para completar la sección. 
-#
+
 #Instrucciones para este set de datos:
 # 
 #Solamente te han sido proporcionados los vectores. 
@@ -12,11 +7,6 @@
 #Matrices:
 #- tiros_libres
 #- tiros_libres_intentados
-#
-#
-#Sinceramente,
-#Diego López
-#www.superdatascience.com
 #
 #Copyright: Estos sets de datos han sido preparados 
 #con información disponible al público.
@@ -88,19 +78,48 @@ tiros_libres_intentados
 
 
 "
-Aclaremos algo que no está claro, el ejercicio cuando se refiere a 
-'Tiros Libres' está hablando del total de tiros que SÍ fueron 
-anotados deesde un tiro libre. Tenemos que cada Tiro Libre vale un 
-punto (la única cesta que deja un punto en Basketball son las de tipo
-'Tiro Libre'), entonces, cada unidad de la variable 'Tiros Libres' 
-es lo mismo que una unidad de la variable 'Puntos'.
+Ejercicio.
 
-La variable 'Tiros Libres Intentados' hace referencia al total de 
-tiros libres hechos, hayan sido anotados o no. 
+Escenario: Te han proveído datos de dos estadísticas más 
+del juego: 
+ * Tiros Libres.
+ * Tiros Libres Intentados.
+ 
+Tienes que crear tres gráficos que muestren los siguientes 
+insights: 
 
-Entonces, la diferencia entre 'Tiros Libres Intentados' y Tiros 
-Libres' nos daría como resultado la cantidad de tiros libres que
-no fueron anotados. Dicho lo anterior, ahora sí resolvemos.
+ * Tiros libres intentados por juego.
+ * Precisión en Tiros libres.
+ * Estilo de Juego del jugador (preferencia de 2 vs 3 puntos)
+   excluyendo los Tiros Libres*.
+   
+ * Cada Tiro Libre cuenta como 1 punto.
+ 
+Los datos han sido suministrados en forma de vectores. 
+Vas a tener que crear dos matrices antes de proceder
+cone el análisis.
+ 
+"
+
+#Resolution
+
+"
+Aclaremos algo que no está claro, el ejercicio cuando se 
+refiere a 'Tiros Libres' está hablando del total de tiros 
+que SÍ fueron anotados deesde un tiro libre. Tenemos que 
+cada Tiro Libre vale un punto (la única cesta que deja un 
+punto en Basketball son las de tipo 'Tiro Libre'), entonces, 
+cada unidad de la variable 'Tiros Libres' es lo mismo que 
+una unidad de la variable 'Puntos'.
+
+La variable 'Tiros Libres Intentados' hace referencia al 
+total de tiros libres hechos, hayan sido anotados o no. 
+
+Entonces, la diferencia entre 'Tiros Libres Intentados' 
+y Tiros Libres' nos daría como resultado la cantidad de tiros 
+libres que no fueron anotados. Dicho lo anterior, ahora sí 
+resolvemos.
+
 "
 
 "
