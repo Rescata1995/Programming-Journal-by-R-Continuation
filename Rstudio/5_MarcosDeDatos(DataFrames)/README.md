@@ -19,3 +19,9 @@ En concreto, estaremos trabajando con el _dataset_ 'Seccion+5+-+DatosDemografico
 **7.** Se introduce la función **'qplot'**, pero antes se recuerda el proceso de instalación y activación del paquete 'ggplot2'. La función 'qplot' sirve para recrear gráficos que sirvan para el análisis visual de marcos de datos (Dataframes). Al igual, se enseñan y se ponen en práctica los principales parámetros que recibe la función 'qplot' como: 'data', 'x', 'y', 'size=I()', 'color=I()' & 'geom'. 
 
 **8.** Practicando visualizaciones con **'qplot'**. **Importante:** Cuando los parámetros 'size' o 'color' (de 'qplot') tienen como valor la definición de un campo o columna, para generar distinciones visuales por medio de sus valores o categorías, no es necesario que se asistan con la función 'I()'.
+
+**9.** Se introduce la función **'data.frame()'**, con la cual podríamos construir nuestros Marcos de datos por medio
+de vectores. Los dataframes al ser creados, por defecto, definen un nombre para cada una de sus columnas (cada vector
+define una columna; en consecuencia, la variable con la que se define un vector pasaría a ser el nombre de una columna en cuestión). De cualquier modo, también se mostrarón los dos métodos, _directo e indirecto_, para cambiar los nombres de las columnas del _Dataframe_ de su interés.
+
+**10.** Se introduce la función **'merge()'** (y a sus parámetros), con la cual podríamos combinar dos _dataframes_. La unión entre dos _dataframes_ se logra por medio de columnas de tipo _llave_, y lo ideal es que combine sus marcos de datos por medio de las columnas de tipo _llave_ que estén más _normalizadas_. **Tip:** Siempre que haga un _merge_ entre sus _dataframes_ trate de _limpiar_ sus datos si hace falta; por ejemplo, eliminar sus columnas duplicadas.
