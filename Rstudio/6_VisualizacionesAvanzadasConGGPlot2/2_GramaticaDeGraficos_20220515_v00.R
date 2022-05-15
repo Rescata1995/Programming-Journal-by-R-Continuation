@@ -1,6 +1,6 @@
 
 "
-1. Sobre la 'Grámatica de gráficos'
+1. Sobre la 'Gramática de gráficos'
 
 El concepto de 'Gramática de gráficos' pretende
 distinguir todos los elementos básicos, necesarios, 
