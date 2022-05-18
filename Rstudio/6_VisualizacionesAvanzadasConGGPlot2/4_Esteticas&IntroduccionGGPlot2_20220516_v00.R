@@ -28,27 +28,49 @@ parámetro: 'data'.
 
 "
 
-# Capa de las Estéticas (Sobre la función 'aes')
+# Capa de las Estéticas (¿Cuando usar la función 'aes'?)
 
 "
-1.2 Sobre la función 'aes': ejes 'x' e 'y', color & size
+1.2 Sobre la función 'aes()', los parámetros de la capa 
+de las estéticas: ejes 'x' e 'y', 'color' & 'size' e 
+Intro a las diferencias entre 'Mapping' vs 'Setting'
 
-'aes' es la función que define las 'estéticas' de nuestra
-visualización con 'ggplot'; es decir, para este caso, 
-las estéticas del dataframe 'Ratings+Peliculas'. Recuerde
-que con 'estéticas' nos podemos referir, por ejemplo, a la
-definición de los ejes 'x' e 'y': fundamentales en la 
-mayoria de casos para poder facultar la creación de una 
-gráfica bidimensional dentro de R. 
 
-En la capa de las Estéticas también se fundamenta todo lo 
-relacionado con el Mapeo de datos; pues, también se pueden
-definir los parámetros 'size' & 'color', de las figuras, por 
-medio del uso de campos; es decir, se tiene la facultad de poder 
-definir los campos como 'valores' dentro de dichos parámetros; 
-de hecho, se requiere que el campo 'Presupuesto_Millones' se
-distinga visualmente por medio de tamaños y que el campo
-'Genero' se distinga visualmente por medio de colores.
+'aes()' es la función que asiste a la definición de 
+los parámetros de las 'estéticas' (Marcas en Tableau), 
+de nuestra visualización con 'ggplot', en caso de que estos 
+parámetros sean definidos por medio de 'Mapeo de datos' 
+(Mapping); es decir, asumiendo la asignación de un campo 
+como valor de estos parámetros y no precisamente 
+'establecidendo' valores a secas (Setting) para ellos.
+
+Profundicemos. Cuando hablamos de que en la capa de las 
+estéticas los parámetros también pueden ser definidos 
+por medio de 'Mapeo de datos'; queremos decir de que,
+por ejemplo, los parámetros 'size' & 'color' también
+pueden ser definidos por medio del uso de campos; es decir, 
+se tiene la facultad de poder definir los campos como 
+'valores' de dichos parámetros; de hecho, se requiere en
+el resumen del proyecto que el campo 'Presupuesto_Millones' 
+se distinga visualmente por medio de tamaños (size) y que 
+el campo 'Genero' se distinga visualmente por medio de 
+colores (color). Para estos dos últimos casos puntuales,
+como está haciendo 'Mapping', en la asignación de esos 
+parámetros usted debe asistirse de la función 'aes()'
+previamente.
+
+Luego, en el caso contrario, si queramos 'establecer' 
+los valores de nuestros parámetros de la capa de las 
+estéticas, a secas, no es necesario asistirse con la 
+función 'aes()'; ni antes ni después.
+
+Ahora un recorderis. Con 'estéticas' nos podemos referir, 
+por ejemplo, a los parámetros de los ejes: 'x' e 'y', 
+fundamentales en la mayoria de casos para poder facultar 
+la creación de una gráfica bidimensional dentro de R. 
+
+Otros parámetros de las 'estéticas', como ya lo dijimos,
+son: 'size' & 'color'.
 
 Consejo: Para el parámetro 'size' lo recomendado es que 
 sea definido con una variable continua.
@@ -60,10 +82,12 @@ Retomemos...
 
 Entonces, como se podría estar imaginando, dentro de la 
 función 'aes()' es donde se pueden definir nuestros ejes 
-'x' e 'y', los tamaños & los colores. En el eje 'x', por 
-ejemplo, nos interesa definir el campo 'Rating_Criticos' & 
-en el eje 'y', por su parte, nos interesa definir el campo 
-'Rating_Audiencia' (Así se requiere). Adicionalmente, 
+'x' e 'y', los tamaños & los colores (Si vamos a 'Mapear'). 
+
+En el eje 'x', por ejemplo, nos interesa definir el campo 
+'Rating_Criticos' & en el eje 'y', por su parte, nos 
+interesa definir el campo 'Rating_Audiencia' 
+(Así lo requiere el Resumen del proyecto). Adicionalmente, 
 vamos a definir el parámetro 'size' con el campo 
 'Presupuesto_Millones' y el parámetro 'color' con el campo 
 'Genero'. Veamos.
@@ -86,22 +110,30 @@ Vamos allá!
 # Capa de las Geometrías (Sobre la función 'geom_point')
 
 "
-1.3 Sobre la función 'geom_point' y definición de figuras
+1.3 Sobre las funciones tipo 'geom_ ...' & sus figuras:
+    Introducción a funciones 'geom_point()' & 'geom_line()'
+    
+Las funciones 'geom_point' & 'geom_line()' básicamente 
+tienen la facultad de poder definir un tipo de figura con 
+el cual poder visualizar los datos nuestro dataframe; 
+con más precisión, los datos de los campos evaluados 
+dentro de la función 'ggplot'. 
 
-La función 'geom_point' básicamente define el tipo de figura 
-con la cual se estarán visualizando los datos de nuestro 
-dataframe; más precisamente, los datos de los campos evaluados 
-dentro de la función 'ggplot'.
+Puntualmente, las figuras que representa la función 
+'geom_point()' son como puntos o circulos rellenos;
+mientras que las figuras que representa la función 
+'geom_line()' son simplemente líneas.
 
-Por defecto, si sólo pasa la función 'geom_point()' sin
-definirle un valor, sin definir una figura; 'ggplot' será lo 
-suficientemente inteligente como para entender la complejidad 
-y particularidad de cada campo asignado y, en consecuencia, 
-tratará de adaptar la mejor figura posible para su diagrama.
+Hay más tipos de figuras; o, por decirlo de alguna forma, 
+hay más tipos de 'geom' para representar nuestros datos... 
+Sin embargo, de momento, sólo trabajaremos con estas dos. 
+Más adelante abordaremos más tipos de figuras con este 
+tipo de función 'geom_ ...'.
 
-Aclaración: La función 'geom_point()' se pasa por medio del 
-signo suma (+) por fuera de los paréntesis de la función 
-'ggplot'. Veamos.
+Aclaración: Cualquier función de tipo 'geom_ ...' se pasa 
+por medio del signo suma (+) por fuera de los paréntesis 
+de la función 'ggplot'. Dejemos claro esto por medio de 
+un ejemplo con la función 'geom_point()'.
 
 "
 ggplot(data=Datos, aes(x=Rating_Criticos, y=Rating_Audiencia,
