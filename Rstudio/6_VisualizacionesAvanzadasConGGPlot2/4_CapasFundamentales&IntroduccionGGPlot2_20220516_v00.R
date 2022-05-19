@@ -41,7 +41,7 @@ los parámetros de las 'estéticas' (Marcas en Tableau),
 de nuestra visualización con 'ggplot', en caso de que estos 
 parámetros sean definidos por medio de 'Mapeo de datos' 
 (Mapping); es decir, asumiendo la asignación de un campo 
-como valor de estos parámetros y no precisamente 
+como valor sobre estos parámetros y no precisamente 
 'establecidendo' valores a secas (Setting) para ellos.
 
 Profundicemos. Cuando hablamos de que en la capa de las 
@@ -54,15 +54,15 @@ se tiene la facultad de poder definir los campos como
 el resumen del proyecto que el campo 'Presupuesto_Millones' 
 se distinga visualmente por medio de tamaños (size) y que 
 el campo 'Genero' se distinga visualmente por medio de 
-colores (color). Para estos dos últimos casos puntuales,
-como está haciendo 'Mapping', en la asignación de esos 
-parámetros usted debe asistirse de la función 'aes()'
-previamente.
+colores (color): esto se hace con 'Mapeo de datos'. Dicho
+lo anterior, como está haciendo 'Mapping' en estos dos 
+últimos casos puntuales, usted debe previamente asistirse 
+de la función 'aes()' para la asignación de esos parámetros.
 
 Luego, en el caso contrario, si queramos 'establecer' 
 los valores de nuestros parámetros de la capa de las 
-estéticas, a secas, no es necesario asistirse con la 
-función 'aes()'; ni antes ni después.
+estéticas a secas, con valores concretos, no es necesario 
+asistirse con la función 'aes()'; ni antes ni después.
 
 Ahora un recorderis. Con 'estéticas' nos podemos referir, 
 por ejemplo, a los parámetros de los ejes: 'x' e 'y', 
@@ -82,7 +82,7 @@ Retomemos...
 
 Entonces, como se podría estar imaginando, dentro de la 
 función 'aes()' es donde se pueden definir nuestros ejes 
-'x' e 'y', los tamaños & los colores (Si vamos a 'Mapear'). 
+'x' e 'y', los tamaños & colores si requerimos 'Mapear'. 
 
 En el eje 'x', por ejemplo, nos interesa definir el campo 
 'Rating_Criticos' & en el eje 'y', por su parte, nos 
@@ -97,6 +97,8 @@ ggplot(data=Datos, aes(x=Rating_Criticos, y=Rating_Audiencia,
                        color=Genero, size=Presupuesto_Millones))
 
 "
+Aclaración importante:
+
 De momento, si ha prestado atención a las anteriores clases,
 sabrá que del anterior código de 'ggplot()' solo se podrá 
 visualizar un diagrama 'vacio' con sus respectivos ejes;

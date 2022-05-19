@@ -9,7 +9,7 @@ colnames(Datos) <- c("Peliculas", "Genero", "Rating_Criticos", "Rating_Audiencia
 # Uso optimizado de la Capa de las Geometrías 
 
 "
-Retomemenos la última función de 'ggplot' visualizada:
+Retomemos la última función de 'ggplot' visualizada:
 
 "
 

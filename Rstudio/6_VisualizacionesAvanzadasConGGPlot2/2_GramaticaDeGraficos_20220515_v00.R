@@ -52,14 +52,15 @@ Los adicionales u opcionales:
 
 D. Capa de la Estadística: Uso de formulas o 
 funciones para generar nuevas variables a partir de 
-las variables ya existentes. Esta es la capa donde
-tus datos pueden transformarse de tal manera que
-puedan generar otros. Dicho lo anterior, es preciso 
-decir que la Agregación de datos también hace parte 
-de esta capa, y no siempre es explicita la función 
-de agregación, u operación matemática, al ejecutarse:
-se pueden agrupar, o agregar datos, sin reflejar 
-explicitamente la operación matemática detras de eso.
+las variables ya existentes (Campos calculados). 
+Esta es la capa donde tus datos pueden transformarse 
+de tal manera que puedan generar otros. Dicho eso, 
+es preciso decir que la Agregación de datos también 
+hace parte de esta capa y no siempre es explicita la 
+función de agregación, u operación matemática, al 
+ejecutarse: se pueden agrupar, o agregar datos, 
+sin reflejar explicitamente la operación matemática 
+detras de eso.
 
 E. Capa de las Facetas: Se refiere a las diferentes
 representaciones que puede asumir un mismo gráfico
