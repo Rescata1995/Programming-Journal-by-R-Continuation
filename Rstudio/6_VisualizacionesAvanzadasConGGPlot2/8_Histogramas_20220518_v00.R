@@ -6,7 +6,7 @@ colnames(Datos) <- c("Peliculas", "Genero", "Rating_Criticos", "Rating_Audiencia
                      "Presupuesto_Millones", "Año")
 
 
-# Histogramas & Gráficos de Densidad
+# Histogramas
 
 "
 Ambas formas de representación visual de datos hacen 
@@ -104,6 +104,6 @@ de color negro. Observe:
 
 "
 
-s <- ggplot(data=Datos, aes(x=Presupuesto_Millones))
+h <- ggplot(data=Datos, aes(x=Presupuesto_Millones))
 
-s + geom_histogram(binwidth = 30, aes(fill=Genero), color="black")
+h + geom_histogram(binwidth = 30, aes(fill=Genero), color="black")
