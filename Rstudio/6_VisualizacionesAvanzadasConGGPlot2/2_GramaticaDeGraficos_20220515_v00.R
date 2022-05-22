@@ -62,17 +62,21 @@ ejecutarse: se pueden agrupar, o agregar datos,
 sin reflejar explicitamente la operación matemática 
 detras de eso.
 
-E. Capa de las Facetas: Se refiere a las diferentes
-representaciones que puede asumir un mismo gráfico
-por ser dividido, en varias partes, por alguna 
-categoría; es decir, por 'granular' sus datos.
+E. Capa de las Facetas: Cuando se habla de la Capa de 
+las Facetas se refiere a las diferentes representaciones 
+visuales que puede asumir un gráfico luego de ser 
+dividido en varias partes según el número de categorías 
+que éste contenga; es decir, a partir de la 
+'granularidad de los datos' de un campo, se crean 
+representaciones visuales por separado para cada uno 
+de los 'levels' o categorías del campo en cuestión.
 
-Un ejemplo. Al categorizar o 'granular' los datos 
-según un nível de ingreso, suponiendo que tenemos
-ingresos 'altos', 'medios' & 'bajos' en nuestros
-datos, creamos tres (3) facetas; entonces, por cada 
-representación de los datos, según nível de ingreso,
-sería el equivalente a una 'faceta'.
+Un ejemplo. Al categorizar o 'granular' los datos por 
+nível de ingreso, suponiendo que tenemos un campo que
+evalúa niveles de ingresos que pueden llegar a ser 
+'altos', 'medios' & 'bajos', se crean tres (3) facetas; 
+entonces, por cada nível de ingreso evaluado, se crea 
+una 'faceta' o una representación visual distinguida.
 
 F. Capa de las Coordenadas: Si tus gráficos tienen
 coordenadas en el eje de las x e y o coordenadas de
