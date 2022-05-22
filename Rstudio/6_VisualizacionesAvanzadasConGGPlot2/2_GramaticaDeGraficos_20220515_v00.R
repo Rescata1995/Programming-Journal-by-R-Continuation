@@ -86,14 +86,15 @@ las Coordenadas: cómo querer visualizar tu gráfico
 luego de que ya esté completamente construido.
 
 G. Capa del Tema: Tiene que ver con la parte visual
-de tu visualización que no está propiamente 
-contenida dentro de tu(s) gráfico(s); es decir, 
-en realidad no hacen parte de tus datos representados
-visualmente, sino, se trata de datos tipo 'meta'. 
-Un buen ejemplo de estos 'metadatos' sería el título 
-que le asignas a tu gráfico, esa etiqueta que está 
-situada por fuera del gráfico mismo; o, bien, otro
-ejemplo de estos 'metadatos' también podría ser el 
-uso de leyendas.
+de la presentación que no está propiamente contenida 
+dentro de su visualización de datos evaluados; 
+es decir, en realidad no hacen parte de tus datos 
+representados visualmente, sino, se trata de datos 
+tipo 'meta'. Un buen ejemplo de estos 'metadatos' 
+sería el título que le asignas a tu gráfico, esa 
+etiqueta que está situada por fuera del gráfico mismo; 
+o, bien, otro ejemplo de estos 'metadatos' también 
+podría ser el uso de leyendas y sus diversas 
+configuraciones.
 
 "
