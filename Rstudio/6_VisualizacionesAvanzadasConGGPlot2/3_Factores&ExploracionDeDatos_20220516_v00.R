@@ -1,6 +1,6 @@
 
 "
-Sobre los tipos de dato 'Factores' & La exploración de datos en general
+Sobre los tipos de dato 'Factor' & La exploración de datos en general
 
 "
 
@@ -10,7 +10,7 @@ Datos <- read.csv(file.choose())
 head(Datos)
 
 "
-Extra: Tratamiento ideal de archuivos con 'headlines' que usan símbolos 
+Extra: Tratamiento ideal de archivos con 'headlines' que usan símbolos 
        especiales y que, posteriormente, son importados en R.
        
 Hay veces que los campos de un archivo importado en R vienen con nombres
@@ -116,11 +116,12 @@ es decir, para poder crear facetas según un año de estudio evaluado.
 
 
 "
-2. Revisión de la Agregación de los datos por medio de la función 'summary'
+2. Revisión de la Estructura & tipo de dato de cada campo por medio de la 
+función 'summary'
 
-Se pretende visualizar algunas agregaciones de datos sobre cada campo del
-dataframe 'Ratings+Peliculas'; almacenado en la variable 'Datos'. Tenga en 
-cuenta que la función 'summary' hará en resumen de cada columna tomando 
+Se pretende visualizar algunas caracteristicas de los tipos de dato sobre 
+cada campo del dataframe 'Ratings+Peliculas', almacenado en la variable 'Datos'. 
+Tenga en cuenta que la función 'summary' hará en resumen de cada columna tomando 
 en cuenta el tipo de dato que conserve la misma; es decir, no es el mismo
 tipo de resumen que se ve en una columna con tipo de dato 'numérico' al 
 resumen que se ve en una columna con tipo de dato 'factor' o categórico. 
