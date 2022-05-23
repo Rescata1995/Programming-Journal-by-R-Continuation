@@ -14,6 +14,6 @@
 
 **6.** Se aborda el concepto de la **'Sobreescritura de estéticas'** y se responde a la pregunta: _¿En qué condiciones vale la pena sobre-escribir estéticas?_
 
-**7.** Se evalúan las diferencias, en código, de cómo establecer un 'Mapping vs Setting' de datos.
+**7.** Se evalúan las diferencias, en código, de cómo establecer un **'Mapping vs Setting'** de datos.
 
 
