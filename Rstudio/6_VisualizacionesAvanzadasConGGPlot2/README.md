@@ -16,6 +16,7 @@
 
 **7.** Se evalúan las diferencias, en código, de cómo establecer un **'Mapping vs Setting'** de datos.
 
-**8.** Se introduce una nueva función de la capa de las geometrías, **'geom_histogram()'**, y a sus parámetros. 'geom_histogram()' tiene la facultad de generar _Histogramas_ que nos permiten evaluar, analíticamente, una única variable. Alguno de los parámetros más usados de 'geom_histogram()' son: **'binwidth', 'fill' & 'color'**. 
+**8.** Se introduce una nueva función de la capa de las geometrías, **'geom_histogram()'**, y a sus parámetros. 'geom_histogram()' tiene la facultad de generar _Histogramas_ que nos permiten evaluar, analíticamente, el comportamiento de una única variable. Alguno de los parámetros más usados de 'geom_histogram()' son: **'binwidth', 'fill' & 'color'**.
 
+**9.** Se enseñan algunas formas o _tips_ recomendables para trabajar con sus capas fundamentales; es decir, con la capa de los datos, la capa de las estéticas & la capa de las geometrías. Todo al final depende de su necesidad.
 
