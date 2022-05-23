@@ -10,6 +10,10 @@
 
 **4.** Se introduce la función **'ggplot()'** y a su parámetro preferencial 'data'. Adicionalmente, se introduce la Capa de las Estéticas y a su función **'aes()'**, que es de utilidad para el _Mapping de datos_. 'aes()', adicionalmente, puede recibir varios parámetros como: **'color', 'size', 'x', 'y'**, ... Sin embargo 'color' & 'size', como otros parámetros de las estéticas, y especialmente en los casos de _'Setting de datos'_, pueden ser definidos directamente sobre la función de 'ggplot()'; sin asistencia de la función 'aes()'. Por último, se introduce la Capa de las Geometrías y a las funciones tipo 'geom_ ...'.
 
-**5.** La asignación de 'ggplot' a un Objeto. Se introduce el concepto de 'Graficar con Capas Geométricas': sobre cómo configurar la visualización de capas geométricas sobre un Objeto & sobre cómo se asignan múltiples capas geométricas al objeto en cuestión; especial cuidado con esta última, pues, existe la 'Superposición de capas Geométricas en un Objeto'; es decir, cualquiera que sea el orden en el que usted llame a sus capas geométricas, debe saber que las últimas llamadas se superpondrán sobre las primeras. Por último se introducen dos tipos de funciones, de la capa de las Geometrías, para representar dos tipos de gráficos diferentes: **'geom_point()' & 'geom_line()'**. 
+**5.** La asignación de 'ggplot' a un Objeto. Se introduce el concepto de **'Graficar con Capas Geométricas'**: sobre cómo configurar la visualización de capas geométricas sobre un Objeto & sobre cómo se asignan múltiples capas geométricas al objeto en cuestión; especial cuidado con esta última, pues, existe la **'Superposición de capas Geométricas en un Objeto'**; es decir, cualquiera que sea el orden en el que usted llame a sus capas geométricas, debe saber que las últimas llamadas se superpondrán sobre las primeras. Por último se introducen dos tipos de funciones, de la capa de las Geometrías, para representar dos tipos de gráficos diferentes: **'geom_point()' & 'geom_line()'**. 
+
+**6.** Se aborda el concepto de la **'Sobreescritura de estéticas'** y se responde a la pregunta: _¿En qué condiciones vale la pena sobre-escribir estéticas?_
+
+**7.** Se evalúan las diferencias, en código, de cómo establecer un 'Mapping vs Setting' de datos.
 
 
