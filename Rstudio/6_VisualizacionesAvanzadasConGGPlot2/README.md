@@ -16,4 +16,6 @@
 
 **7.** Se evalúan las diferencias, en código, de cómo establecer un **'Mapping vs Setting'** de datos.
 
+**8.** Se introduce una nueva función de la capa de las geometrías, **'geom_histogram()'**, y a sus parámetros. 'geom_histogram()' tiene la facultad de generar _Histogramas_ que nos permiten evaluar, analíticamente, una única variable. Alguno de los parámetros más usados de 'geom_histogram()' son: **'binwidth', 'fill' & 'color'**. 
+
 
