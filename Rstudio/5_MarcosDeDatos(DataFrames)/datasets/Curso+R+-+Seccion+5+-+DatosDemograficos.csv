@@ -1,0 +1,196 @@
+Nombre.Pais,Codigo.Pais,Tasa.Natalidad,Penetracion.Internet,Grupo.Ingresos
+Aruba,ABW,10.244,78.9,Ingreso alto
+Afghanistan,AFG,35.253,5.9,Ingreso bajo
+Angola,AGO,45.985,19.1,Ingreso medio alto
+Albania,ALB,12.877,57.2,Ingreso medio alto
+United Arab Emirates,ARE,11.044,88,Ingreso alto
+Argentina,ARG,17.716,59.9,Ingreso alto
+Armenia,ARM,13.308,41.9,Ingreso medio bajo
+Antigua and Barbuda,ATG,16.447,63.4,Ingreso alto
+Australia,AUS,13.2,83,Ingreso alto
+Austria,AUT,9.4,80.6188,Ingreso alto
+Azerbaijan,AZE,18.3,58.7,Ingreso medio alto
+Burundi,BDI,44.151,1.3,Ingreso bajo
+Belgium,BEL,11.2,82.1702,Ingreso alto
+Benin,BEN,36.44,4.9,Ingreso bajo
+Burkina Faso,BFA,40.551,9.1,Ingreso bajo
+Bangladesh,BGD,20.142,6.63,Ingreso medio bajo
+Bulgaria,BGR,9.2,53.0615,Ingreso medio alto
+Bahrain,BHR,15.04,90.0000397,Ingreso alto
+"Bahamas, The",BHS,15.339,72,Ingreso alto
+Bosnia and Herzegovina,BIH,9.062,57.79,Ingreso medio alto
+Belarus,BLR,12.5,54.17,Ingreso medio alto
+Belize,BLZ,23.092,33.6,Ingreso medio alto
+Bermuda,BMU,10.4,95.3,Ingreso alto
+Bolivia,BOL,24.236,36.94,Ingreso medio bajo
+Brazil,BRA,14.931,51.04,Ingreso medio alto
+Barbados,BRB,12.188,73,Ingreso alto
+Brunei Darussalam,BRN,16.405,64.5,Ingreso alto
+Bhutan,BTN,18.134,29.9,Ingreso medio bajo
+Botswana,BWA,25.267,15,Ingreso medio alto
+Central African Republic,CAF,34.076,3.5,Ingreso bajo
+Canada,CAN,10.9,85.8,Ingreso alto
+Switzerland,CHE,10.2,86.34,Ingreso alto
+Chile,CHL,13.385,66.5,Ingreso alto
+China,CHN,12.1,45.8,Ingreso medio alto
+Cote d'Ivoire,CIV,37.32,8.4,Ingreso medio bajo
+Cameroon,CMR,37.236,6.4,Ingreso medio bajo
+"Congo, Dem. Rep.",COD,42.394,2.2,Ingreso bajo
+"Congo, Rep.",COG,37.011,6.6,Ingreso medio bajo
+Colombia,COL,16.076,51.7,Ingreso medio alto
+Comoros,COM,34.326,6.5,Ingreso bajo
+Cabo Verde,CPV,21.625,37.5,Ingreso medio bajo
+Costa Rica,CRI,15.022,45.96,Ingreso medio alto
+Cuba,CUB,10.4,27.93,Ingreso medio alto
+Cayman Islands,CYM,12.5,74.1,Ingreso alto
+Cyprus,CYP,11.436,65.4548,Ingreso alto
+Czech Republic,CZE,10.2,74.1104,Ingreso alto
+Germany,DEU,8.5,84.17,Ingreso alto
+Djibouti,DJI,25.486,9.5,Ingreso medio bajo
+Denmark,DNK,10,94.6297,Ingreso alto
+Dominican Republic,DOM,21.198,45.9,Ingreso medio alto
+Algeria,DZA,24.738,16.5,Ingreso medio alto
+Ecuador,ECU,21.07,40.35368423,Ingreso medio alto
+"Egypt, Arab Rep.",EGY,28.032,29.4,Ingreso medio bajo
+Eritrea,ERI,34.8,0.9,Ingreso bajo
+Spain,ESP,9.1,71.635,Ingreso alto
+Estonia,EST,10.3,79.4,Ingreso alto
+Ethiopia,ETH,32.925,1.9,Ingreso bajo
+Finland,FIN,10.7,91.5144,Ingreso alto
+Fiji,FJI,20.463,37.1,Ingreso medio alto
+France,FRA,12.3,81.9198,Ingreso alto
+"Micronesia, Fed. Sts.",FSM,23.511,27.8,Ingreso medio bajo
+Gabon,GAB,30.555,9.2,Ingreso medio alto
+United Kingdom,GBR,12.2,89.8441,Ingreso alto
+Georgia,GEO,13.332,43.3,Ingreso medio bajo
+Ghana,GHA,33.131,12.3,Ingreso medio bajo
+Guinea,GIN,37.337,1.6,Ingreso bajo
+"Gambia, The",GMB,42.525,14,Ingreso bajo
+Guinea-Bissau,GNB,37.503,3.1,Ingreso bajo
+Equatorial Guinea,GNQ,35.362,16.4,Ingreso alto
+Greece,GRC,8.5,59.8663,Ingreso alto
+Grenada,GRD,19.334,35,Ingreso medio alto
+Greenland,GRL,14.5,65.8,Ingreso alto
+Guatemala,GTM,27.465,19.7,Ingreso medio bajo
+Guam,GUM,17.389,65.4,Ingreso alto
+Guyana,GUY,18.885,35,Ingreso medio bajo
+"Hong Kong SAR, China",HKG,7.9,74.2,Ingreso alto
+Honduras,HND,21.593,17.8,Ingreso medio bajo
+Croatia,HRV,9.4,66.7476,Ingreso alto
+Haiti,HTI,25.345,10.6,Ingreso bajo
+Hungary,HUN,9.2,72.6439,Ingreso alto
+Indonesia,IDN,20.297,14.94,Ingreso medio bajo
+India,IND,20.291,15.1,Ingreso medio bajo
+Ireland,IRL,15,78.2477,Ingreso alto
+"Iran, Islamic Rep.",IRN,17.9,29.95,Ingreso medio alto
+Iraq,IRQ,31.093,9.2,Ingreso medio alto
+Iceland,ISL,13.4,96.5468,Ingreso alto
+Israel,ISR,21.3,70.8,Ingreso alto
+Italy,ITA,8.5,58.4593,Ingreso alto
+Jamaica,JAM,13.54,37.1,Ingreso medio alto
+Jordan,JOR,27.046,41,Ingreso medio alto
+Japan,JPN,8.2,89.71,Ingreso alto
+Kazakhstan,KAZ,22.73,54,Ingreso medio alto
+Kenya,KEN,35.194,39,Ingreso medio bajo
+Kyrgyz Republic,KGZ,27.2,23,Ingreso medio bajo
+Cambodia,KHM,24.462,6.8,Ingreso bajo
+Kiribati,KIR,29.044,11.5,Ingreso medio bajo
+"Korea, Rep.",KOR,8.6,84.77,Ingreso alto
+Kuwait,KWT,20.575,75.46,Ingreso alto
+Lao PDR,LAO,27.051,12.5,Ingreso medio bajo
+Lebanon,LBN,13.426,70.5,Ingreso medio alto
+Liberia,LBR,35.521,3.2,Ingreso bajo
+Libya,LBY,21.425,16.5,Ingreso medio alto
+St. Lucia,LCA,15.43,46.2,Ingreso medio alto
+Liechtenstein,LIE,9.2,93.8,Ingreso alto
+Sri Lanka,LKA,17.863,21.9,Ingreso medio bajo
+Lesotho,LSO,28.738,5,Ingreso medio bajo
+Lithuania,LTU,10.1,68.4529,Ingreso alto
+Luxembourg,LUX,11.3,93.7765,Ingreso alto
+Latvia,LVA,10.2,75.2344,Ingreso alto
+"Macao SAR, China",MAC,11.256,65.8,Ingreso alto
+Morocco,MAR,21.023,56,Ingreso medio bajo
+Moldova,MDA,12.141,45,Ingreso medio bajo
+Madagascar,MDG,34.686,3,Ingreso bajo
+Maldives,MDV,21.447,44.1,Ingreso medio alto
+Mexico,MEX,19.104,43.46,Ingreso medio alto
+"Macedonia, FYR",MKD,11.222,65.24,Ingreso medio alto
+Mali,MLI,44.138,3.5,Ingreso bajo
+Malta,MLT,9.5,68.9138,Ingreso alto
+Myanmar,MMR,18.119,1.6,Ingreso medio bajo
+Montenegro,MNE,11.616,60.31,Ingreso medio alto
+Mongolia,MNG,24.275,20,Ingreso medio alto
+Mozambique,MOZ,39.705,5.4,Ingreso bajo
+Mauritania,MRT,33.801,6.2,Ingreso medio bajo
+Mauritius,MUS,10.9,39,Ingreso medio alto
+Malawi,MWI,39.459,5.05,Ingreso bajo
+Malaysia,MYS,16.805,66.97,Ingreso medio alto
+Namibia,NAM,29.937,13.9,Ingreso medio alto
+New Caledonia,NCL,17,66,Ingreso alto
+Niger,NER,49.661,1.7,Ingreso bajo
+Nigeria,NGA,40.045,38,Ingreso medio bajo
+Nicaragua,NIC,20.788,15.5,Ingreso medio bajo
+Netherlands,NLD,10.2,93.9564,Ingreso alto
+Norway,NOR,11.6,95.0534,Ingreso alto
+Nepal,NPL,20.923,13.3,Ingreso bajo
+New Zealand,NZL,13.12,82.78,Ingreso alto
+Oman,OMN,20.419,66.45,Ingreso alto
+Pakistan,PAK,29.582,10.9,Ingreso medio bajo
+Panama,PAN,19.68,44.03,Ingreso medio alto
+Peru,PER,20.198,39.2,Ingreso medio alto
+Philippines,PHL,23.79,37,Ingreso medio bajo
+Papua New Guinea,PNG,28.899,6.5,Ingreso medio bajo
+Poland,POL,9.6,62.8492,Ingreso alto
+Puerto Rico,PRI,10.8,73.9,Ingreso alto
+Portugal,PRT,7.9,62.0956,Ingreso alto
+Paraguay,PRY,21.588,36.9,Ingreso medio alto
+West Bank and Gaza,PSE,30.394,46.6,Ingreso medio bajo
+French Polynesia,PYF,16.393,56.8,Ingreso alto
+Qatar,QAT,11.94,85.3,Ingreso alto
+Romania,ROU,8.8,49.7645,Ingreso medio alto
+Russian Federation,RUS,13.2,67.97,Ingreso alto
+Rwanda,RWA,32.689,9,Ingreso bajo
+Saudi Arabia,SAU,20.576,60.5,Ingreso alto
+Sudan,SDN,33.477,22.7,Ingreso medio bajo
+Senegal,SEN,38.533,13.1,Ingreso medio bajo
+Singapore,SGP,9.3,81,Ingreso alto
+Solomon Islands,SLB,30.578,8,Ingreso medio bajo
+Sierra Leone,SLE,36.729,1.7,Ingreso bajo
+El Salvador,SLV,17.476,23.1093,Ingreso medio bajo
+Somalia,SOM,43.891,1.5,Ingreso bajo
+Serbia,SRB,9.2,51.5,Ingreso medio alto
+South Sudan,SSD,37.126,14.1,Ingreso bajo
+Sao Tome and Principe,STP,34.537,23,Ingreso medio bajo
+Suriname,SUR,18.455,37.4,Ingreso medio alto
+Slovak Republic,SVK,10.1,77.8826,Ingreso alto
+Slovenia,SVN,10.2,72.6756,Ingreso alto
+Sweden,SWE,11.8,94.7836,Ingreso alto
+Swaziland,SWZ,30.093,24.7,Ingreso medio bajo
+Seychelles,SYC,18.6,50.4,Ingreso alto
+Syrian Arab Republic,SYR,24.043,26.2,Ingreso medio bajo
+Chad,TCD,45.745,2.3,Ingreso bajo
+Togo,TGO,36.08,4.5,Ingreso bajo
+Thailand,THA,11.041,28.94,Ingreso medio alto
+Tajikistan,TJK,30.792,16,Ingreso medio bajo
+Turkmenistan,TKM,21.322,9.6,Ingreso medio alto
+Timor-Leste,TLS,35.755,1.1,Ingreso medio bajo
+Tonga,TON,25.409,35,Ingreso medio alto
+Trinidad and Tobago,TTO,14.59,63.8,Ingreso alto
+Tunisia,TUN,19.8,43.8,Ingreso medio alto
+Turkey,TUR,16.836,46.25,Ingreso medio alto
+Tanzania,TZA,39.518,4.4,Ingreso bajo
+Uganda,UGA,43.474,16.2,Ingreso bajo
+Ukraine,UKR,11.1,41,Ingreso medio bajo
+Uruguay,URY,14.374,57.69,Ingreso alto
+United States,USA,12.5,84.2,Ingreso alto
+Uzbekistan,UZB,22.5,38.2,Ingreso medio bajo
+St. Vincent and the Grenadines,VCT,16.306,52,Ingreso medio alto
+"Venezuela, RB",VEN,19.842,54.9,Ingreso alto
+Virgin Islands (U.S.),VIR,10.7,45.3,Ingreso alto
+Vietnam,VNM,15.537,43.9,Ingreso medio bajo
+Vanuatu,VUT,26.739,11.3,Ingreso medio bajo
+Samoa,WSM,26.172,15.3,Ingreso medio bajo
+"Yemen, Rep.",YEM,32.947,20,Ingreso medio bajo
+South Africa,ZAF,20.85,46.5,Ingreso medio alto
+Zambia,ZMB,40.471,15.4,Ingreso medio bajo
+Zimbabwe,ZWE,35.715,18.5,Ingreso bajo
