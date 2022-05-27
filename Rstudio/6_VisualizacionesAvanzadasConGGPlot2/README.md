@@ -20,3 +20,10 @@
 
 **9.** Se enseñan algunas formas o _tips_ recomendados para trabajar con sus capas fundamentales; es decir, con la capa de los datos, la capa de las estéticas & la capa de las geometrías. Todo al final depende de su necesidad.
 
+**10.** Se introduce una nueva función de la capa de las geometrías, **'geom_smooth()'**, y a sus parámetros. 
+'geom_smooth' es una función del tipo 'geom_ ...' que sirve como recurso para observar tendencias, y eventuales correlaciones, entre sus variables por medio de un tipo de gráfico que representa _bandas y medías moviles_. Adicionalmente, se explica cómo interpretar la relación que hay entre las bandas con las medias moviles (en caso que haga uso de ambos recursos). Finalmente, se señala la _camaradería_ que hay entre la función 'geom_smooth()', de la capa de las Geometrías, con los parámetros de la capa de las Estéticas.
+
+**11.** Se introduce la función principal de la capa de las facetas, **'facet_grid()'**, y la utilidad de los símbolos **'~.' & '.~'** o el caso particular **'facet_grid(Campo1~Campo2)'** con ejemplo incluido. Finalmente, se recuerda la importancia de la sincronización de los Ejes & se introduce el parámetro **'scales'** de la función 'facet_grid()'.
+
+**12.** Se introduce la función principal de la capa de las coordenadas, **'coord_cartesian()'**, y a sus parámetros **'ylim()' y 'xlim()'**; muy prácticos para hacer _'zoom in'_ y/o _'zoom out'_ sobre, por ejemplo, sus _facetas_.
+
