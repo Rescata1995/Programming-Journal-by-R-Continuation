@@ -4,8 +4,8 @@ _Este README.md está completamente sincronizado con el documento "CRM & Salesfo
 
 En esta sección estaremos hablando acerca de qué es **CRM** y su relación con la plataforma gestora de datos de clientes **Salesforce**. Adicionalmente, se muestra a modo de introducción **Cómo gestionar los datos de sus clientes** al procurar la _limpieza_ de los mismos. Varios _tips_ para eso: 
 
-**1.** Centralización de sus datos
+**1.** Centralización de sus datos.
 
-**2.** Veracidad de la información
+**2.** Veracidad de la información.
 
-**3.** Tenencia de un proceso y uso claro
+**3.** Tenencia de un proceso y uso claro.
