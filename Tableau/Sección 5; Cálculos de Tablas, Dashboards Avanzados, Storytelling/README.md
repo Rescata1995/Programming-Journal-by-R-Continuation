@@ -2,5 +2,4 @@ _Este README.md está completamente sincronizado con el documento "Cálculos de 
 
 **Sección 5; Cálculos de Tablas, Dashboards Avanzados, Storytelling.**
 
-En esta sección estaremos trabajando con los datasets 'Airline-Comparison', 'AmazingMartEU2' & 'Brazilian-E-commerce-Dataset'; con los cuales se pretende poner en práctica, desde Tableau, la unión y la combinación de datos y, adicionalmente, los gráficos de doble eje; en contexto, se pretende ver cómo están conectadas entre sí las diferentes fuentes de datos y aprender a trabajar con ellas al unirlas.
-
+En esta sección estaremos trabajando con los datasets 'Airline-Comparison', 'AmazingMartEU2' & 'Brazilian-E-commerce-Dataset'; con los cuales se pretende crear _**Dashboards Avanzados** altamente visuales, interactivos e informativos_. Algunos temas extras: _**Cálculos de Tablas & Parámetros**_.
