@@ -2,4 +2,6 @@ _Este README.md está completamente sincronizado con el documento "Cálculos de 
 
 **Sección 5; Cálculos de Tablas, Dashboards Avanzados, Storytelling.**
 
-En esta sección estaremos trabajando con el dataset 'UK-Bank-Customers', con el cual se pretende crear _**Dashboards Avanzados** altamente visuales, informativos e interactivos_. Adicionalmente estaremos realizando _**Cálculos de Tablas & Parámetros**_ & estaremos contruyendo, también, historias a partir de nuestros datos, lo que se conoce como: _**Storytelling**_.
+En esta sección estaremos trabajando con el dataset **'UK-Bank-Customers'**, con el cual se pretende crear _**Dashboards Avanzados** altamente visuales, informativos e interactivos_. Adicionalmente estaremos realizando _**Cálculos de Tablas & Parámetros**_ & estaremos contruyendo, también, historias a partir de nuestros datos, lo que se conoce como: _**Storytelling**_. Es preciso mencionar que el _dataset_ 'UK-Bank-Customers' contiene datos _simulados_ de clientes de un Banco del Reino Unido. 
+
+Lo que se requiere es hacer un análisis de datos apartir de los datos contenidos sobre los clientes, y cómo se comportan éstos, por cada región del Reino Unido.
