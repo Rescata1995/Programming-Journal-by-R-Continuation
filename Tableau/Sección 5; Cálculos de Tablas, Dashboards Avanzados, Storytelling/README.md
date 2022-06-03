@@ -2,4 +2,4 @@ _Este README.md está completamente sincronizado con el documento "Cálculos de 
 
 **Sección 5; Cálculos de Tablas, Dashboards Avanzados, Storytelling.**
 
-En esta sección estaremos trabajando con los datasets 'Airline-Comparison', 'AmazingMartEU2' & 'Brazilian-E-commerce-Dataset'; con los cuales se pretende crear _**Dashboards Avanzados** altamente visuales, interactivos e informativos_. Algunos temas extras: _**Cálculos de Tablas & Parámetros**_.
+En esta sección estaremos trabajando con el dataset 'UK-Bank-Customers', con el cual se pretende crear _**Dashboards Avanzados** altamente visuales, informativos e interactivos_. Adicionalmente estaremos realizando _**Cálculos de Tablas & Parámetros**_ & estaremos contruyendo, también, historias a partir de nuestros datos, lo que se conoce como: _**Storytelling**_.
