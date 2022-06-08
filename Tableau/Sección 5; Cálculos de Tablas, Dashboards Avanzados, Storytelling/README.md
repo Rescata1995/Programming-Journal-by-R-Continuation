@@ -9,3 +9,7 @@ Lo que se requiere es hacer un análisis de datos sobre los datos contenidos par
 **1. Mapping: Cómo establecer Roles Geográficos**
 
 Se muestra cómo rastrear puntos geográficos marginados/ignorados y, en general, cómo tratar los valores desconocidos por Tableau al ser arrastrados a una _Worksheet_. Adicionalmente, se pone en práctica las funciones de Agregación de tipo _Conteo_ y se deja claro las diferencias entre Recuento (Distintos) & Recuento.
+
+**2. Creando Cálculos de Tablas por Género**
+
+Se muestra la necesidad de crear, en ocasiones, un _campo calculado_ que haga el **conteo total del número de registros** para un _dataset_ evaluado. También, se introduce un nuevo tipo de gráfico: **Diagrama de Sectores o Gráfico Circular**, éstos se pueden generar de forma manual o automática. Adicionalmente, se muestra cómo puede lograr que los datos representados en su gráfico circular guarden la proporcionalidad consistente para cada porción evaluada, esto se logra mediante la introducción de una nueva _marca_ abordada en Tableau: la _marca_ **Ángulo**. Finalmente, se enseña cómo se elabora un **Cálculo de Tablas Rápido** al mostrar cómo convertir valores absolutos en valores relativos (porcentuales) cuando se pretende ver la proporción de cada nivel o porción sobre el total de una categoría evaluada (esto, también, se pone en práctica extendidamente sobre los gráficos de tipo 'torta').
