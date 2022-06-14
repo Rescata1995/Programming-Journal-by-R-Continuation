@@ -27,8 +27,7 @@ Además, se enseña a limpiar el dashboard y a hacer uso del ordenamiento en vis
 
 **5.	Añadiendo colores.**
 
-Se profundiza el uso de la opción 'Color' de _Marcas_, se hace una introducción a las ediciones diversas, se presenta la 'Paleta de colores' y la importancia de jugar con la _psicología_ de colores. Adicionalmente, se responde a la pregunta de cuál sería un buen enfoque, es importante tener en cuenta que su visualización debe representar la mayor
-riqueza visual de acuerdo a la pregunta o consulta que se pretende responder.
+Se profundiza el uso de la opción 'Color' de _Marcas_, se hace una introducción a las ediciones diversas, se presenta la 'Paleta de colores' y la importancia de jugar con la _psicología_ de colores. Adicionalmente, se responde a la pregunta de cuál sería un buen enfoque. Es importante tener en cuenta que su visualización debe representar la mayor riqueza visual de acuerdo a la pregunta o consulta que se pretenda responder.
 
 **6.	Añadiendo etiquetas y formato.**
 
@@ -37,4 +36,4 @@ Introducción a etiquetas e importancia, edición de etiquetas y aplicación de 
 **7.	Exportando tu Worksheet.**
 
 Todo sobre cómo exportar tu informe elaborado en Tableau a cualquier editor de documentos para su posterior presentación 
-a las partes interesadas, análisis y discusión, también se introduce la manipulación de títulos y de leyendas. 
+a las partes interesadas (_Stakeholders_), análisis y discusión. También se introduce la manipulación de títulos y de leyendas. 
