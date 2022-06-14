@@ -11,40 +11,39 @@ haciendo operaciones aritmeticas como 'suma', 'división', etc.
 
 Adicionalmente, conocerá cómo imprimir una variable y 
 cómo ejecutar al mismo tiempo multiples líneas de 
-código al seleccionarlas y correrlas conjuntamente.
+código al seleccionarlas y correrlas conjuntamente. Al igual, 
+notará que podrá asignar funciones a sus variables declaradas 
+y agregar, de paso, variables dentro de dichas funciones asignadas.
 
-al igual, notará que podrá asignar funciones a 
-a sus variables declaradas y agregar, de paso,
-variables dentro de dichas funciones asignadas.
-
-Aprenderá también sobre la función 'sqrt', la función
-correspondiente a la operación 'raiz cuadrada' y
-cómo aplicarla al ser asignada dentro de una variable.
+Aprenderá también sobre la función 'sqrt()', la función
+correspondiente a la operación 'raiz cuadrada', y
+cómo ejecutarla al ser asignada dentro de una variable.
 
 Por último, aprenderá cómo hacer operaciones con 
 variables tipo 'character' y, principalmente, 
-hacerlo por medio de la función 'paste()' que 
+hacerlas por medio de la función 'paste()' que 
 se encarga de concatenarlas entre sí. 
 
 **3.** Introducción a operadores lógicos & relacionales,
 adicionalmente se muestra cómo asignar una declaración 
 lógica a una variable. 
 
-**De interés:** | (alt + 124), < (alt + 60 ), > (alt + 62).
+**De interés:** | = alt + 124; < = alt + 60; > = alt + 62.
 
-**4.** Temas: Introducción al ciclo While como estructura de control, 
-ciclos infinitos, uso de variables tipo 'Contador' para 
+**4.** Temas: Introducción al ciclo "While" como estructura de control, 
+ciclos infinitos, uso de variables tipo _Contador_ para 
 controlar las iteraciones de un bucle y el uso necesario 
-de la función 'print' (dentro del dominio del bucle While) 
-para poder hacer impresiones por pantalla.
+de la función 'print()' (dentro del dominio del bucle While) 
+para poder mostrar impresiones por pantalla.
 
-**5.** Entendiendo el ambiente Rstudio y la diferencia entre 
-el uso de 'Console' con la ventaja de hacer uso de 'Scripts'.
+**5.** Entendiendo el ambiente Rstudio y sus diferencias con el 
+uso de la _Terminal_. Un gran ventaja de Rstudio es que nos permite
+crear 'Scripts'.
 
-**6.** Introducción al ciclo For como estructura de control.
-También se es necesario hacer uso de la función 'print' 
+**6.** Introducción al ciclo "For" como estructura de control.
+También es necesario hacer uso de la función 'print()' 
 (dentro del dominio del bucle For) 
-para poder hacer impresiones por pantalla.
+para poder mostrar impresiones por pantalla.
 
 **7.** Introducción a las estructuras de control If, Else e If else; 
 adicionalmente se introducen de forma breve las funciones 'rnorm()' & 'rm()'.
