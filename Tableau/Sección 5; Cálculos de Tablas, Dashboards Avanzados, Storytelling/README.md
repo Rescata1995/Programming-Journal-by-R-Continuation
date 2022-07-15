@@ -16,4 +16,6 @@ Se muestra la necesidad de crear, en ocasiones, un _campo calculado_ que haga el
 
 **3. Agrupaciones (Bins) & Distribuciones por Edad**
 
-Se resalta la importancia y necesidad de uso de diagramas de barras en _Agrupaciones_ de Tableau. También se recuerda que existen casos en los que se requiere convertir una variable de tipo _medida_ a una variable de tipo _dimensión_. Finalmente, se pone en práctica el concepto de **Agrupación (Bin)** sobre una nueva variable de tipo categórica o _dimensión_ que se encargará de hacer distribuciones por Edad mediante la definición de intervalos.
+Se resalta la importancia y necesidad de uso de diagramas de barras en _Agrupaciones_ de Tableau. También se recuerda que existen casos en los que se requiere convertir una variable de tipo _medida_ a una variable de tipo _dimensión_, como por ejemplo el campo _Age_, para poder hacer nuestras agrupaciones o crear _Campos Agrupados_. Finalmente, se pone en práctica el concepto de **Agrupación (Bin)** sobre una nueva variable de tipo categórica o _dimensión_, _Age_, que se encargará de hacer distribuciones por Edad mediante el uso de intervalos. Este mismo procedimiento lo haremos con el campo _Balance_ que terminará convirtiendose en un campo agrupado también. Posteriormente abordamos la importancia de los *Parámetros* y su uso práctico en Agrupaciones, se definen las propiedades de un parámetro y se asignan parámetros definidos a los campos agrupados *Balance (Agrupación) & Age (Agrupación)*.
+
+
