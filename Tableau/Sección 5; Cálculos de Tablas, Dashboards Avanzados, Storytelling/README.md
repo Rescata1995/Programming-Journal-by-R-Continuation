@@ -24,4 +24,4 @@ Esto es una clase sencilla, pero no menos importante. Aquí se muestra cómo vis
 
 **5. Creando un Dashboard de Segmentación de Clientes**
 
-El dashboard de segmentación de clientes nos permite visualizar, en un solo lugar, todos las categorías que fueron evaluadas de forma independiente pero que pertenecen a una misma base de datos relacional: esto nos permite realizar un análisis más completo y consistente al poder generar un mayor volumen de información, bastente útil para todas las partes interesadas. 
+El dashboard de segmentación de clientes (o de cualquier _entidad_) nos permite visualizar, en un solo lugar, todas las categorías que fueron evaluadas de forma independiente pero que pertenecen a un mismo _Objeto_: esto nos permite realizar un análisis más completo y consistente al poder generar un mayor volumen de información, bastente útil para todas las partes interesadas. 
