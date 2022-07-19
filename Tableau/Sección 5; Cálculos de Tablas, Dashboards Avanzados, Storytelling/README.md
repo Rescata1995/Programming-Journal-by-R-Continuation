@@ -24,8 +24,8 @@ Esto es una clase sencilla, pero no menos importante. Aquí se muestra cómo vis
 
 **5. Creando un Dashboard de Segmentación de Clientes**
 
-El dashboard de segmentación de clientes (o de cualquier _entidad_) nos permite visualizar, en un solo lugar, todas las categorías que fueron evaluadas de forma independiente pero que pertenecen a un mismo _Objeto_: esto nos permite realizar un análisis más completo y consistente al poder generar un mayor volumen de información, bastente útil para todas las partes interesadas. 
+El dashboard de segmentación de clientes (o de cualquier _entidad_) nos permite visualizar, en un solo lugar, todas las categorías que fueron evaluadas de forma independiente pero que pertenecen a una misma _Entidad_; en este caso, la Entidad es _Clientes_: esto nos permite realizar un análisis más completo y consistente al poder generar un mayor volumen de información, bastente útil para todas las partes interesadas. 
 
 **6.	Interactividad y Coloración Avanzadas de un Dashboard**
 
-Se recuerda el concepto y uso de _Filtros Interactivos_ al ponerlos en práctica sobre el dashboard de _Segmentación de Clientes_. Adicionalmente, se enseña cómo desactivar los _Pop-ups_, o descripciones emergentes, al flotar el mouse sobre algún valor visual.
+Se recuerda el concepto y uso de _Filtros Interactivos_ al ponerlos en práctica sobre el dashboard de _Segmentación de Clientes_. Adicionalmente, se enseña cómo desactivar los _Pop-ups_, o descripciones emergentes, al flotar el mouse sobre algún valor visual de cualquier tipo.
