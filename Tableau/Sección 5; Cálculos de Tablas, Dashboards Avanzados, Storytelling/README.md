@@ -28,4 +28,4 @@ El dashboard de segmentación de clientes (o de cualquier _entidad_) nos permite
 
 **6.	Interactividad y Coloración Avanzadas de un Dashboard**
 
-Se recuerda el concepto y uso de los _Filtros Interactivos_ al ponerlos en práctica sobre el dashboard de _Segmentación de Clientes_. Adicionalmente, se enseña cómo desactivar los _Pop-ups_, o descripciones emergentes, al flotar el mouse sobre algún valor visual.
+Se recuerda el concepto y uso de _Filtros Interactivos_ al ponerlos en práctica sobre el dashboard de _Segmentación de Clientes_. Adicionalmente, se enseña cómo desactivar los _Pop-ups_, o descripciones emergentes, al flotar el mouse sobre algún valor visual.
