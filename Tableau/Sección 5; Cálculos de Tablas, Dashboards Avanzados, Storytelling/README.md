@@ -29,3 +29,7 @@ El dashboard de segmentación de clientes (o de cualquier _entidad_) nos permite
 **6.	Interactividad y Coloración Avanzadas de un Dashboard**
 
 Se recuerda el concepto y uso de _Filtros Interactivos_ al ponerlos en práctica sobre el dashboard de _Segmentación de Clientes_. Adicionalmente, se enseña cómo desactivar los _Pop-ups_, o descripciones emergentes, al flotar el mouse sobre algún valor visual de cualquier tipo.
+
+**7.	Importancia de la Segmentación de Clientes**
+
+La segmentación nos permite distinguir a los clientes de base, el total de ellos, más puntualmente nos interesa entender cómo ofrecerles un mejor servicio a partir de la división de clientes en subgrupos; pues, con los subgrupos, nos permitimos conocer con más detalle la naturaleza promedio de un cliente según una categorización evaluada (o varias). A partir de estas divisiones, en subgrupos de clientes, usted tiene que adecuar sus estrategias de venta y de servicio ofrecido. No puede vender lo mismo, ni de la misma manera, a diferentes tipos de clientes que empiece a conocer debido a la segmentación de éstos.
