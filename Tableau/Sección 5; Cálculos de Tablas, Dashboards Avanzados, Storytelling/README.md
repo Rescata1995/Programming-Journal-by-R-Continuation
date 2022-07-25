@@ -33,3 +33,7 @@ Se recuerda el concepto y uso de _Filtros Interactivos_ al ponerlos en práctica
 **7.	Importancia de la Segmentación de Clientes**
 
 La segmentación nos permite distinguir a los clientes de base (el total de ellos), más puntualmente nos interesa entender cómo ofrecerles un mejor servicio a partir de la división de clientes en subgrupos; pues, con los subgrupos, nos permitimos conocer con más detalle la naturaleza promedio de un cliente según una categorización evaluada (o varias). A partir de estas divisiones, en subgrupos de clientes, usted tiene que adecuar sus estrategias de venta y de servicio ofrecido. No puede vender lo mismo, ni de la misma manera, a diferentes tipos de clientes que empiece a conocer debido a la segmentación de éstos.
+
+**8.	Creando una Storyline**
+
+Conocerá la manera en cómo se crean historias en Tableau (Storytelling): el modo de acceder a ellas y una orientanción general. Al igual, aprenderá a otorgarle una título o texto descriptivo que explique la página en la que se encuentra dentro de su historia, pues, debe saber que una historia se puede componer de varias páginas y cada una ellas pretende abordar una área especifica de un tema general. **Extra:** También tiene la opción de suprimir los _scrollbars_ de cada uno de sus objetos visuales importados en su _historia_ 
