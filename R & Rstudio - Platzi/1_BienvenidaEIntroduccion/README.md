@@ -1,1 +1,7 @@
 Corta introducción a lo que se pretende lograr con el curso de Fundamentos de R de Platzi. La idea central de este curso radica en saber manipular los datos en R para llevar a cabo un Análisis de datos, de tipo estadístico, que se acompañe con visualizaciones. Todo este proceso se realizará mediante el manejo de dos _datasets_, los cuales son: **1. _mtcars_** (un _dataset_ incluido dentro de R con información sobre coches) & **2. _orangeec_** (un _dataset_ creado por la propia instructora sobre la Economía Naranja en países de _latam_). **Importante:** La información contenida en ambos _datasets_ será importante para la resolución de preguntas del proyecto final, durante todo el curso se estará dando respuestas a preguntas tanto de **mtcars** como de **orangeec** (Manténgase alerta).
+
+**En esta sección definimos:**
+
+**1.** La importancia de las Ciencia de datos, muy útil para cualquier área laboral. Conoceremos los cuatro componentes claves del _Big data_ y cuáles son las bases necesarias que debe manejar un cientifico de datos para tener exito en la Ciencia de los datos: **Matemáticas y Estadística, Programación, Conocimiento del Negocio o contexto & Habilidad para visualizar los datos como capacidad para comunicarlos**.
+
+**2.** Tendrá en cuenta que los lenguajes de programación en la Ciencia de datos son: **Python & R**. También se enseña el _roadmap_ del curso de R y se explica un poco de qué trata la Economía Naranja.
