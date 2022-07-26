@@ -1,13 +1,13 @@
 "
-1. Programación & Data Science
+1. ProgramaciÃ³n & Data Science
 
-La ciencia de datos es muy útil para cualquier área laboral. Actualmente estamos 
-viviendo la cuarta revolución industrial gracias a la masiva cantidad de datos 
-que generamos día a día, las empresas con estos datos buscan satisfacer de mejor 
-forma nuestras necesidades, aquí nace el Big Data.
+La ciencia de datos es muy Ãºtil para cualquier Ã¡rea laboral. Actualmente estamos 
+viviendo la cuarta revoluciÃ³n industrial gracias a la masiva cantidad de datos 
+que generamos dÃ­a a dÃ­a, las empresas con estos datos buscan satisfacer de mejor 
+forma nuestras necesidades, aquÃ­ nace el Big Data.
 
 
-2. Big Data se compone de tres componentes claves:
+2. Big Data se compone de cuatro componentes claves:
 
 A. Volumen: tiene una cantidad de datos mucho mayor a la soportada dentro de un 
 Excel.
@@ -17,14 +17,14 @@ B. Velocidad: mayor a la acostumbrada con anterioridad.
 C. Variedad: se manejan datos estructurados y no estructurados como fotos, 
 mensajes, etc.
 
-& D. La veracidad, como el cuarto y último componente del Big Data.
+& D. La veracidad, como el cuarto y Ãºltimo componente del Big Data.
 
 
-3. Un científico de datos necesita tener los conocimientos de:
+3. Un cientÃ­fico de datos necesita tener los conocimientos de:
 
-- Matemáticas y Estadística.
+- MatemÃ¡ticas y EstadÃ­stica.
 
-- Programación.
+- ProgramaciÃ³n.
 
 - Conocimiento del Negocio o contexto.
 
