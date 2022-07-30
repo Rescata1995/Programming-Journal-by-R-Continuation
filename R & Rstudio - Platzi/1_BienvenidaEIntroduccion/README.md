@@ -6,4 +6,4 @@ Corta introducción a lo que se pretende lograr con el curso de Fundamentos de R
 
 **2.** Tendrá en cuenta que los lenguajes de programación en la Ciencia de datos son: **Python & R**. También se enseña el _roadmap_ del curso de R y se explica un poco de qué trata la Economía Naranja.
 
-**Extra**. En esta primera sección, hemos leído de manera correcta el _dataset_ **_orangeec.csv_** por medio de la instalación y carga del paquete **_tidyverse_**; posteriormente, hicimos uso de la función **_read_csv()_** para importar al archivo propiamente y lo hemos almacenado en una nueva variable llamada **_orange_Economic_**. Echale un vistazo!
+**Extra**. En esta primera sección, hemos leído de manera correcta el _dataset_ **_orangeec.csv_** por medio de la instalación y carga del paquete **_tidyverse_**; posteriormente, hicimos uso de la función **_read_csv()_** para importar al archivo propiamente y lo hemos almacenado en una nueva variable llamada **_orange_Economic_**. Por último, nuestra _dataset_ se ve estructualmente mejor por medio de la función **_View()_**. Échale un vistazo a todo esto!
