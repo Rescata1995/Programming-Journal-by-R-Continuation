@@ -5,3 +5,5 @@ Corta introducción a lo que se pretende lograr con el curso de Fundamentos de R
 **1.** La importancia de las Ciencia de datos, muy útil para cualquier área laboral. Conoceremos los cuatro componentes claves del _Big data_ y cuáles son las bases necesarias que debe manejar un cientifico de datos para tener exito en la Ciencia de los datos: **Matemáticas y Estadística, Programación, Conocimiento del Negocio o contexto & Habilidad para visualizar los datos como capacidad para comunicarlos**.
 
 **2.** Tendrá en cuenta que los lenguajes de programación en la Ciencia de datos son: **Python & R**. También se enseña el _roadmap_ del curso de R y se explica un poco de qué trata la Economía Naranja.
+
+**Extra**. En esta primera sección, hemos leído de manera correcta el _dataset_ **_orangeec.csv_** por medio de la instalación y carga del paquete **_tidyverse_**; posteriormente, hicimos uso de la función **_read_csv()_** para importar al archivo propiamente y lo hemos almacenado en una nueva variable llamada **_orange_Economic_**. Echale un vistazo!
