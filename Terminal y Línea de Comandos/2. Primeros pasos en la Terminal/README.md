@@ -1,13 +1,31 @@
 **Temas que abordaremos divididos en secciones:**
 
-_**1. Terminal, Shell e Interfaz gráfica**_ 
+_**1. Sistema de Carpetas en Linux**_ 
 
-1. Qué es la Terminal: Concepto de Terminal
+* Cómo funciona el Sistema de Carpetas: Sobre la carpeta '/' & 'Home'
 
-2. Concepto de Shell
+_**2. Información inicial de la Terminal**_
 
-3. ¿Por qué usar la Shell y no la Interfaz gráfica?
+_**3. Comando 'pwd'**_
 
-_**2. Sobre el Explorador de Windows**_
+_**4. Comando 'cd'**_
 
-1. Consumo del Explorador de Windows Vs la Terminal
+_**5. Atajos**_
+
+* Qué representa la Virgulilla (~)
+
+* Qué representa el Punto (.) & Doble Punto (..)
+
+* Slash (/)
+
+_**6. Opciones del comando 'ls'**_
+
+* Intro a 'ls'
+
+* 'ls -l': opción 'Long'
+
+* 'ls -lh': opción 'Long' & opción 'Human Readable'
+
+**Nota**: Para añadir más de una opción, por ejemplo para el comando 'ls', no haríamos esto 'ls -l -h', sino 'ls -lh'; es decir, si hay varias opciones, éstas van de forma contigua una inmediatamente después de la otra.
+
+_**7. Opciones del comando 'file'**_
