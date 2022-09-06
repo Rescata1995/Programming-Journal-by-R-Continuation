@@ -1,13 +1,21 @@
 **Temas que abordaremos divididos en secciones:**
 
-_**1. Terminal, Shell e Interfaz gráfica**_ 
+_**1. Comando 'mkdir'**_ 
 
-1. Qué es la Terminal: Concepto de Terminal
+* Puedes crear varios directorios bajo una misma línea de comando
 
-2. Concepto de Shell
+_**2. Comando 'touch'**_
 
-3. ¿Por qué usar la Shell y no la Interfaz gráfica?
+* Puedes crear varios archivos bajo una misma línea de comando
 
-_**2. Sobre el Explorador de Windows**_
+_**3. Comando 'cp'**_
 
-1. Consumo del Explorador de Windows Vs la Terminal
+_**4. Comando 'mv'**_
+
+* Con este comando puedes mover un archivo a una carpeta ya creada _mv {file} {existing path}_ o, también, podrías renombrar el archivo existente _mv {name} {new_name}_
+
+_**5. Opciones del comando 'rm'**_
+
+* Intro a 'rm'
+
+* Comandos 'rm -i', 'rm -r', 'rm -f': opciones 'Interactive', 'Recursive', 'Force'
