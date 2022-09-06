@@ -1,1 +1,9 @@
-Have you ever read the following on my Github: "This is my personal education package about everything I am going to be learning in Computing Science, my study notes to remember everything what I want to remember every time." If so, this is the sequel.
+**Temas que abordaremos clasificados por carpetas:**
+
+_**1. Terminal, Shell e Interfaz gráfica**_ 
+
+1. Qué es la Terminal: Concepto de Terminal
+
+2. Concepto de Shell
+
+3. ¿Por qué usar la Shell y no la Interfaz gráfica?
