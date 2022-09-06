@@ -28,4 +28,4 @@ _**6. Opciones del comando 'ls'**_
 
 **Nota**: Para añadir más de una opción, por ejemplo para el comando 'ls', no haríamos esto 'ls -l -h', sino 'ls -lh'; es decir, si hay varias opciones, éstas van de forma contigua una inmediatamente después de la otra.
 
-_**7. Opciones del comando 'file'**_
+_**7. Comando 'file'**_
