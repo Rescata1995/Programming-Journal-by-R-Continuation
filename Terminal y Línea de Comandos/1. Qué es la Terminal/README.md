@@ -1,4 +1,4 @@
-**Temas que abordaremos clasificados por carpetas:**
+**Temas que abordaremos divididos en secciones:**
 
 _**1. Terminal, Shell e Interfaz gráfica**_ 
 
