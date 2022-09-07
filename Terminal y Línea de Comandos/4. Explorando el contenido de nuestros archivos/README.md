@@ -23,3 +23,5 @@ _**5. Alternativas a 'nautilus'; 'wslview' & 'explorer.exe'**_
 * Ejemplos con 'wslview'
 
 En ambos se pueden abrir tanto archivos como directorios.
+
+_**nota**: Para detener un proceso que se esté ejecutando en la terminal basta con utilizar la combinación de teclas **ctrl + c** para interrumpirlo._
