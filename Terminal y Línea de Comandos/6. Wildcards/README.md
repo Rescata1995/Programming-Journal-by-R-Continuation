@@ -8,7 +8,7 @@ _**3. Combinación de Buscar todo & Buscar por caracteres**_
 
 _**4. Tipos de Wildcards - Buscar por caracteres específicos**_
 
-* Por ejemplo, filtrar por algún tipo de inicial seleccionada
+* Por ejemplo, filtrar por algún tipo de inicial seleccionada o fijando un rango de caracteres
 
 _**5. Uso de la opción 'd' en Wildcards & Filtrado por Mayúsculas o Minúsculas**_
 
