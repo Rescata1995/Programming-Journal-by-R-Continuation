@@ -1,27 +1,9 @@
 **Temas que abordaremos divididos en secciones:**
 
-_**1. Vistazo rápido con los comandos 'head' & 'tail'**_ 
+_**1. Qué es un Comando**_ 
 
-* En ambos puedes hacer uso de la opción '-n': indica el número de filas que quieres visualizar de tu documento
+* Hay 4 definiciones para lo qué es un _Comando_
 
-_**2. Vistazo completo con el comando 'less'**_
+_**2. Ejemplos de comandos básicos de la Terminal**_
 
-* Puedes filtrar palabras del documento al pulsar la tecla '/' y puedes salir de la Interfaz del editor pulsando la tecla 'q'
-
-_**3. Apertura de archivos en su programa por defecto para su ext, comando 'xdg-open'**_
-
-* Intro a 'xdg-open'
-
-* Uso de 'xdg-open'
-
-_**4. Apertura de carpetas usando el comando 'nautilus' & Resumen General**_
-
-_**5. Alternativas a 'nautilus'; 'wslview' & 'explorer.exe'**_
-
-* Intro a 'explorer.exe'
-
-* Ejemplos con 'wslview'
-
-En ambos se pueden abrir tanto archivos como directorios.
-
-_**nota**: Para detener un proceso que se esté ejecutando en la terminal basta con utilizar la combinación de teclas **ctrl + c** para interrumpirlo._
+* 'type', 'alias', 'help', 'man', 'info', 'whatis'
