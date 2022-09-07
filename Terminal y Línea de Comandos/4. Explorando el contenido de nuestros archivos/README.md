@@ -1,6 +1,6 @@
 **Temas que abordaremos divididos en secciones:**
 
-_**1. Vistazo rápido con los comandos 'Head' & 'Tail'**_ 
+_**1. Vistazo rápido con los comandos 'head' & 'tail'**_ 
 
 * En ambos puedes hacer uso de la opción '-n': indica el número de filas que quieres visualizar de tu documento
 
