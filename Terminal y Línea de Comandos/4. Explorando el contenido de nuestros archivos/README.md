@@ -1,21 +1,25 @@
 **Temas que abordaremos divididos en secciones:**
 
-_**1. Comando 'mkdir'**_ 
+_**1. Vistazo rápido con los comandos 'Head' & 'Tail'**_ 
 
-* Puedes crear varios directorios bajo una misma línea de comando
+* En ambos puedes hacer uso de la opción '-n': indica el número de filas que quieres visualizar de tu documento
 
-_**2. Comando 'touch'**_
+_**2. Vistazo completo con el comando 'less'**_
 
-* Puedes crear varios archivos bajo una misma línea de comando
+* Puedes filtrar palabras del documento al pulsar la tecla '/' y puedes salir de la Interfaz del editor pulsando la tecla 'q'
 
-_**3. Comando 'cp'**_
+_**3. Apertura de archivos en su programa por defecto para su ext, comando 'xdg-open'**_
 
-_**4. Comando 'mv'**_
+* Intro a 'xdg-open'
 
-* Con este comando puedes mover un archivo a una carpeta ya creada _mv {file} {existing path}_ o, también, podrías renombrar el archivo existente _mv {name} {new_name}_
+* Uso de 'xdg-open'
 
-_**5. Opciones del comando 'rm'**_
+_**4. Apertura de carpetas usando el comando 'nautilus' & Resumen General**_
 
-* Intro a 'rm'
+_**5. Alternativas a 'nautilus'; 'wslview' & 'explorer.exe'**_
 
-* Comandos 'rm -i', 'rm -r', 'rm -f': opciones 'Interactive', 'Recursive', 'Force'
+* Intro a 'explorer.exe'
+
+* Ejemplos con 'wslview'
+
+En ambos se pueden abrir tanto archivos como directorios.
