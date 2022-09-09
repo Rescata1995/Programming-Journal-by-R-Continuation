@@ -1,16 +1,16 @@
 **Temas que abordaremos divididos en secciones:**
 
-_**1. Introducción**_ 
+_**1. Qué son los Permisos**_ 
 
-* Qué es un Operador de Control
+_**1.1 Complemento: Tipos de Archivos**_
 
-_**2. Comandos en la misma línea (;), sincrónico**_
+_**2. Tipos de Usuarios**_
 
-* Sincrónico; es decir, _que se ejecutan uno detrás de otro_. El comando **date** imprime por consola la fecha actual
+* Hay tres tipos de usuarios: _**Owner**, **Group** & **World**_
 
-_**3. Comandos asíncronos (&)**_
+_**3. Tipos de Permisos**_
 
-* Asíncronico; es decir, _que se pueden ejecutar de forma simultánea_. El comando **cal** imprime un pequeño calendario de la fecha actual y el comando **echo** imprime el texto que le pases
+* Hay tres tipos de permisos: _**readable**_ que equivale a **4**, _**Group**_ que equivale a **2** & _**World**_ que equivale a **1**. _**Por ej.:**_ El tipo de usuario que tenga todos los permisos, al sumar la equivalencia numérica de cada uno, se identificaría con el valor de **7**.
 
 _**4. Comandos con Condicionales: (and = &&), (or = ||)**_
 
