@@ -12,12 +12,10 @@ _**3. Comandos asíncronos (&)**_
 
 * Asíncronico; es decir, _que se pueden ejecutar de forma simultánea_. El comando **cal** imprime un pequeño calendario de la fecha actual y el comando **echo** imprime el texto que le pases
 
-_**4. Tipos de Wildcards - Buscar por caracteres específicos**_
+_**4. Comandos con Condicionales: (and = &&), (or = ||)**_
 
-* Por ejemplo, filtrar por algún tipo de inicial seleccionada o fijando un rango de caracteres
+* Condición **and (&&)**. Escenarios: Cuando la condicional && es FALSE / Cuando la condicional && es TRUE
 
-_**5. Uso de la opción 'd' en Wildcards & Filtrado por Mayúsculas o Minúsculas**_
+* Condición **or (||)**: Sólo se ejecuta un _comando_ que sea TRUE y será el primero que se corra entre todos
 
-* Filtrar todos los archivos y directorios que inicien con una mayúscula: puede buscar en todo el arbol o sólo en el directorio actual _con la opción 'd'_ 
-
-* Filtrar todos los archivos y directorios que inicien con una minúscula: puede buscar en todo el arbol o sólo en el directorio actual _con la opción 'd'_ 
+_**5. Combinando Operadores de Control**_
