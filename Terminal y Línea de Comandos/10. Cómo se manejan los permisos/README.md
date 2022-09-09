@@ -10,12 +10,12 @@ _**2. Tipos de Usuarios**_
 
 _**3. Tipos de Permisos**_
 
-* Hay tres tipos de permisos: _**readable**_ que equivale a **4**, _**Group**_ que equivale a **2** & _**World**_ que equivale a **1**. _**Por ej.:**_ El tipo de usuario que tenga todos los permisos, al sumar la equivalencia numérica de cada uno, se identificaría con el valor de **7**.
+* Hay tres tipos de permisos: _**readable**_ que equivale a **4**, _**Writable**_ que equivale a **2** & _**Executable**_ que equivale a **1**. _**Por ej.:**_ El tipo de usuario que tenga todos los permisos, al sumar la equivalencia numérica de cada uno, se identificaría con el valor de **7**.
 
-_**4. Comandos con Condicionales: (and = &&), (or = ||)**_
+_**EXTRA. Comando 'chmod'**_
 
-* Condición **and (&&)**. Escenarios: Cuando la condicional && es FALSE / Cuando la condicional && es TRUE
+* Introducción & uso del comando 'chmod'.
 
-* Condición **or (||)**: Sólo se ejecuta un _comando_ que sea TRUE y será el primero que se corra entre todos
+* Otros modos de trabajo con 'chmod'
 
-_**5. Combinando Operadores de Control**_
+_**EXTRA. Diferencia de permisos entre Archivos & Directorios**_
