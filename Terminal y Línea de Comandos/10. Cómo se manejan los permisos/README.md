@@ -20,4 +20,6 @@ _**EXTRA. Comando 'chmod'**_
 
 * Otros modos de trabajo con 'chmod'
 
+* Práctica
+
 _**EXTRA. Diferencia de permisos entre Archivos & Directorios**_
