@@ -1,6 +1,6 @@
 **Temas que abordaremos divididos en secciones:**
 
-_**1. Tipos de Wildcards - Buscar todo**_ 
+_**1. Introducción**_ 
 
 * Qué es un Operador de Control
 
