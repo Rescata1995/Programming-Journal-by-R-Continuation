@@ -2,9 +2,15 @@
 
 _**1. Tipos de Wildcards - Buscar todo**_ 
 
-_**2. Tipos de Wildcards - Buscar por cantidad de caracteres**_
+* Qué es un Operador de Control
 
-_**3. Combinación de Buscar todo & Buscar por caracteres**_
+_**2. Comandos en la misma línea (;), sincrónico**_
+
+* Sincrónico; es decir, _que se ejecutan uno detrás de otro_. El comando **date** imprime por consola la fecha actual
+
+_**3. Comandos asíncronos (&)**_
+
+* Asíncronico; es decir, _que se pueden ejecutar de forma simultánea_. El comando **cal** imprime un pequeño calendario de la fecha actual y el comando **echo** imprime el texto que le pases
 
 _**4. Tipos de Wildcards - Buscar por caracteres específicos**_
 
