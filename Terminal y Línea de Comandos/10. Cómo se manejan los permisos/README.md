@@ -4,6 +4,8 @@ _**1. Qué son los Permisos**_
 
 _**1.1 Complemento: Tipos de Archivos**_
 
+* Hay cuatro tipos de archivos: _**-**_ que equivale a un archivo propiamente, _**d**_ que equivale a un directorio, _**l**_ que equivale a un enlace simbólico & _**b**_ que equivale a un bloque especial.
+
 _**2. Tipos de Usuarios**_
 
 * Hay tres tipos de usuarios: _**Owner**, **Group** & **World**_
