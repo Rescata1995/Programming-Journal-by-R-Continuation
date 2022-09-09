@@ -14,7 +14,7 @@ _**3. Tipos de Permisos**_
 
 _**EXTRA. Comando 'chmod'**_
 
-* Introducción & uso del comando 'chmod'.
+* Introducción & uso del comando 'chmod'
 
 * Otros modos de trabajo con 'chmod'
 
