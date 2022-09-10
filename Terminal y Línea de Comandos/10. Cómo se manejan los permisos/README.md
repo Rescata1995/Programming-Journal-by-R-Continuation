@@ -18,7 +18,10 @@ _**EXTRA. Comando 'chmod'**_
 
 * Introducción & uso del comando 'chmod' _**(Práctica en Modo Octal)**_
 
-* Otros modos de trabajo con 'chmod' _**(Práctica en Modo Simbólico)**_
+* Otros modos de trabajo con 'chmod' _**(Práctica en Modo Simbólico)**_: **+** agrega o _suma_ permisos, **-** quita o _resta_ permisos, **=** sobreescribe **nuevamente** todos los permisos. De esta manera se establece, o se deja claro, cuál sería la relación entre cada uno de los tipos de usuarios **(u, g, o)** & cada uno de los tipos de permisos **(r, w, x)**.
+
+**Nota:** En este último modo, modo _Simbólico_, un espacio después de la coma ',' en los distintos modos de permisos que se indiquen hace fallar el comando (todo debe ir pegado).
+
 
 * Práctica
 
