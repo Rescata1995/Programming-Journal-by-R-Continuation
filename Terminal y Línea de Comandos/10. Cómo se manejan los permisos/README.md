@@ -16,9 +16,9 @@ _**3. Tipos de Permisos**_
 
 _**EXTRA. Comando 'chmod'**_
 
-* Introducción & uso del comando 'chmod'
+* Introducción & uso del comando 'chmod' _**(Práctica en Modo Octal)**_
 
-* Otros modos de trabajo con 'chmod'
+* Otros modos de trabajo con 'chmod' _**(Práctica en Modo Simbólico)**_
 
 * Práctica
 
