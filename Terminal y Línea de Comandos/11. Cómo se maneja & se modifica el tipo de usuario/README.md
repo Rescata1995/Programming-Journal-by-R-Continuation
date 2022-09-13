@@ -23,3 +23,7 @@ _**3. Comando 'passwd'**_
 * Introducción
 
 * Práctica
+
+_**EXTRA. Cambiar el propietario de un archivo (chown)**_
+
+_**EXTRA. Qué hacer en caso de olvidar una contraseña**_
