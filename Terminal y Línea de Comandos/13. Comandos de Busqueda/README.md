@@ -1,29 +1,26 @@
 **Temas que abordaremos divididos en secciones:**
 
-_**1. Cómo gestionar usuarios (whoami & su)**_ 
+_**1. Introducción**_ 
 
-* Recordar mi usuario actual _(**whoami**)_: 
+_**2. Comando 'which'**_
 
-_Tip:_ Cuando listamos los archivos con ls -l la tercera columna muestra el nombre del usuario que es propietario del archivo y la cuarta columna muestra el grupo que tiene control sobre el archivo.
-
-* Cambiar mi usuario actual _(**su**)_ e Introducción a usuario _**'root'**_
-
-_Tip:_ **'root'** es un usuario, pero también se refiere al grupo al que pertenece el usuario _'root'_.
-
-* El _home_ del usuario **'root'** es diferente...
-
-_**2. Comando 'sudo'**_
-
-* Introducción
+* Introducción al comando **'which'**
 
 * Práctica
 
-_**3. Comando 'passwd'**_
+_**3. Comando 'find'**_
 
-* Introducción
+* Comando 'find' con opción '-name' + Wildcard
 
-* Práctica
+* Comando 'find' con opción '-type' & '-name' + Wildcard
 
-_**EXTRA. Cambiar el propietario de un archivo (chown)**_
+* Comando 'find' con opción '-size'
 
-_**EXTRA. Qué hacer en caso de olvidar una contraseña**_
+* Comando 'find' con opción '-type' & '-empty'
+
+**_Nota:_** Observe que es posible hacer combinaciones de _opciones_ entre sí, esto le permitiría hacer busquedas más avanzadas o con un mayor número de filtros.
+
+* Limitar la búsqueda con las opciones '-maxdepth' & '-mindepth'
+
+_**EXTRA. Recomendación:**_ Se recomienda pasar el output, de sus comandos _'find'_ ejecutados, a un comando _**less**_ (mediante el uso de _**Pipes**_)
+
