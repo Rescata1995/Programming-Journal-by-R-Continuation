@@ -1,29 +1,13 @@
 **Temas que abordaremos divididos en secciones:**
 
-_**1. Cómo gestionar usuarios (whoami & su)**_ 
+_**1. Variables de entorno en Linux**_
 
-* Recordar mi usuario actual _(**whoami**)_: 
+* Plus: Introducción a comandos _**'echo $'**_ & _**'printenv'**_
 
-_Tip:_ Cuando listamos los archivos con ls -l la tercera columna muestra el nombre del usuario que es propietario del archivo y la cuarta columna muestra el grupo que tiene control sobre el archivo.
+_**2. Cómo crear tus propias variables de entorno**_
 
-* Cambiar mi usuario actual _(**su**)_ e Introducción a usuario _**'root'**_
+_**2.1 Cómo crear tus propias variables de entorno, Parte 2**_
 
-_Tip:_ **'root'** es un usuario, pero también se refiere al grupo al que pertenece el usuario _'root'_.
+* Por convención las variables de entorno se crean en mayúsculas & sin dejar ningún tipo de espacio en blanco en su formulación
 
-* El _home_ del usuario **'root'** es diferente...
-
-_**2. Comando 'sudo'**_
-
-* Introducción
-
-* Práctica
-
-_**3. Comando 'passwd'**_
-
-* Introducción
-
-* Práctica
-
-_**EXTRA. Cambiar el propietario de un archivo (chown)**_
-
-_**EXTRA. Qué hacer en caso de olvidar una contraseña**_
+_**3. Cómo crear un Alias permanente**_
