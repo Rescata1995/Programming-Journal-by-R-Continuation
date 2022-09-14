@@ -1,13 +1,17 @@
 **Temas que abordaremos divididos en secciones:**
 
-_**1. Variables de entorno en Linux**_
+_**1. Qué significa GREP**_
 
-* Plus: Introducción a comandos _**'echo $'**_ & _**'printenv'**_
+_**2. Algunas _opciones_ del comando 'grep'**_
 
-_**2. Cómo crear tus propias variables de entorno**_
+* Ignorar case sensitive **(-i)**
 
-_**2.1 Cómo crear tus propias variables de entorno, Parte 2**_
+* Contar ocurrencias, resultados arrojados **(-c)**
 
-* Por convención las variables de entorno se crean en mayúsculas & sin dejar ningún tipo de espacio en blanco en su formulación
+* Excluir una expresión **(-v)**
 
-_**3. Cómo crear un Alias permanente**_
+**_Nota:_** Observe que es posible hacer combinaciones de _opciones_ entre sí, esto le permitiría hacer busquedas más avanzadas o con un mayor número de filtros. 
+
+* Limitar la búsqueda **(-m)**
+
+_**EXTRA. Algunos casos de uso útiles con 'grep'**_
