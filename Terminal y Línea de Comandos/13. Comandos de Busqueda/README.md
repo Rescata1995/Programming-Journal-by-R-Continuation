@@ -18,7 +18,7 @@ _**3. Comando 'find'**_
 
 * Comando 'find' con opción '-type' & '-empty'
 
-**_Nota:_** Observe que es posible hacer combinaciones de _opciones_ entre sí, esto le permitiría hacer busquedas más avanzadas o con un mayor número de filtros.
+**_Nota:_** Observe que es posible hacer combinaciones de _opciones_ entre sí, esto le permitiría hacer busquedas más avanzadas o con un mayor número de filtros. Adicionalmente, el comando _find_ no limita su búsqueda al directorio pasado, sino que también busca resultados en los subdirectorios relacionados al directorio evaluado en cuestión.
 
 * Limitar la búsqueda con las opciones '-maxdepth' & '-mindepth'
 
