@@ -4,7 +4,7 @@ _**1. Introducción**_
 
 _**2. Comando 'which'**_
 
-* Introducción al comando **'which'**: Búsqueda de archivos ejecutables (bins)
+* Introducción al comando **'which'**: Búsqueda de archivos ejecutables (binarios)
 
 * Práctica
 
