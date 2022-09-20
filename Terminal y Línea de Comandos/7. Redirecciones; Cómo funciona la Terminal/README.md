@@ -8,4 +8,4 @@ _**3. Usando el operador de concatenación (>>)**_: Este operador concatena en u
 
 _**4. Redirección & Concatenación de errores (2> & 2>>)**_: En su orden, el primer operador sobreescribe errores en un archivo en cuestión, el segundo los concatena
 
-**_5. Redirección & Concatenación con la orden_ (> ... 2>&1) & (>> ... 2>&1)**: En su orden, el  primer operador sobre escribe salidas o errores en un archivo en cuestión & el segundo operador los concatena, ya sea una salida correcta o un error.
+**_5. Redirección & Concatenación con la orden_ (> ... 2>&1) & (>> ... 2>&1)**: En su orden, el  primer operador sobre escribe salidas o errores en un archivo en cuestión & el segundo operador los concatena; ya sea una salida acertada o un error.
