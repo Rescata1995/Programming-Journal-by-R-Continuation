@@ -1,52 +1,80 @@
 "
 En este Script intentaremos responder a la pregunta:
-QuÈ son los paquetes en R?
 
-Los Paquetes son una colecciÛn de funciones de R, 
-datos, y cÛdigo compilado en un formato bien 
+
+1. Qu√© son los paquetes en R?
+
+Los Paquetes son una colecci√≥n de funciones de R, 
+datos, y c√≥digo compilado en un formato bien 
 definido. El directorio donde se almacenan los 
-paquetes se llama: librerÌa (library).
+paquetes se llama: librer√≠a (library).
 
-Desde RStudio usted podr· ver todos los paquetes que 
-tiene a su disposiciÛn, los puede encontrar en la 
-esquina inferior derecha al hacer clic en la pestaÒa 
+Desde RStudio usted podr√° ver todos los paquetes que 
+tiene a su disposici√≥n, los puede encontrar en la 
+esquina inferior derecha al hacer clic en la pesta√±a 
 'Packages'.
 
-Los paquetes que no vea en 'Library' no est·n
-descargados o instalados; usted podrÌa instalarlos 
-desde el botÛn 'Install' o, bien, instalarlos 
-mediante cÛdigo directo; es decir, corriendo el 
-cÛdigo propio del paquete que desea instalar y listo.
-Adicionalmente, con cÛdigos tambiÈn puede activar 
+Los paquetes que no vea en 'Library' no est√°n
+descargados o instalados; usted podr√≠a instalarlos 
+desde el bot√≥n 'Install' o, bien, instalarlos 
+mediante c√≥digo directo; es decir, corriendo el 
+c√≥digo propio del paquete que desea instalar y listo.
+Adicionalmente, con c√≥digos tambi√©n puede activar 
 y desactivar sus paquetes.
 
-Ahora, al hacer clic en 'Install', podr· ver que los 
+
+1.1 Conociendo un poco m√°s la sub-pesta√±a 'Install' de 
+la pesta√±a 'Packages'
+
+En la sub-pesta√±a de 'Packages', 'Install', se pueden 
+instalar cuantos paquetes desee a un solo clic. Previamente, 
+debe se√±alar a qu√© repositorio pertenecen dichos paquetes, 
+y este recurso no se limita solamente al repositorio de la CRAN; 
+es decir, si es un paquete particular o de uso personal, 
+que no viene de la CRAN, tambi√©n puede ser cargado: generalmente 
+se usa esta √∫ltima opci√≥n cuando ya tiene el paquete descargado 
+en su computador y vienen en archivos con formato '.zip' o '.tar'. 
+
+Ahora, al hacer clic en 'Install', podr√° ver que los 
 paquetes por defecto vienen de: 'Repository (CRAN)';
 se trata del repositorio de R, la red completa de
 archivos para R. 
 
-Como R es un lenguaje de cÛdigo abierto, cualquiera 
-podrÌa aportar al crear paquetes para este lenguaje 
-de programaciÛn y cargarlos a esta red. Entonces,
+Como R es un lenguaje de c√≥digo abierto, cualquiera 
+podr√≠a aportar al crear paquetes para este lenguaje 
+de programaci√≥n y cargarlos a esta red. Entonces,
 tiene sentido que, desde el sitio web oficial de este
 repositorio, se puedan descargar paquetes (packages).
-…chale un vistazo!
+√âchale un vistazo!
 
 CRAN: The Comprehensive R Archive Network.
 
-Hay paquetes con funciones diseÒadas para hacer 
-gr·ficas, paquetes con funciones orientadas para 
+Hay paquetes con funciones dise√±adas para hacer 
+gr√°ficas, paquetes con funciones orientadas para 
 procesar datasets muy grandes o paquetes con 
-funciones para trabajar con dataframes, entre otros. 
+funciones para trabajar con dataframes, entre otros.
+Para cualquier caso, siempre es ideal que mantenga 
+sus paquetes actualizados.
 
-B·sicamente, todos los paquetes tienen un propÛsito: 
+
+1.2 Conociendo un poco m√°s la sub-pesta√±a 'Updates' de 
+la pesta√±a 'Packages'
+
+Adicionalmente, tambi√©n en la pesta√±a de 'Packages', se 
+encuentra la sub-pesta√±a 'Updates'. Esta sub-pesta√±a se 
+encarga de mostrar todos los paquetes de R actualizables, 
+es decir, con 'Updates' usted puede cargar la √∫ltima 
+actualizaci√≥n de sus paquetes instalados: s√≥lo es necesario 
+seleccionarlos todos y hacer clic en 'Install Updates'.
+
+B√°sicamente, todos los paquetes tienen un prop√≥sito: 
 ayudarte a expandir las funcionalidades que tienes 
 disponible en tus Scripts de R.
 
 Nosotros en este curso trabajaremos, especialmente,
 con el paquete 'GGPlot2'; un paquete para trabajar
-con gr·ficos... Procedamos a instalarlo mediante
-ejecuciÛn de cÛdigo. Tal que asÌ:
+con gr√°ficos... Procedamos a instalarlo mediante
+ejecuci√≥n de c√≥digo. Tal que as√≠:
 
 "
 
@@ -54,8 +82,8 @@ install.packages("ggplot2")
 
 "
 Ya instalado el paquete necesitamos activarlo para 
-poder hacer uso de sus funciones. La activaciÛn se 
-har· mediante cÛdigo tambiÈn, tal que asÌ:
+poder hacer uso de sus funciones. La activaci√≥n se 
+har√° mediante c√≥digo tambi√©n, tal que as√≠:
 
 "
 
@@ -63,13 +91,35 @@ library("ggplot2")
 
 "
 Estando ya el paquete instalado y activado, usted
-podrÌa revisar cada una de las funciones del paquete
-en cuestiÛn. Por ejemplo, veamos m·s informaciÛn 
-sobre la funciÛn 'qplot' del paquete 'ggplot2'. 
+podr√≠a revisar cada una de las funciones del paquete
+en cuesti√≥n. Por ejemplo, veamos m√°s informaci√≥n 
+sobre la funci√≥n 'qplot' del paquete 'ggplot2'. 
 
 "
 
 ?qplot()
+# or
+help(qplot)
+
+"
+Ambas funciones hacen lo mismo: Brindarte documentaci√≥n
+propia, con ejemplos, de la consulta que est√° haciendo; 
+en este ejemplo, ser√≠a brindarte ayuda sobre 'qplot'.
+
+"
+
+
+"
+EXTRA. Uso de la funci√≥n 'installed.packages()'
+
+La funci√≥n 'installed.packages()' b√°sicamente nos permite
+saber qu√© paquetes tenemos instalados en Rstudio.
+
+Simplemente corra su c√≥digo a secas: 'installed.packages()', 
+y listo, podr√° ver todos los paquetes que tiene parcialmente
+instalados en Rstudio.
+
+"
 
 
 
