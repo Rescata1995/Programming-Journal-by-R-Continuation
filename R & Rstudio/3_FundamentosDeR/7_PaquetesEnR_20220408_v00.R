@@ -112,7 +112,7 @@ en este ejemplo, sería brindarte ayuda sobre 'qplot'.
 "
 EXTRA. Uso de la función 'installed.packages()'
 
-La función 'installed.packages()' básicamente nos permite
+La función 'installed.packages()' básicamente nos permite 
 saber qué paquetes tenemos instalados en Rstudio.
 
 Simplemente corra su código a secas: 'installed.packages()', 
@@ -121,5 +121,5 @@ instalados en Rstudio.
 
 "
 
-
+installed.packages()
 
