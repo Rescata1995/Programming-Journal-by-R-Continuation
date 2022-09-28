@@ -28,7 +28,7 @@ Puede alternar el orden de los parámetros, de una función, si los especifica c
 
 **7.** Se da una introducción a los Paquetes en R, qué son y cuál es su relación con las *librerías* en R. Desde RStudio usted podrá visualizar todos sus paquetes instalados, cuáles están activados y cuáles desactivados. Los paquetes instalados los puede visualizar corriendo la función *'installed.packages()'*. Si los paquetes no vienen originalmente con Rstudio, lo normal es que los obtenga desde el repositorio de la **CRAN** (The Comprehensive R Archive Network); pero, incluso, usted puede hacer uso de paquetes bajados desde una fuente independiente o particular: generalmente son archivos tipo '.tar'.
 
-Adicionalmente, se muestra la importancia de las sub-pestañas **'Updates' e 'Install'** de la pestaña **'Packages'**. En este curso, especialmente, estaremos trabajando y nos centraremos en el paquete 'ggplot2'. 
+Adicionalmente, se muestra la importancia del uso de las sub-pestañas **'Updates' e 'Install'** de la pestaña **'Packages'**. En este curso, especialmente, estaremos trabajando y nos centraremos en el paquete 'ggplot2'. 
 
 Por último, en caso necesite asistencia con documentación o ayuda sobre una función en cuestión, puede hacer uso de las funciones **'help()' o '?()'**.
 
