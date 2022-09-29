@@ -52,3 +52,11 @@ adicionalmente se introducen de forma breve las funciones 'rnorm()' & 'rm()'.
 temática abordada en esta sección 2: 'Principios básicos de programación'. 
 El ejercicio se llama: 'La ley de los grandes números'. Para más detalles, 
 visite el código. 
+
+**EXTRA.** Se resume al detalle la totalidad de las operaciones aritméticas
+que podemos correr en R, especialmente se introducen dos (2) poco conocidas: 
+**'Cociente entero' (%/%)** & **'Módulo' (%%)**. 
+
+El _Cociente entero_ equivale al resultado de una división sin tomar en cuenta 
+sus decimales, es decir, sólo refleja el resultado como un _entero_. En cambio, 
+el _Módulo_ equivale al residuo de una división: lo que sobre o resta en una división.
