@@ -61,16 +61,16 @@ a otros tipos de operaciones con R, un poco más exóticas:
 * **Número 'pi':** Si corres el número *pi* la consola te mostrará por pantalla
 la equivalencia númerica y convencional de dicho valor numérico; es decir, mostrará 
 por pantalla el siguiente número: **3.141593**. El *pi*, en su formato original, es 
-operable con cualquier valor numérico convencional. **Por ej.: 2*pi**.
+operable con cualquier valor numérico convencional. **Por ej.:** 2*pi.
 
 * **Número 'Inf':** Este número representa el número *infinito*, ya sea el número más 
-grande que existe: 'Inf' o el número más pequeño de todos: '-Inf'. 
+grande que existe: **'Inf'** o el número más pequeño de todos: **'-Inf'**. 
 
 * **Valor 'NA'**: Valor No Disponible, 'NA' representa los valores nulos o desconocidos 
 para R. 
 
-* **Valor 'NaN'**: Valor que No es un número, 'NaN' da lugar cuando intentas hacer
-operaciones aritméticas que no están permitidas
+* **Valor 'NaN'**: Valor que representa un número inexistente, 'NaN' aparece cuando 
+intentas hacer operaciones aritméticas que no están permitidas. **Por ej.:** 0/0.
 
 El _Cociente entero_ equivale al resultado de una división sin tomar en cuenta 
 sus decimales, es decir, sólo refleja el resultado como un _entero_. En cambio, 
