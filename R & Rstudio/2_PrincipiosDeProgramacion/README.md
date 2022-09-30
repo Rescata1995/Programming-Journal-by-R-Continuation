@@ -72,6 +72,9 @@ para R.
 * **Valor 'NaN'**: Valor que representa un número inexistente, 'NaN' aparece cuando 
 intentas hacer operaciones aritméticas que no están permitidas. **Por ej.:** 0/0.
 
+* **Número 'e'**: Al igual, se muestra cómo se debe interpretar los ejercicios donde se 
+evidencia el uso de notaciones científicas **(uso del número 'e+' & 'e-')**.
+
 El _Cociente entero_ equivale al resultado de una división sin tomar en cuenta 
 sus decimales, es decir, sólo refleja el resultado como un _entero_. En cambio, 
 el _Módulo_ equivale al residuo de una división: lo que sobre o resta en una división.
