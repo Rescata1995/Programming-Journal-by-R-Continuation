@@ -55,7 +55,22 @@ visite el código.
 
 **EXTRA.** Se resume al detalle la totalidad de las operaciones aritméticas
 que podemos correr en R, especialmente se introducen dos (2) poco conocidas: 
-**'Cociente entero' (%/%)** & **'Módulo' (%%)**. 
+**'Cociente entero' (%/%)** & **'Módulo' (%%)**. Al igual, damos introducción 
+a otros tipos de operaciones con R, un poco más exóticas: 
+
+* **Número 'pi':** Si corres el número *pi* la consola te mostrará por pantalla
+la equivalencia númerica y convencional de dicho valor numérico; es decir, mostrará 
+por pantalla el siguiente número: **3.141593**. El *pi*, en su formato original, es 
+operable con cualquier valor numérico convencional. **Por ej.: 2*pi**.
+
+* **Número 'Inf':** Este número representa el número *infinito*, ya sea el número más 
+grande que existe: 'Inf' o el número más pequeño de todos: '-Inf'. 
+
+* **Valor 'NA'**: Valor No Disponible, 'NA' representa los valores nulos o desconocidos 
+para R. 
+
+* **Valor 'NaN'**: Valor que No es un número, 'NaN' da lugar cuando intentas hacer
+operaciones aritméticas que no están permitidas
 
 El _Cociente entero_ equivale al resultado de una división sin tomar en cuenta 
 sus decimales, es decir, sólo refleja el resultado como un _entero_. En cambio, 
