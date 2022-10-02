@@ -1,11 +1,27 @@
 
 # Redondeo & Decimales en R
 
-print(sqrt(2),10)
+print(sqrt(2),10) 
+
+"# No trabajar con más de 16 cifras. El 2do parámetro de 'print()', en este caso '10', imprime el
+ # total de cifras o digitos que tiene todo el número en cuestión, no sus decimales solamente."
+
 round(sqrt(2), 3)
-floor(sqrt(2))
-ceiling(sqrt(2))
+
+"# El 2do parámetro de 'round()', en este caso '3', sí que indica el total de decimales que tendrá
+ # el número en cuestion (y sólo toma en cuenta eso)."
+
+floor(sqrt(2)) "Redondea al entero inmediatamente inferior"
+
+ceiling(sqrt(2)) "Redondea al entero inmediatamente superior"
+
 trunc(sqrt(2))
+
+"# Esta función simplemente suprime los decimales del número pasado, no redondea hacia arriba ni a la baja, 
+ # simplemente suprime todos los decimales posibles o fijados en un número o cálculo pasado. "
+
+
+# Más Práctica...
 
 sqrt(2)^2-2
 
