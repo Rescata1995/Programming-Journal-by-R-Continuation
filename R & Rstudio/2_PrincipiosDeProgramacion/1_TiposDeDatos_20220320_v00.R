@@ -105,6 +105,15 @@ z <- 3+2i
 typeof(z)
 
 "
+En caso desee convertir un número a un tipo de 
+dato 'complex', suponiendo que el número en cuestión
+esté contenido en una variable 'z', sería así:
+
+as.complex(z)
+
+"
+
+"
 ------------------------------------------------
 
 El cuarto tipo de dato en R es 'character' 
