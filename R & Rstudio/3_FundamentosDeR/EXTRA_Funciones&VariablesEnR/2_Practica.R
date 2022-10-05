@@ -106,3 +106,41 @@ Como has notado, a las funciones se les puede asignar variables también.
 
 "
 
+## Quizzes 
+
+"
+Elabore una función que imprima varias operaciones matematicas entre dos 
+variables, por separado, donde cada operativa ocupe su propia línea de código. 
+Las operaciones matematicas que va a calcular son: 'Suma', 'Resta', 
+'Multiplicación', 'División', 'Cociente entero' & 'Módulo'. 
+
+"
+
+"
+EXTRA. Introducción a las funciones paste() & sprintf(). Estas son funciones que 
+permiten, de manera conjunta, importar el resultado de una operación matemática entre
+variables dentro de una cadena de texto (se emplean ambas funciones). Sin embargo, con 
+el sólo uso de la función 'sprintf()', podemos importar variables en cadenas de textos 
+para ser manejadas como cadenas de texto; pero, ojo, no puede operarlas matematicamente
+sin hacer uso de la función 'paste()'. Observemos esto.
+
+"
+
+Operaciones = function(x, y){
+  print(paste(sprintf("A cuanto equivale la suma entre %i & %i? La suma equivale a:", x, y), x + y))
+  writeLines("\n")
+  print(paste(sprintf("A cuanto equivale la resta entre %i & %i? La resta equivale a:", x, y), x - y))
+  print(paste(sprintf("A cuanto equivale la resta entre %i & %i? La resta equivale a:", y, x), y - x))
+  writeLines("\n")
+  print(paste(sprintf("A cuanto equivale la multiplicación entre %i & %i? La multiplicación equivale a:", x, y), x * y))
+  writeLines("\n")
+  print(paste(sprintf("A cuanto equivale la división entre %i & %i? La división equivale a:", x, y), x / y))
+  print(paste(sprintf("A cuanto equivale la división entre %i & %i? La división equivale a:", y, x), y / x))
+  writeLines("\n")
+  print(paste(sprintf("Cuál sería el cociente entero entre la división de %i & %i? El cociente entero es:" ,x,y), x%/%y))
+  writeLines("\n")
+  print(paste(sprintf("A cuanto equivale el residuo de la división entre %i & %i? El residuo es:", x,y), x%%y))
+}
+
+Operaciones(11,5)
+
