@@ -34,7 +34,9 @@ Por último, en caso necesite asistencia con documentación o ayuda sobre una fu
 
 **8.** Realización de un ejercicio práctico en R que pretende evaluar toda la temática abordada en esta sección 3: 'Fundamentos de R'. El ejercicio se llama: 'Análisis de Estados Financieros'. Adicionalmente, se ponen en práctica nuevas funciones: **'round()', 'mean()', 'max()', 'min()' y el uso de saltos de línea en R con 'writeLines("\n")'**. Para más detalles, visite el código.
 
-**EXTRA. Redondeos & Decimales en R.** Se señala el manejo de redondeos y de decimales en R por medio de las funciones: **'print()', 'round()', 'floor()', 'ceiling()' & 'trunc()'**
+**EXTRA. Redondeos & Decimales en R.** 
+
+Se señala el manejo de redondeos y de decimales en R por medio de las funciones: **'print()', 'round()', 'floor()', 'ceiling()' & 'trunc()'**
 
 **EXTRA. Funciones & Variables en R.**
 
