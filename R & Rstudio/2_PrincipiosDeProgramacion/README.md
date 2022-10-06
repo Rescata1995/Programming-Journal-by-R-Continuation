@@ -53,7 +53,7 @@ temática abordada en esta sección 2: 'Principios básicos de programación'.
 El ejercicio se llama: 'La ley de los grandes números'. Para más detalles, 
 visite el código. 
 
-**EXTRA.** Se resume al detalle la totalidad de las operaciones aritméticas
+**EXTRA. Operaciones en R.** Se resume al detalle la totalidad de las operaciones aritméticas
 que podemos correr en R, especialmente se introducen dos (2) poco conocidas: 
 **'Cociente entero' (%/%)** & **'Módulo' (%%)**. Al igual, damos introducción 
 a otros tipos de operaciones con R, un poco más exóticas: 
@@ -78,3 +78,11 @@ evidencia el uso de notaciones científicas **(uso del número 'e+' & 'e-')**.
 El _Cociente entero_ equivale al resultado de una división sin tomar en cuenta 
 sus decimales, es decir, sólo refleja el resultado como un _entero_. En cambio, 
 el _Módulo_ equivale al residuo de una división: lo que sobre o resta en una división.
+
+**EXTRA. Números Complejos en Detalle.**
+
+* Estructura de un número complejo y formas de definirlo: **en forma binómica & en forma polar**.
+
+* Funciones aplicadas a un número complejo **(Módulo, Argumento & Conjugado)** & la extracción de sus partes **(Parte Real e Imaginaria)**.
+
+* Ejemplo práctico de cómo crear un número complejo & práctica de funciones.
