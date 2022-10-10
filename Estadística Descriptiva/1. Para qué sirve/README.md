@@ -10,3 +10,4 @@
 
 **2.** Ciclo de vida/Flujo de trabajo de la Ciencia de Datos
 
+En este curso especialmente nos centraremos en los dos primeros bloques, pues, son éstos los que tienen que ver directamente con la parte de Estadística Descriptiva: *Estadísticos para ingesta y procesamiento & Estadísticos para analítica y exploración*.
