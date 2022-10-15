@@ -1,6 +1,6 @@
 **En esta sección definimos:**
 
-**1.** Tipos de datos
+**1. Tipos de datos**
 
 * **1.1 Simil de 'import' de Python con R**
 
