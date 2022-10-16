@@ -45,7 +45,7 @@ Como introducción viene bien decir que los dos tipos de estadísticos descripti
 
 Las medidas de tendencia central se encargan de calcular valores que resultan ser *agregados*, resumiendo aritméticamente todos los valores en uno; mientras que las medidas de dispersión nos indican que tan dispersos están los valores, de manera individual, de un valor *agregado* calculado en cuestión.   
 
-* **2.1 Algunas Medidas de tendencia central:** Media (promedio), Mediana (Dato central), Moda (Dato que más se repite). 
+* **2.1 Algunas Medidas de tendencia central:** **Media** (promedio), **Mediana** (Dato central), **Moda** (Dato que más se repite). 
 
 * **Cuándo usar cuál?**: *La **media** es suceptible a valores atípicos, la **mediana** no. Por otro parte, la **moda** no aplica para datos numéricos continuos, no tendría sentido.* 
 
