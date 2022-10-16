@@ -33,7 +33,7 @@ Nos muestra un resumen, pequeño vistazo, de la estructura en la cual se conform
 En Python el tipo de dato 'string', o aquel que guarda valores textuales, es conocido como _'object'_.
 
 
-
+<br>
 
 
 
