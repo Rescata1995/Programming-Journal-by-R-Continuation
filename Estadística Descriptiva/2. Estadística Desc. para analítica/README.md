@@ -1,6 +1,9 @@
 **En esta sección definimos:**
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 49644c0583071392e7187031715988fa1cb5d83c
 **1. Tipos de datos**
 
 * **1.1 Simil de 'import' de Python con R**
