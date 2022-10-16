@@ -34,7 +34,7 @@ En Python el tipo de dato 'string', o aquel que guarda valores textuales, es con
 
 
 <br>
-
+<br>
 
 
 **2. Introducción a Medidas de tendencia central Vs Medidas de dispersión**
