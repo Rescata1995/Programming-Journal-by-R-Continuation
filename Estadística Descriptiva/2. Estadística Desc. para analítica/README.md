@@ -45,9 +45,9 @@ Como introducción viene bien decir que los dos tipos de estadísticos descripti
 
 Las medidas de tendencia central se encargan de calcular valores que resultan ser *agregados*, resumiendo aritméticamente todos los valores en uno; mientras que las medidas de dispersión nos indican que tan dispersos están los valores, de manera individual, de un valor *agregado* calculado en cuestión.   
 
-
 * **2.1 Algunas Medidas de tendencia central:** Media (promedio), Mediana (Dato central), Moda (Dato que más se repite). 
 
 * **Cuándo usar cuál?**: *La **media** es suceptible a valores atípicos, la **mediana** no. Por otro parte, la **moda** no aplica para datos numéricos continuos, no tendría sentido.* 
+
 
 * **2.2 Tabla & Diagrama de frecuencias**: En principio, estas dos herramientas entre sí, nos permiten contar la frecuencia con la que se repite cada valor posible para una variable determinada; por ejemplo, podríamos contar la frecuencia con la que se repite cada valor posible para la variable 'edad', si hablaramos de la *muestra* de niños, nos podría interesar saber cuántos niños tendrían la edad de 6 años o cuántos tendrían la edad 8 años, etc. Luego, de manera ordenada, podríamos representar esta información en una tabla, organizando la tabla edad por edad (esto sería una *tabla de frecuencias*). Posteriormente, podríamos representar visualmente la información de la tabla en un gráfico, a esto se le llamaría *Diagrama de frecuencias*.  
