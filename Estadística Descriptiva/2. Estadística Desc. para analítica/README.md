@@ -34,6 +34,9 @@ En Python el tipo de dato 'string', o aquel que guarda valores textuales, es con
 
 
 
+
+
+
 **2. Introducción a Medidas de tendencia central Vs Medidas de dispersión**
 
 Como introducción viene bien decir que los dos tipos de estadísticos descriptivos, mayormente usados, son: **Las medidas de tendencia central y las medidas de dispersión.**
