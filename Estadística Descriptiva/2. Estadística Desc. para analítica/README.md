@@ -47,7 +47,7 @@ Las medidas de tendencia central se encargan de calcular valores que resultan se
 
 * **2.1 Algunas Medidas de tendencia central:** **Media** (promedio), **Mediana** (Dato central), **Moda** (Dato que más se repite). 
 
-* **Cuándo usar cuál?**: *La **media** es suceptible a valores atípicos, la **mediana** no. Por otro parte, la **moda** no aplica para datos numéricos continuos, no tendría sentido.* 
+* **Cuándo usar cuál?**: *La **media** es muy susceptible a valores atípicos (genera un resultado sesgado, _desviado_), la **mediana** no (pero lo ignora completamente... igual, la mediana es mucho más adecuada que la media ante presecia de _Outliers_): ambos son extremos que se pueden curar con **_Medidas de Dispersión_**. Por otro parte, la **moda** **_no_** aplica para datos numéricos continuos, no tendría sentido.* 
 
 
 * **2.2 Tabla & Diagrama de frecuencias**: En principio, estas dos herramientas entre sí, nos permiten contar la frecuencia con la que se repite cada valor posible para una variable determinada; por ejemplo, podríamos contar la frecuencia con la que se repite cada valor posible para la variable 'edad', si hablaramos de la *muestra* de niños, nos podría interesar saber cuántos niños tendrían la edad de 6 años o cuántos tendrían la edad 8 años, etc. Luego, de manera ordenada, podríamos representar esta información en una tabla, organizando la tabla edad por edad (esto sería una *tabla de frecuencias*). Posteriormente, podríamos representar visualmente la información de la tabla en un gráfico, a esto se le llamaría *Diagrama de frecuencias*.  
