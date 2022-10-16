@@ -1,4 +1,5 @@
 **En esta sección definimos:**
+<br>
 
 **1. Tipos de datos**
 
