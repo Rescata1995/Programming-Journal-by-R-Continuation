@@ -71,3 +71,5 @@ df['price_usd'].mean()
 * **3.2 Uso de la función .median()**: Calcula la Mediana de la columna en cuestión
 
 df['price_usd'].median()
+
+*Nota: Se está suponiendo que queremos hallar estas Medidas de tendencia central sobre una columna con nombre 'price_usd'*. 
