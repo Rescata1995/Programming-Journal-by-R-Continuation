@@ -6,7 +6,7 @@
 
 * **1.1 Simil de 'import' de Python con R**
 
-**'import'** en python hace las veces de *'install.packages()' & 'library'*, todo en uno, en R; es decir, *'import'* no solo instala el paquete, sino que también lo carga y lo deja listo para su uso. En esta clase particular trabajaremos con el paquete **'pandas'**, un paquete extendidamente usado para preprocesamiento y limpieza de datos estructurados; en esta ocasión, hemos hecho uso de él al incorporar funciones de lectura para cargar archivos, y usarlos, dentro de nuestro entorno de trabajo.
+**'import'** en python hace las veces de *'install.packages()' & 'library'*, todo en uno, en R; es decir, *'import'* no solo instala el paquete, sino que también lo carga y lo deja listo para su uso. En esta clase particular trabajaremos con el paquete **'pandas'**, un paquete extendidamente usado para preprocesamiento y limpieza de datos estructurados; en esta ocasión, hemos hecho uso de él al incorporar funciones de lectura para cargar archivos, y usarlos, dentro de nuestro entorno de trabajo. Adicionalmente, con _pandas_ se habilita también el uso de las funciones de **Agregación**, entre otros. 
 
 Retomemos a **_Import_**. Por ejemplo, *"import pandas as pd"*. Import le está diciendo al entorno de trabajo que instale el paquete **'pandas'** y lo deje listo para su uso de paso. **'as'** es un comodín para asignar aliases u sobrenombres, entonces, pandas ahora se conoce también como pd. 
 
@@ -43,7 +43,7 @@ En Python el tipo de dato 'string', o aquel que guarda valores textuales, es con
 
 Como introducción viene bien decir que los dos tipos de estadísticos descriptivos, mayormente usados, son: **Las medidas de tendencia central y las medidas de dispersión.**
 
-Las medidas de tendencia central se encargan de calcular valores que resultan ser *agregados*, resumiendo aritméticamente todos los valores en uno; mientras que las medidas de dispersión nos indican que tan dispersos están los valores, de manera individual, de un valor *agregado* calculado en cuestión.   
+Las medidas de tendencia central se encargan de calcular valores que resultan ser *agregados*, resumiendo aritméticamente todos los valores en uno (funciones de _Agregación_); mientras que las medidas de dispersión nos indican que tan dispersos están los valores, de manera individual, de un valor *agregado* calculado en cuestión.   
 
 * **2.1 Algunas Medidas de tendencia central:** **Media** (promedio), **Mediana** (Dato central), **Moda** (Dato que más se repite). 
 
@@ -51,3 +51,23 @@ Las medidas de tendencia central se encargan de calcular valores que resultan se
 
 
 * **2.2 Tabla & Diagrama de frecuencias**: En principio, estas dos herramientas entre sí, nos permiten contar la frecuencia con la que se repite cada valor posible para una variable determinada; por ejemplo, podríamos contar la frecuencia con la que se repite cada valor posible para la variable 'edad', si hablaramos de la *muestra* de niños, nos podría interesar saber cuántos niños tendrían la edad de 6 años o cuántos tendrían la edad 8 años, etc. Luego, de manera ordenada, podríamos representar esta información en una tabla, organizando la tabla edad por edad (esto sería una *tabla de frecuencias*). Posteriormente, podríamos representar visualmente la información de la tabla en un gráfico, a esto se le llamaría *Diagrama de frecuencias*.  
+
+<br>
+<br>
+
+**3. Medidas de tendencia central en Python**
+
+Para hacer uso de las Medidas de tendencia central en Python hay que importar, como bien se imagina, el paquete _pandas_ (esto ya lo sabe hacer). 
+
+<> Import *pandas* as *pd*
+pd.read_csv('cars.csv')
+
+Ahora, cualquier medida de tendencia central que pretenda correr, debe correrse sobre una columna o campo en específico que usted llame. Veamos esto en práctica.
+
+* **3.1 Uso de la función .mean()**: Calcula la Media de la columna en cuestión
+
+df['price_usd'].mean()
+
+* **3.2 Uso de la función .median()**: Calcula la Mediana de la columna en cuestión
+
+df['price_usd'].median()
