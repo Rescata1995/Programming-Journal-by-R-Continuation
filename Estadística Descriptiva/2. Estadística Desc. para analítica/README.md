@@ -71,6 +71,7 @@ Ahora, cualquier medida de tendencia central que pretenda correr, debe correrse 
 
 * **3.2 Uso de la función .median()**: Calcula la Mediana de la columna en cuestión
 
+<<<<<<< HEAD
 **df['price_usd'].median()**
 
 <br>
@@ -104,3 +105,8 @@ Al grano. Ya se sabe que 'seaborn' es una líbreria de visualización estadísti
 Como introducción sepa que la dimensión de cada rango o contenedor puede ser establecida (setting); es decir, usted puede establecer un rango fijo en particular para todos los contenedores o barras que visualiza (generalmente al definir el número de contenedores que desea ver en su histograma); es decir, establecer cuantas unidades de valores debe haber por cada rango o contenedor antes de pasar al siguiente; por ejemplo, 100 unidades (un número fijo por rango). En este caso por ejemplo, como el campo que estaríamos evaluando en el Histograma es ***'price_usd'***, usted podría definir que cada rango contemple 100 unidades de *precios* antes de saltar o pasar al otro rango o contenedor. Sin embargo, usted también, además de _establecer_, puede _mapear_; es decir, *granular* o categorizar sus rangos por medio de otro campo o columna y no sólo apoyarse de la dimensión definida para cada uno de ellos (rangos) por medio de un número _establecido_. Esto justamente lo hace el parámetro ***'hue'***. ***'hue'*** mapea, categoriza, granula mucho más la información de su histograma al definirlo de manera más detallada a partir de las categorías de un campo.
 
 Por ejemplo, supongamos que definimos el parámetro _hue_ con el campo ***'brand'*** (que hace referencia a las *marcas* de una muestra de carros) y que el parámetro _x_ sigue siendo definido con el campo ***'price_usd'***, supongamos que ***'price_usd'*** evalúa un nuevo rango cada 100 unidades de valores (de precios), es decir, son 100 unidades de precio las que definen la dimensión (tamaño horizontal, hacia el eje de las *x*) de cada uno de los contenedores de su histograma. En contexto, entonces, se observaría que los rangos/contenedores se _categorizarían_; se desglozaría a cada rango o contenedor, donde cada uno mide o _agrupa_ 100 unidades de precio, en cada una de las categorías del campo ***'brand'***; es decir, cada rango de 100 unidades de precio se dividiría en sub-rangos por cada una de las _marcas_ de coche registradas.
+=======
+df['price_usd'].median()
+
+*Nota: Se está suponiendo que queremos hallar estas Medidas de tendencia central sobre una columna con nombre 'price_usd'*. 
+>>>>>>> 33c49427cf0121277355e117d01a95ab0eaaf030
