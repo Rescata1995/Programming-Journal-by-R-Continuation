@@ -6,16 +6,16 @@
 
 * **1.1 Simil de la librería 'import' de Python con R**
 
-**'import'** en python hace las veces de *'install.packages()' & 'library'*, todo en uno, en R; es decir, *'import'* no solo instala el paquete, sino que también lo carga y lo deja listo para su uso. En esta clase particular trabajaremos con el paquete **'pandas'**, un paquete extendidamente usado para preprocesamiento y limpieza de datos estructurados; en esta ocasión, hemos hecho uso de él al incorporar funciones de lectura para cargar archivos, y usarlos, dentro de nuestro entorno de trabajo. Adicionalmente, con _pandas_ se habilita también el uso de las funciones de **Agregación**, entre otros. 
+**'import'** en python hace las veces de *'install.packages()' & 'library'*, todo en uno, en R; es decir, *'import'* no solo instala el paquete, sino que también lo carga y lo deja listo para su uso. En esta clase particular trabajaremos con el paquete **'pandas'**, un paquete extendidamente usado para preprocesamiento y limpieza de datos estructurados; en esta ocasión, hemos hecho uso de él al incorporar funciones de lectura para cargar archivos, y usarlos, dentro de nuestro entorno de trabajo. Adicionalmente, con _pandas_ se habilita también el uso de las **_funciones de Agregación_** + **_filtrados_**, entre otras funcionalidades propias de preparación, procesamiento & análisis de datos. 
 
-Retomemos a **_Import_**. Por ejemplo, **"import pandas as pd"**. *Import* le está diciendo al entorno de trabajo que instale el paquete **'pandas'** y lo deje listo para su uso de paso. **'as'** es un comodín para asignar aliases u sobrenombres, entonces, pandas ahora se conoce también como *pd*. 
+Retomemos a **_Import_**. Por ejemplo, **"_import pandas as pd_"**. *Import* le está diciendo al entorno de trabajo que instale el paquete **'pandas'** y lo deje listo para su uso de paso. **'as'** es un comodín para asignar aliases u sobrenombres, entonces, _'pandas'_ ahora se conoce también como *'pd'*. 
 
 
 * **1.2 Diferencias entre Python & R en el uso de funciones**
 
-Una novedad que hay en Python, contrario a R, es que para usar la función de un paquete determinado, se debe llamar antes al paquete en cuestión; en este caso, a nuestro paquete se le asignó el alias de *pd*. Si más adelante no invocamos a *pd* es porque simplemente las funciones que serían abordadas no pertenecen exclusivamente al paquete de *pd* o *pandas*. 
+Una novedad que hay en Python, contrario a R, es que para usar la función de un paquete determinado, se debe llamar antes al paquete en cuestión; en este caso, a nuestro paquete se le asignó el alias de *pd*. Si más adelante no invocamos a *pd* es porque simplemente las funciones que serían abordadas no pertenecen exclusivamente al paquete de *pd* **(pandas)** o, bien, sí pertenecen pero ya están contenidas dentro de una variable con la que ya se está trabajando (como por ejemplo será el caso de la variable **'df'** próximamente).*
 
-Por ejemplo, para hacer uso de la función '*read_csv('cars.csv')*', si se percata, se antepone el paquete o el alias del paquete en cuestión; es decir, se cita o se llama al paquete. Tal que: **'pd.read_csv('cars.csv')'**.
+Observe que para hacer uso de la función '*read_csv('cars.csv')*', si se percata, se antepone el paquete o el alias del paquete en cuestión; es decir, se cita o se llama al paquete. Tal que: **'pd.read_csv('cars.csv')'**.
 
 Luego, idealmente, se almacena en una variable la anterior expresión o línea de código; de tal manera que toda vez que quiera correrla, sea simplemente invocar o llamar a su variable en cuestión. Por ejemplo, vamos a asignar la variable **'df'**.
 
@@ -23,7 +23,7 @@ Entonces, tendríamos lo siguiente:
     ***df = 'pd.read_csv('cars.csv')'***
 
 
-* **1.3 Uso de la función .dtypes**
+* **1.3 Uso de la función '.dtypes'**
 
 Tenemos que el dataset lo hemos almacenado en la variable **'df'**. 
 
@@ -32,10 +32,10 @@ Entonces, por ejemplo, si quisieramos conocer el tipo de datos de cada una de la
 
 * **1.4 Uso de la función '.describe()'**
 
-Nos muestra un resumen, pequeño vistazo, de la estructura en la cual se conforma a cada columna, digamos, los metadatos de cada una de ellas. Adicionalmente, a cada campo se le asigna el cálculo numérico de varios estadisticos descriptivos. Para ejemplos prácticos, puede ejecutar lo siguiente: **_'df.describe()'_**
+Nos muestra un resumen, pequeño vistazo, de la estructura de la cual se conforma cada columna, digamos, los metadatos de cada una de ellas. Adicionalmente, a cada campo se le asigna el cálculo numérico de varios estadisticos descriptivos. Para ejemplos prácticos, puede ejecutar lo siguiente: **_'df.describe()'_**
 
 
-* **1.5 Uso de la función '.groupby()' + uso de *función de Agregación*** 
+* **1.5 Uso de la función *'.groupby()'* + uso de *función de Agregación*** 
 
 Entienda la lógica de la función *'.groupby'()* exactamente de la misma forma en la que lo entendió en SQL (revisar apuntes de ser necesario). Con *'groupby()'* básicamente se categoriza, se divide o se desglosa el resultado *agregado* de una función de agregación ejecutada, que resulta ser global, en las categorías (*levels* en R) del campo categórico pasado por medio de '.groupby()'; es decir, toma un resultado total, lo divide en partes, y le asigna la parte que corresponda a cada categoría del campo pasado dentro de '.groupby()'. Digamos, se *granula* la función de *agregación* aplicada por las categorías de un campo categórico pasado con *'groupby()'*. Veamos esto.
 
@@ -45,6 +45,16 @@ Con el anterior código se están contando todos los registros de la base de dat
 
 ***df.count()***
 
+Lo anterior no es lo más práctico, de hecho, lo normal es que usted en una *consulta* ejecute las funciones de agregación y adicionalmente las acompañe con una sentencia de tipo *'groupby'*.
+
+
+* **1.6 Uso de _filtros_ en Python** 
+
+Vamos directo al grano. Si por ejemplo sólamente quisiera ver el registro de coches marca _'Audi'_ y que pertenecen al módelo _'Q7'_ tendría que correr **_filtros_**, especificamente dos (2). Veamos. Es preciso mencionar de antemano que, idealmente, todo filtro que corra se le deberia asignar su variable propia. Al filtro que tomaremos de ejemplo lo almacenaremos en la variable 'Audi_Q7'. Entonces, tenemos:
+
+***Audi_Q7 = df[(df['manufacturer_name'] == 'Audi') & (df['model_name']) == 'Q7')] ***
+
+*Audi_Q7*
 
 
 * **EXTRA**. Los tipos de dato **'string'** en Python se conocen como: **object**
@@ -106,7 +116,7 @@ La función **'.plot()'** por sí sola se encarga de crear todo tipo de visualiz
 <br>
 <br>
 
-**EXTRA. Introducción a la líbreria de visualización estadística 'seaborn'**
+**EXTRA. Introducción a la líbreria de visualización estadística 'seaborn' & otras formas más sofisticadas de lograr un Histograma**
 
 
 *import seaborn as 'sns'*
@@ -116,13 +126,16 @@ Al grano. Ya se sabe que 'seaborn' es una líbreria de visualización estadísti
 
 * **1. Definición del parámetro 'data'.** En el parámetro _'data'_ se llama al _dataset_ con el que desea trabajar. Aunque si desea no es necesario hacer uso de ningún parámetro, simplemente llama de forma directa al *alias* con el cual se ha identificado su *dataset*; por ejemplo, el alias ***'df'***
 
+
 * **2. Definición del parámetro 'x'.** En *'x'* se asigna un campo o columna, dicho campo o columna pasaría a ser la variable seleccionada para que sea evaluada dentro del histograma; es decir, se evaluará la frecuencia de los valores que contenga la variable en cuestión, siendo estos valores agrupados y expresados en términos de rangos u contenedores, entonces, se evaluaría la frecuencia de cada uno de dichos rangos. En nuestro ejemplo el parámetro ***'x'*** fue definido con el campo ***'price_usd'***.
+
 
 * **3. Definición del parámetro 'hue'.** 
 
 Como introducción sepa que la dimensión de cada rango o contenedor puede ser establecida (setting); es decir, usted puede establecer un rango fijo en particular para todos los contenedores o barras que visualiza (generalmente al definir el número de contenedores que desea ver en su histograma); es decir, establecer cuantas unidades de valores debe haber por cada rango o contenedor antes de pasar al siguiente; por ejemplo, 100 unidades (un número fijo por rango). En este caso por ejemplo, como el campo que estaríamos evaluando en el Histograma es ***'price_usd'***, usted podría definir que cada rango contemple 100 unidades de *precios* antes de saltar o pasar al otro rango o contenedor. Sin embargo, usted también, además de _establecer_, puede _mapear_; es decir, *granular* o categorizar sus rangos por medio de otro campo o columna y no sólo apoyarse de la dimensión definida para cada uno de ellos (rangos) por medio de un número _establecido_. Esto justamente lo hace el parámetro ***'hue'***. ***'hue'*** mapea, categoriza, granula mucho más la información de su histograma al definirlo de manera más detallada a partir de las categorías de un campo. 
 
 Por ejemplo, supongamos que definimos el parámetro _hue_ con el campo ***'brand'*** (que hace referencia a las *marcas* de una muestra de carros) y que el parámetro _x_ sigue siendo definido con el campo ***'price_usd'***, supongamos que ***'price_usd'*** evalúa un nuevo rango cada 100 unidades de valores (de precios), es decir, son 100 unidades de precio las que definen la dimensión (tamaño horizontal, hacia el eje de las *x*) de cada uno de los contenedores de su histograma. En contexto, entonces, se observaría que los rangos/contenedores se _categorizarían_; se desglozaría a cada rango o contenedor, donde cada uno mide o _agrupa_ 100 unidades de precio, en cada una de las categorías del campo ***'brand'***; es decir, cada rango de 100 unidades de precio se dividiría en sub-rangos por cada una de las _marcas_ de coche registradas.
+
 
 * **4. Definición del parámetro 'multiple' + valor 'stack'.** 
 
@@ -134,6 +147,18 @@ De momento, entonces, tenemos la siguiente línea de código lista para ejecutar
 
 ***sns.displot(df, x='price_usd', hue='engine_type', multiple='stack')***
 
+
+* **5. Función 'sns.displot()' Vs función 'sns.histplot()'**
+
+Ahora, podemos ir al grano y decirle a la líbreria 'seaborn' que, extrictamente, queremos ver un Histograma en nuestra visualización. Por lo anterior, entonces, ya no hablaríamos de ***'sns.displot(...)'***, sino de ***'sns.histplot(...)'***. 
+
+**Ejemplo práctico.** Recuerda el _subset_ filtrado a partir de una base de datos inicial que fue almacenada en la variable ***'df'***?, Hablamos del subset ***'Audi_Q7'***. Pues bien, trabajemos con él para probar esta nueva función. 
+
+***sns.histplot(Audi_Q7, x='price_usd', hue='year_produced')***
+
+La anterior función nos visualizará todos los Audi, módelo Q7 *(subset 'Audi_Q7')*, en rangos o contenedores, de un Histograma, con una dimensión sobre el eje de las _Xs_ equivalente a 5 mil unidades de precios para cada uno *(x='price_usd')*, donde cada rango de precios de autos se encontrará categorizado por los respectivos años o módelos de coche registrados para cada rango de valores de precio en cuestión; es decir, según un rango de precios dado, de qué módelo o año son los coches que se venden para dicho rango *(hue='year_produced')*.
+
+***Takeaway:*** La tendencia que se ve es que, en la medida que el precio o el rango de precios incrementa; es más probable que las categorías, definidas por el campo 'year_produced', tengan módelos de coches más nuevos: esto tiene completamente sentido, mientras el coche sea de un módelo o año más actualizado, su costo tiende a ser mayor. Adicionalmente, el nivel de frecuencia disminuye en la medida que los rangos de precios incrementan; tiene todo el sentido también, pues, cuando más encarecen las mercancías, más escasean.  
 
 
 
