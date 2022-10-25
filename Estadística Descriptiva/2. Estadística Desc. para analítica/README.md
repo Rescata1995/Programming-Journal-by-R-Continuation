@@ -6,7 +6,7 @@
 
 * **1.1 Simil de la librería 'import' de Python con R**
 
-**'import'** en python hace las veces de *'install.packages()' & 'library'*, todo en uno, en R; es decir, *'import'* no solo instala el paquete, sino que también lo carga y lo deja listo para su uso. En esta clase particular trabajaremos con el paquete **'pandas'**, un paquete extendidamente usado para preprocesamiento y limpieza de datos estructurados; en esta ocasión, hemos hecho uso de él al incorporar funciones de lectura para cargar archivos, y usarlos, dentro de nuestro entorno de trabajo. Adicionalmente, con _pandas_ se habilita también el uso de las **_funciones de Agregación_** + **_filtrados_**, entre otras funcionalidades propias de preparación, procesamiento & análisis de datos. 
+**'import'** en python hace las veces de *'install.packages()' & 'library'*, todo en uno, en R; es decir, *'import'* no solo instala el paquete, sino que también lo carga y lo deja listo para su uso. En esta clase particular trabajaremos con el paquete **'pandas'**, un paquete extendidamente usado para preprocesamiento y limpieza de datos estructurados; en esta ocasión, hemos hecho uso de él al incorporar funciones de lectura para cargar archivos, y usarlos, dentro de nuestro entorno de trabajo. Adicionalmente, con _pandas_ se habilita también el uso de los **_filtrados_**, **_funciones de Agregación_** e incluso ***histogramas***, entre otras funcionalidades propias de preparación, procesamiento, análisis & visualización de datos. 
 
 Retomemos a **_Import_**. Por ejemplo, **"_import pandas as pd_"**. *Import* le está diciendo al entorno de trabajo que instale el paquete **'pandas'** y lo deje listo para su uso de paso. **'as'** es un comodín para asignar aliases u sobrenombres, entonces, _'pandas'_ ahora se conoce también como *'pd'*. 
 
@@ -41,7 +41,7 @@ Entienda la lógica de la función *'.groupby'()* exactamente de la misma forma 
 
 ***df.groupby('engine_type').count()***
 
-Con el anterior código se están contando todos los registros de la base de datos *'df'*, sin embargo, no se reflejará un número total sobre dicho conteo; sino, un número total por cada una de las categorías del campo categórico 'engine_type'. En caso de que hubiera deseado no *categorizar* el resultado de su función de conteo, podía simplemente ejecutar el siguiente código: 
+Con el anterior código se están contando todos los registros de la base de datos *'df'*, sin embargo, no se reflejará un solo número total o _agregado_ sobre dicho conteo; sino, un número total por cada una de las categorías del campo categórico 'engine_type'. En caso de que hubiera deseado no *categorizar* el resultado de su función de conteo, podía simplemente ejecutar el siguiente código: 
 
 ***df.count()***
 
@@ -101,7 +101,7 @@ Ahora, cualquier medida de tendencia central que pretenda correr, debe correrse 
 <br>
 <br>
 
-**4. Introducción a Histogramas**: Tanto la tabla como el diagrama de frecuencias son útiles en el análisis de cualquier tipo de dato, a excepción de los datos numéricos o cuantitativos que resultan ser *continuos*. Es muy poco probable que en una base de datos que contenga números *continuos* existan valores que se repitan dentro de ella, es decir, no habría *frecuencia* alguna (o muy poca). No es probable que números con decimales se repitan de forma exactamente igual a lo largo de un registro; por lo cual, toca analizar estos valores por medio de _rangos_ y no por separado. El tipo de gráfico por excelencia que se encarga de analizar rangos de manera visual es el **_Histograma_**.
+**4. Introducción a Histogramas con la líbreria 'Pandas'**: Tanto la tabla como el diagrama de frecuencias son útiles en el análisis de cualquier tipo de dato, a excepción de los datos numéricos o cuantitativos que resultan ser *continuos*. Es muy poco probable que en una base de datos que contenga números *continuos* existan valores que se repitan dentro de ella, es decir, no habría *frecuencia* alguna (o muy poca). No es probable que números con decimales se repitan de forma exactamente igual a lo largo de un registro; por lo cual, toca analizar estos valores por medio de _rangos_ y no por separado. El tipo de gráfico por excelencia que se encarga de analizar rangos de manera visual es el **_Histograma_**.
 
 Veamos. La gran diferencia entre un Histograma y un Diagrama de barras es que el Histograma evalua rangos de números y el Diagrama de barras evalua valores, no necesariamente numéricos, de forma individual. Cada barra en un Histograma corresponde a un rango de valores, mientras que cada barra en un Diagrama de barras corresponde a un solo valor. Veamos cómo se ejecuta en la práctica un Histograma con Python.
 
@@ -148,9 +148,9 @@ De momento, entonces, tenemos la siguiente línea de código lista para ejecutar
 ***sns.displot(df, x='price_usd', hue='engine_type', multiple='stack')***
 
 
-* **5. Función 'sns.displot()' Vs función 'sns.histplot()'**
+* **5. Función '.displot()' Vs función '.histplot()' en la conformación de Histogramas**
 
-Ahora, podemos ir al grano y decirle a la líbreria 'seaborn' que, extrictamente, queremos ver un Histograma en nuestra visualización. Por lo anterior, entonces, ya no hablaríamos de ***'sns.displot(...)'***, sino de ***'sns.histplot(...)'***. 
+Ahora, podemos ir al grano y decirle a la líbreria 'seaborn' que, extrictamente, queremos ver un Histograma en nuestra visualización; en ese caso, ya no hablaríamos de ***'sns.displot(...)'***, sino de ***'sns.histplot(...)'***. 
 
 **Ejemplo práctico.** Recuerda el _subset_ filtrado a partir de una base de datos inicial que fue almacenada en la variable ***'df'***?, Hablamos del subset ***'Audi_Q7'***. Pues bien, trabajemos con él para probar esta nueva función. 
 
@@ -160,5 +160,7 @@ La anterior función nos visualizará todos los Audi, módelo Q7 *(subset 'Audi_
 
 ***Takeaway:*** La tendencia que se ve es que, en la medida que el precio o el rango de precios incrementa; es más probable que las categorías, definidas por el campo 'year_produced', tengan módelos de coches más nuevos: esto tiene completamente sentido, mientras el coche sea de un módelo o año más actualizado, su costo tiende a ser mayor. Adicionalmente, el nivel de frecuencia disminuye en la medida que los rangos de precios incrementan; tiene todo el sentido también, pues, cuando más encarecen las mercancías, más escasean.  
 
+**Para tener en cuenta:** Muchas veces lo ideal, especialmente en los casos en los que la base de datos es muy grande, no es sólo analizar de manera visual un solo campo; sino, incluso, tomar _subsets_ a partir de dicho campo en particular y crear así sus visualizaciones; por ejemplo, analizar visualmente una categoría en específica de un campo seleccionado; es decir, filtrar datos (tal como lo hicimos en el análisis de nuestro último histograma del _subset_ personalizado *'Audi_Q7'* con relación, ahora sí, a otros campos de interés que simplemente se utilizarían para ser _mapeados_). 
 
+Una de las premisas de la **visualización**, en el análisis de datos, es la de resumir la mayor cantidad posible de datos para extraer de manera rápida las conclusiones más importantes de un estudio. Se resume información con la idea de facilitar mucho más el entendimiento del análisis que previamente fue hecho, la idea es que el público que observe una visualización capte la idea principal de forma casi que inmediata, en cuestión de segundos. **Sobrecargar un gráfico con datos nunca será buena idea y hay que tenerlo claro de entrada.**
 
