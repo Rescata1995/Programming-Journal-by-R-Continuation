@@ -1,95 +1,95 @@
 
 "
-Introducción a la función GGPlot, Capas Fundamentales 
-& Profundización sobre la Capa de las Estéticas 
+IntroducciÃ³n a la funciÃ³n GGPlot, Capas Fundamentales 
+& ProfundizaciÃ³n sobre la Capa de las EstÃ©ticas 
 
 "
 
-#Capa de Datos (Importación de datos)
+#Capa de Datos (ImportaciÃ³n de datos)
 
 Datos <- read.csv(file.choose())
 
 head(Datos)
 
 colnames(Datos) <- c("Peliculas", "Genero", "Rating_Criticos", "Rating_Audiencia",
-                     "Presupuesto_Millones", "Año")
+                     "Presupuesto_Millones", "AÃ±o")
 
 
 "
-1. Introducción a 'ggplot' & sus parámetros
+1. IntroducciÃ³n a 'ggplot' & sus parÃ¡metros
 
 
-1.1. Sobre la función 'ggplot' y parámetro 'data'
+1.1. Sobre la funciÃ³n 'ggplot' y parÃ¡metro 'data'
 
 Vamos al grano con GGPlot. 'ggplot' recibe un primer 
-parámetro fundamental; se trata del parámetro con el 
-que se define con qué dataframe vamos a trabajar, el 
-parámetro: 'data'.
+parÃ¡metro fundamental; se trata del parÃ¡metro con el 
+que se define con quÃ© dataframe vamos a trabajar, el 
+parÃ¡metro: 'data'.
 
 "
 
-# Capa de las Estéticas (¿Cuando usar la función 'aes'?)
+# Capa de las EstÃ©ticas (Â¿Cuando usar la funciÃ³n 'aes'?)
 
 "
-1.2 Sobre la función 'aes()', los parámetros de la capa 
-de las estéticas: ejes 'x' e 'y', 'color' & 'size' e 
+1.2 Sobre la funciÃ³n 'aes()', los parÃ¡metros de la capa 
+de las estÃ©ticas: ejes 'x' e 'y', 'color' & 'size' e 
 Intro a las diferencias entre 'Mapping' vs 'Setting'
 
 
-'aes()' es la función que asiste a la definición de 
-los parámetros de las 'estéticas' (Marcas en Tableau), 
-de nuestra visualización con 'ggplot', en caso de que estos 
-parámetros sean definidos por medio de 'Mapeo de datos' 
-(Mapping); es decir, asumiendo la asignación de un campo 
-como valor sobre estos parámetros y no precisamente 
+'aes()' es la funciÃ³n que asiste a la definiciÃ³n de 
+los parÃ¡metros de las 'estÃ©ticas' (Marcas en Tableau), 
+de nuestra visualizaciÃ³n con 'ggplot', en caso de que estos 
+parÃ¡metros sean definidos por medio de 'Mapeo de datos' 
+(Mapping); es decir, asumiendo la asignaciÃ³n de un campo 
+como valor sobre estos parÃ¡metros y no precisamente 
 'establecidendo' valores a secas (Setting) para ellos.
 
 Profundicemos. Cuando hablamos de que en la capa de las 
-estéticas los parámetros también pueden ser definidos 
+estÃ©ticas los parÃ¡metros tambiÃ©n pueden ser definidos 
 por medio de 'Mapeo de datos'; queremos decir de que,
-por ejemplo, los parámetros 'size' & 'color' también
+por ejemplo, los parÃ¡metros 'size' & 'color' tambiÃ©n
 pueden ser definidos por medio del uso de campos; es decir, 
 se tiene la facultad de poder definir los campos como 
-'valores' de dichos parámetros; de hecho, se requiere en
+'valores' de dichos parÃ¡metros; de hecho, se requiere en
 el resumen del proyecto que el campo 'Presupuesto_Millones' 
-se distinga visualmente por medio de tamaños (size) y que 
+se distinga visualmente por medio de tamaÃ±os (size) y que 
 el campo 'Genero' se distinga visualmente por medio de 
 colores (color): esto se hace con 'Mapeo de datos'. Dicho
-lo anterior, como está haciendo 'Mapping' en estos dos 
-últimos casos puntuales, usted debe previamente asistirse 
-de la función 'aes()' para la asignación de esos parámetros.
+lo anterior, como estÃ¡ haciendo 'Mapping' en estos dos 
+Ãºltimos casos puntuales, usted debe previamente asistirse 
+de la funciÃ³n 'aes()' para la asignaciÃ³n de esos parÃ¡metros.
 
 Luego, en el caso contrario, si queramos 'establecer' 
-los valores de nuestros parámetros de la capa de las 
-estéticas a secas, con valores concretos, no es necesario 
-asistirse con la función 'aes()'; ni antes ni después.
+los valores de nuestros parÃ¡metros de la capa de las 
+estÃ©ticas a secas, con valores concretos, no es necesario 
+asistirse con la funciÃ³n 'aes()'; ni antes ni despuÃ©s.
 
-Ahora un recorderis. Con 'estéticas' nos podemos referir, 
-por ejemplo, a los parámetros de los ejes: 'x' e 'y', 
+Ahora un recorderis. Con 'estÃ©ticas' nos podemos referir, 
+por ejemplo, a los parÃ¡metros de los ejes: 'x' e 'y', 
 fundamentales en la mayoria de casos para poder facultar 
-la creación de una gráfica bidimensional dentro de R. 
+la creaciÃ³n de una grÃ¡fica bidimensional dentro de R. 
 
-Otros parámetros de las 'estéticas', como ya lo dijimos,
+Otros parÃ¡metros de las 'estÃ©ticas', como ya lo dijimos,
 son: 'size' & 'color'.
 
-Consejo: Para el parámetro 'size' lo recomendado es que 
+Consejo: Para el parÃ¡metro 'size' lo recomendado es que 
 sea definido con una variable continua.
 
-Nota: las figuras como tal se abordarán más adelante, 
-debido a que hacen parte de la capa de las Geometrías.
+Nota: las figuras como tal se abordarÃ¡n mÃ¡s adelante, 
+debido a que hacen parte de la capa de las GeometrÃ­as.
 
 Retomemos...
 
-Entonces, como se podría estar imaginando, dentro de la 
-función 'aes()' es donde se pueden definir nuestros ejes 
-'x' e 'y', los tamaños & colores si requerimos 'Mapear'. 
+Entonces, como se podrÃ­a estar imaginando, dentro de la 
+funciÃ³n 'aes()' es donde se pueden definir nuestros ejes 
+'x' e 'y', los tamaÃ±os & colores si requerimos 'Mapear'. 
 
 En el eje 'x', por ejemplo, nos interesa definir el campo 
 'Rating_Criticos' & en el eje 'y', por su parte, nos 
 interesa definir el campo 'Rating_Audiencia' 
-(Así lo requiere el Resumen del proyecto). Adicionalmente, 
-vamos a definir el parámetro 'size' con el campo 
-'Presupuesto_Millones' y el parámetro 'color' con el campo 
+(AsÃ­ lo requiere el Resumen del proyecto). Adicionalmente, 
+vamos a definir el parÃ¡metro 'size' con el campo 
+'Presupuesto_Millones' y el parÃ¡metro 'color' con el campo 
 'Genero'. Veamos.
 
 "
@@ -97,45 +97,45 @@ ggplot(data=Datos, aes(x=Rating_Criticos, y=Rating_Audiencia,
                        color=Genero, size=Presupuesto_Millones))
 
 "
-Aclaración importante:
+AclaraciÃ³n importante:
 
-De momento, si ha prestado atención a las anteriores clases,
-sabrá que del anterior código de 'ggplot()' solo se podrá 
+De momento, si ha prestado atenciÃ³n a las anteriores clases,
+sabrÃ¡ que del anterior cÃ³digo de 'ggplot()' solo se podrÃ¡ 
 visualizar un diagrama 'vacio' con sus respectivos ejes;
-esto es así porque, bien recuerde, para poder visualizar 
+esto es asÃ­ porque, bien recuerde, para poder visualizar 
 propiamente las figuras representativas a sus datos
-se tiene que trabajar directamente con la capa 'geométrica'.
-Vamos allá!
+se tiene que trabajar directamente con la capa 'geomÃ©trica'.
+Vamos allÃ¡!
 
 "
 
-# Capa de las Geometrías (Sobre la función 'geom_point')
+# Capa de las GeometrÃ­as (Sobre la funciÃ³n 'geom_point')
 
 "
 1.3 Sobre las funciones tipo 'geom_ ...' & sus figuras:
-    Introducción a funciones 'geom_point()' & 'geom_line()'
+    IntroducciÃ³n a funciones 'geom_point()' & 'geom_line()'
     
-Las funciones 'geom_point' & 'geom_line()' básicamente 
+Las funciones 'geom_point' & 'geom_line()' bÃ¡sicamente 
 tienen la facultad de poder definir un tipo de figura con 
-el cual poder visualizar los datos nuestro dataframe; 
-con más precisión, los datos de los campos evaluados 
-dentro de la función 'ggplot'. 
+el cual poder visualizar los datos de nuestro dataframe; 
+con mÃ¡s precisiÃ³n, los datos de los campos evaluados 
+dentro de la funciÃ³n 'ggplot'. 
 
-Puntualmente, las figuras que representa la función 
+Puntualmente, las figuras que representa la funciÃ³n 
 'geom_point()' son como puntos o circulos rellenos;
-mientras que las figuras que representa la función 
-'geom_line()' son simplemente líneas.
+mientras que las figuras que representa la funciÃ³n 
+'geom_line()' son simplemente lÃ­neas.
 
-Hay más tipos de figuras; o, por decirlo de alguna forma, 
-hay más tipos de 'geom' para representar nuestros datos... 
-Sin embargo, de momento, sólo trabajaremos con estas dos. 
-Más adelante abordaremos más tipos de figuras con este 
-tipo de función 'geom_ ...'.
+Hay mÃ¡s tipos de figuras; o, por decirlo de alguna forma, 
+hay mÃ¡s tipos de 'geom' para representar nuestros datos... 
+Sin embargo, de momento, sÃ³lo trabajaremos con estas dos. 
+MÃ¡s adelante abordaremos mÃ¡s tipos de figuras con este 
+tipo de funciÃ³n 'geom_ ...'.
 
-Aclaración: Cualquier función de tipo 'geom_ ...' se pasa 
-por medio del signo suma (+) por fuera de los paréntesis 
-de la función 'ggplot'. Dejemos claro esto por medio de 
-un ejemplo con la función 'geom_point()'.
+AclaraciÃ³n: Cualquier funciÃ³n de tipo 'geom_ ...' se pasa 
+por medio del signo suma (+) por fuera de los parÃ©ntesis 
+de la funciÃ³n 'ggplot'. Dejemos claro esto por medio de 
+un ejemplo con la funciÃ³n 'geom_point()'.
 
 "
 ggplot(data=Datos, aes(x=Rating_Criticos, y=Rating_Audiencia,
@@ -146,12 +146,12 @@ ggplot(data=Datos, aes(x=Rating_Criticos, y=Rating_Audiencia,
 Key takeaway
 
 De momento el 'insight' que podemos extraer tiene que ver con
-que, generalmente, las criticas de la audiencia suelen ser más
+que, generalmente, las criticas de la audiencia suelen ser mÃ¡s
 positivas que las criticas profesionales. 
 
-Más adelante, estaremos profundizando más sobre este gráfico 
-en la medida que avanzemos e incorporemos más recursos dentro 
-de nuestra función 'ggplot'.
+MÃ¡s adelante, estaremos profundizando mÃ¡s sobre este grÃ¡fico 
+en la medida que avanzemos e incorporemos mÃ¡s recursos dentro 
+de nuestra funciÃ³n 'ggplot'.
 
 "
 
