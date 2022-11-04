@@ -31,3 +31,13 @@
 #### B.2  Introducción a Medidas de tendencia central Vs Medidas de dispersión
 
 * Algunas Medidas de tendencia central: **Media** (promedio), **Mediana** (Dato central), **Moda** (Dato que más se repite).
+
+* Tabla & Diagrama de frecuencias
+
+#### B.3  Introducción a Medidas de tendencia central Vs Medidas de dispersión
+
+* Uso de la función **.mean()**: Calcula la Media de la columna en cuestión
+
+* Uso de la función **.median()**: Calcula la Mediana de la columna en cuestión
+
+#### B.4 Introducción a Histogramas con la librería 'Pandas'
