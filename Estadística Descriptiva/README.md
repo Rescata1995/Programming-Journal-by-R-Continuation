@@ -55,3 +55,5 @@ Uso de la función **.plot.hist()** & parámetro **'Bins'**
 * Definición del parámetro **'multiple' + valor 'stack'**
 
 #### B.6 Función '.displot()' Vs función '.histplot()' en la conformación de Histogramas
+
+*For further details, please, check the following link: https://deepnote.com/workspace/Rescata1995's%20workspace-3421-af1bc595-2832-421f-976e-cdc4518163c1/project/Estadistica-Descriptiva-2021-Apuntes-72d47f4d-caf0-4254-b0fb-4df4fc8d4b60/notebook/%5Bclase-07%5Dmedidas-central%20-%20Resumen-6366f193ea4c4ca8880b43d40ad60890*
