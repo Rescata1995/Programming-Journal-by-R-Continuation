@@ -10,6 +10,8 @@
 
 * **Datos numéricos:** Discretos & Continuos 
 
+*For further details, please, check the following link: https://deepnote.com/workspace/Rescata1995's%20workspace-3421-af1bc595-2832-421f-976e-cdc4518163c1/project/Estadistica-Descriptiva-2021-Apuntes-72d47f4d-caf0-4254-b0fb-4df4fc8d4b60/notebook/%5Bclase-04%5Dtipos-de-datos-918530835ecd41518bbb19d83eff641e*
+
 ### B. Medidas de Tendencia Central
 
 #### B.1 Tipos de Datos
