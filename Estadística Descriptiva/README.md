@@ -4,12 +4,14 @@
 
 ## 2. Estadística descriptiva para Analítica 
 
-### 1. Tipos de datos
+### A. Tipos de datos
 
 * **Datos categóricos:** Ordinales & Nominales
 
 * **Datos numéricos:** Discretos & Continuos 
 
-### 2. Medidas de Tendencia Central
+### B. Medidas de Tendencia Central
 
+#### B.1 Tipos de Datos
 
+* Simil de la librería 'import' de Python con R
