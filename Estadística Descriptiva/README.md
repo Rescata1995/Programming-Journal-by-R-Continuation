@@ -25,3 +25,9 @@
 * Uso de la función **'.groupby()'** + **funciones de Agregación**
 
 * Uso de **filtros** en Python
+
+* EXTRA. Los tipos de dato 'string' en Python se conocen como: 'object'**
+
+#### B.2  Introducción a Medidas de tendencia central Vs Medidas de dispersión
+
+* Algunas Medidas de tendencia central: **Media** (promedio), **Mediana** (Dato central), **Moda** (Dato que más se repite).
