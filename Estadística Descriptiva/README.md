@@ -41,3 +41,17 @@
 * Uso de la función **.median()**: Calcula la Mediana de la columna en cuestión
 
 #### B.4 Introducción a Histogramas con la librería 'Pandas'
+
+Uso de la función **.plot.hist()** & parámetro **'Bins'**
+
+#### B.5 EXTRA. Introducción a la líbreria de visualización estadística 'seaborn' & otras formas más sofisticadas de lograr un Histograma
+
+* Definición del parámetro **'data'**
+
+* Definición del parámetro **'x'**
+
+* Definición del parámetro **'hue'**
+
+* Definición del parámetro **'multiple' + valor 'stack'**
+
+#### B.6 Función '.displot()' Vs función '.histplot()' en la conformación de Histogramas
