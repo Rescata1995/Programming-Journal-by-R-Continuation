@@ -2,6 +2,10 @@
 
 ## 1. Para qué sirve la Estadística descriptiva
 
+### A. Estadística Descriptiva Vs Estadística inferencial
+
+### B. Ciclo de vida
+
 ## 2. Estadística descriptiva para Analítica 
 
 ### A. Tipos de datos
