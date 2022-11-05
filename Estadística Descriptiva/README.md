@@ -96,4 +96,4 @@ Uso de la función **.plot.hist()** & parámetro **'Bins'**
 
 * **Diagrama de Barras**
 
-*For further details, please, check the following link: https://deepnote.com/workspace/Rescata1995's%20workspace-3421-af1bc595-2832-421f-976e-cdc4518163c1/project/Estadistica-Descriptiva-2021-Apuntes-72d47f4d-caf0-4254-b0fb-4df4fc8d4b60/notebook/%5Bclase-07%5Dmedidas-central%20-%20Resumen-6366f193ea4c4ca8880b43d40ad60890*
+*For further details, please, check the following link: https://deepnote.com/workspace/Rescata1995's%20workspace-3421-af1bc595-2832-421f-976e-cdc4518163c1/project/Estadistica-Descriptiva-2021-Apuntes-72d47f4d-caf0-4254-b0fb-4df4fc8d4b60/notebook/%5Bclase-12%5DVisualizaciones%20-%20Resumen-3ac47a5b5abd4aa3a5150627186ac25f*
