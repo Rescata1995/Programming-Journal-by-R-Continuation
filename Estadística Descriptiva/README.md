@@ -4,7 +4,7 @@
 
 ### A. Estadística Descriptiva Vs Estadística inferencial
 
-### B. Ciclo de vida
+### B. Ciclo de vida de la Ciencia de Datos
 
 ## 2. Estadística descriptiva para Analítica 
 
